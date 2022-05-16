@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Modelo de Parcial" />
+		<Option title="Primer parcial" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Modelo de Parcial" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Primer parcial" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Modelo de Parcial" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Primer parcial" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,15 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Fecha.cpp" />
-		<Unit filename="Fecha.h" />
-		<Unit filename="Funciones.cpp" />
-		<Unit filename="Menues.h" />
-		<Unit filename="Obj1.cpp" />
-		<Unit filename="Obj1.h" />
-		<Unit filename="Obj2.cpp" />
-		<Unit filename="Obj2.h" />
-		<Unit filename="Prototipos.h" />
+		<Unit filename="Clases.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
