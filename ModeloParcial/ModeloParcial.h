@@ -16,9 +16,7 @@ public:
 
 
 private:
-    char _apellidos[50];
-    char _nombres[50];
-    int _legajo;
+
 
 
 };

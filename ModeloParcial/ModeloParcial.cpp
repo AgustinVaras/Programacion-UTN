@@ -11,7 +11,7 @@ using namespace std;
 bool Examen2022(int );
 int Contar_aprob(int );
 int Contar_desaprob(int );
-
+bool Misma_materia(int );
 
 
 
@@ -62,7 +62,16 @@ void ModeloParcial::punto2()
 }
 
 
-
+void ModeloParcial::punto3()
+{
+    int cant=0, pos=0;
+    Estudiante obj;
+    while(obj.LeerDeDisco(pos++))
+    {
+        if(Misma_materia(obj.getLegajo())==true) cant++;
+    }
+    cout<<cant<<" ALUMNOS HAN RENDIDO MAS DE UN EXAMEN PARA LA MISMA MATERIA ENTRE LOS ANIOS 2018 Y 2022"<<endl;
+}
 
 
 ///FUNCIONES GLOBALES
@@ -103,4 +112,20 @@ int Contar_desaprob(int legajo)
             if(busc.getNota()<6) cant++;
     }
     return cant;
+}
+bool Misma_materia(int legajo)
+{
+    Examen busc;
+    int pos=0, Materia[60]={0};
+    while(busc.LeerDeDisco(pos++))
+    {
+        if(busc.getLegajo()==legajo)
+            if(busc.getFecha().getAnio()>=2018 && busc.getFecha().getAnio()<=2022)
+                Materia[busc.getIDMateria()-1]++;
+    }
+    for(int i=0; i<60; i++)
+    {
+        if(Materia[i] >= 2) return true;
+    }
+    return false;
 }

@@ -11,6 +11,6 @@ int main()
 {
 
     ModeloParcial obj;
-    obj.punto2();
+    obj.punto3();
     return 0;
 }
