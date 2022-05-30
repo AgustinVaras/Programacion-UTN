@@ -8,11 +8,6 @@ using namespace std;
 
 
 
-
-
-
-
-
 bool Examen2022(int );
 int Contar_aprob(int );
 int Contar_desaprob(int );
@@ -43,11 +38,11 @@ void ModeloParcial::punto2()
 {
     Estudiante listado;
     cout<<left;
-    cout<<setw(8)<<"Legajo";
-    cout<<setw(16)<<"Nombres";
-    cout<<setw(16)<<"Apellidos";
-    cout<<setw(10)<<"CantAprob";
-    cout<<setw(13)<<"CantDesaprob";
+    cout<<setw(9)<<"|Legajo";
+    cout<<setw(17)<<"|Nombres";
+    cout<<setw(18)<<"|Apellidos";
+    cout<<setw(14)<<"|CantAprob";
+    cout<<setw(13)<<"|CantDesaprob";
     cout<<endl;
     cout<<"----------------------------------------------------------------------------"<<endl;
 
@@ -56,11 +51,11 @@ void ModeloParcial::punto2()
     {
         int cantAprob=Contar_aprob(listado.getLegajo()), cantDesaprob=Contar_desaprob(listado.getLegajo());
         cout<<left;
-        cout<<setw(8)<<listado.getLegajo();
-        cout<<setw(16)<<listado.getNombres();
-        cout<<setw(17)<<listado.getApellidos();
-        cout<<setw(11)<<cantAprob;
-        cout<<setw(13)<<cantDesaprob;
+        cout<<"|"<<setw(8)<<listado.getLegajo();
+        cout<<"|"<<setw(16)<<listado.getNombres();
+        cout<<"|"<<setw(17)<<listado.getApellidos();
+        cout<<"|"<<setw(13)<<cantAprob;
+        cout<<"|"<<setw(13)<<cantDesaprob;
         cout<<endl;
     }
     cout<<"----------------------------------------------------------------------------"<<endl;
