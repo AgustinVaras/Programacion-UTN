@@ -9,7 +9,7 @@ int contar_registros()
     fseek(p, 0, 2);
     int tam=ftell(p);
     fclose(p);
-    return tam;
+    return tam/sizeof();
 }
 
 
