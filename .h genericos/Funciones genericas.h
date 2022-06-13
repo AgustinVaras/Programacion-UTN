@@ -12,7 +12,14 @@ int contar_registros()
     return tam/sizeof();
 }
 
-
+void Inicializar_Matriz(int *matr[31], int filas, int columnas)
+{
+    for(int i=0; i<filas; i++)
+    {
+        for(int j=0; j<columnas; j++)
+            matr[i][j]=0;
+    }
+}
 
 int buscar_registro(int id)
 {

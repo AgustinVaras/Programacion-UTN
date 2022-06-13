@@ -4,6 +4,9 @@
 #include <ctime>
 using namespace std;
 
+
+
+
 ///Usar la libreria ctime para esta clase
 class fecha
 {
@@ -318,6 +321,9 @@ bool Registro::guardar()
     return escribio;
 }
 
+
+#include "Punto2.h"
+
 ///////////////////////////////////
 
 
@@ -331,7 +337,7 @@ void generarRegistroPromedio(Promedio* , int);
 
 int main()
 {
-
+    punto2();
     return 0;
 }
 
