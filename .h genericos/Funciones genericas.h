@@ -1,15 +1,15 @@
 #ifndef FUNCIONES_GENERICAS_H_INCLUDED
 #define FUNCIONES_GENERICAS_H_INCLUDED
 
-int contar_registro()
+int contar_registros()
 {
-    obj1 a;
-    int cant=0;
-    while(a.leer(cant)==true)
-    {
-        cant++;
-    }
-    return cant;
+    FILE *p;
+    p=fopen("Archivo.dat", "rb");
+    if(p==NULL) return -1;
+    fseek(p, 0, 2);
+    int tam=ftell(p);
+    fclose(p);
+    return tam;
 }
 
 
@@ -20,7 +20,7 @@ int buscar_registro(int id)
     int pos=0;
     while(a.leer(pos)==true)
     {
-        if(a.get_ID_interprete()==id)
+        if(a.get_ID()==id)
         {
             return pos;
         }

@@ -1,0 +1,6 @@
+#ifndef PUNTO2_H_INCLUDED
+#define PUNTO2_H_INCLUDED
+
+
+
+#endif // PUNTO2_H_INCLUDED
