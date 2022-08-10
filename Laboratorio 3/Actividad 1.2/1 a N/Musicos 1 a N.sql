@@ -1,0 +1,15 @@
+USE Act1_2
+GO
+
+Create Table PRODUCTORA(
+    ID int PRIMARY KEY IDENTITY(100,10),
+    Nombre VARCHAR(50) NOT NULL UNIQUE,
+    Mail VARCHAR(120) NOT NULL UNIQUE,
+    Telefono int NULL,
+)
+GO
+
+Create Table PRODUCTORES(
+    
+)
+GO
