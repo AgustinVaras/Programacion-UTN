@@ -1,15 +1,16 @@
 USE Act1_2
 GO
 
-Create Table PRODUCTORA(
-    ID int PRIMARY KEY IDENTITY(100,10),
-    Nombre VARCHAR(50) NOT NULL UNIQUE,
-    Mail VARCHAR(120) NOT NULL UNIQUE,
-    Telefono int NULL,
+Create Table BANDAS(
+    IDBanda SMALLINT NOT NULL PRIMARY KEY,
+    Cantidad_Integrantes SMALLINT NOT NULL CHECK(Cantidad_Integrantes>0),
+    Nombre VARCHAR(40) NOT NULL,
+    Genero VARCHAR(15) NULL CHECK(Genero in('Rock','Clasico','Pop','Jazz')),
 )
 GO
 
-Create Table PRODUCTORES(
-    
+Create Table MUSICOS_BANDA(
+    IDBanda SMALLINT NOT NULL FOREIGN KEY REFERENCES BANDAS(IDBanda),
+    IDMusico VARCHAR(4) NOT NULL FOREIGN KEY REFERENCES MUSICOS(ID),
 )
 GO
