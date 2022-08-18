@@ -6,6 +6,7 @@ GO
 
 Create Table MUSICOS(
     ID VARCHAR(4) NOT NULL PRIMARY KEY,
+    IDBanda SMALLINT NOT NULL,
     Nombre VARCHAR(40) NOT NULL,
     Apellido VARCHAR(40) NOT NULL,
     Nombre_Artistico VARCHAR(10) NULL,
