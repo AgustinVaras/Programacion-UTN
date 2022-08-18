@@ -1,0 +1,7 @@
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\bin\Debug\Tercer Ejemplo Sintaxis.exe.config
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\bin\Debug\Tercer Ejemplo Sintaxis.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\bin\Debug\Tercer Ejemplo Sintaxis.pdb
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\obj\Debug\Tercer Ejemplo Sintaxis.csproj.CoreCompileInputs.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\obj\Debug\Tercer Ejemplo Sintaxis.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\obj\Debug\Tercer Ejemplo Sintaxis.pdb
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Tercer Ejemplo Sintaxis\obj\Debug\Tercer Ejemplo Sintaxis.csproj.AssemblyReference.cache

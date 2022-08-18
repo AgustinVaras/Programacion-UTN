@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica Sintaxis", "Practica Sintaxis\Practica Sintaxis.csproj", "{8181AC1A-8F22-49C1-9878-23AF9D51EDDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segundo ejemplo Sintaxis", "Segundo ejemplo Sintaxis\Segundo ejemplo Sintaxis.csproj", "{CED73E4A-0F8C-49AE-B218-BBB189A340C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tercer Ejemplo Sintaxis", "Tercer Ejemplo Sintaxis\Tercer Ejemplo Sintaxis.csproj", "{4FD124DA-418A-4BED-9F7A-ECF03CA6ACEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuarto Ejemplo Sintaxis", "Cuarto Ejemplo Sintaxis\Cuarto Ejemplo Sintaxis.csproj", "{20401EAF-6827-45DD-A5CE-B36CB76F89A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quinto Ejemplo Sintaxis", "Quinto Ejemplo Sintaxis\Quinto Ejemplo Sintaxis.csproj", "{DB14DFE2-0959-4E4F-9295-0326B66F3E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8181AC1A-8F22-49C1-9878-23AF9D51EDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8181AC1A-8F22-49C1-9878-23AF9D51EDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8181AC1A-8F22-49C1-9878-23AF9D51EDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8181AC1A-8F22-49C1-9878-23AF9D51EDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED73E4A-0F8C-49AE-B218-BBB189A340C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED73E4A-0F8C-49AE-B218-BBB189A340C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED73E4A-0F8C-49AE-B218-BBB189A340C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED73E4A-0F8C-49AE-B218-BBB189A340C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD124DA-418A-4BED-9F7A-ECF03CA6ACEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD124DA-418A-4BED-9F7A-ECF03CA6ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD124DA-418A-4BED-9F7A-ECF03CA6ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD124DA-418A-4BED-9F7A-ECF03CA6ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20401EAF-6827-45DD-A5CE-B36CB76F89A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20401EAF-6827-45DD-A5CE-B36CB76F89A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20401EAF-6827-45DD-A5CE-B36CB76F89A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20401EAF-6827-45DD-A5CE-B36CB76F89A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB14DFE2-0959-4E4F-9295-0326B66F3E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB14DFE2-0959-4E4F-9295-0326B66F3E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB14DFE2-0959-4E4F-9295-0326B66F3E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB14DFE2-0959-4E4F-9295-0326B66F3E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC6FE71-474F-441C-85B9-966E6923FD2F}
+	EndGlobalSection
+EndGlobal

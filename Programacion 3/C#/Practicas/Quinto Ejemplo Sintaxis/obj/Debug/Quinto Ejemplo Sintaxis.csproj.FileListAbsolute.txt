@@ -1,0 +1,6 @@
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\bin\Debug\Quinto Ejemplo Sintaxis.exe.config
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\bin\Debug\Quinto Ejemplo Sintaxis.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\bin\Debug\Quinto Ejemplo Sintaxis.pdb
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\obj\Debug\Quinto Ejemplo Sintaxis.csproj.CoreCompileInputs.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\obj\Debug\Quinto Ejemplo Sintaxis.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\Practicas\Quinto Ejemplo Sintaxis\obj\Debug\Quinto Ejemplo Sintaxis.pdb
