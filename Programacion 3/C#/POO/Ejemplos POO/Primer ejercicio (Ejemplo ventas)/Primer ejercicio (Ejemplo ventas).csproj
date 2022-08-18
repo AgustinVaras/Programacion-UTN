@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EDD7D48-5F98-4F0E-843F-E63C4B3D221A}</ProjectGuid>
+    <ProjectGuid>{52AC3F7A-8570-4ADE-B8C4-FEFD6BE9B522}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Primer_ejemplo_POO</RootNamespace>
-    <AssemblyName>Primer ejemplo POO</AssemblyName>
+    <RootNamespace>Primer_ejercicio__Ejemplo_ventas_</RootNamespace>
+    <AssemblyName>Primer ejercicio %28Ejemplo ventas%29</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Botella.cs" />
+    <Compile Include="Articulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ventas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
