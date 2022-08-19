@@ -1,0 +1,7 @@
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\bin\Debug\Segundo Ejemplo (Metodos).exe.config
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\bin\Debug\Segundo Ejemplo (Metodos).exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\bin\Debug\Segundo Ejemplo (Metodos).pdb
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\obj\Debug\Segundo Ejemplo (Metodos).csproj.AssemblyReference.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\obj\Debug\Segundo Ejemplo (Metodos).csproj.CoreCompileInputs.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\obj\Debug\Segundo Ejemplo (Metodos).exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\Segundo Ejemplo (Metodos)\obj\Debug\Segundo Ejemplo (Metodos).pdb

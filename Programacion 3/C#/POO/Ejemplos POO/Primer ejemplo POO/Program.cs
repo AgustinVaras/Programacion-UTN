@@ -10,7 +10,7 @@ namespace Primer_ejemplo_POO
     {
         static void Main(string[] args)
         {
-            Botella obj1 = new Botella();
+            Botella obj1 = new Botella("Rojo", "Plastico");
             obj1.Capacidad = 200;
 
             Console.WriteLine("La botella tiene una capacidad de: " + obj1.Capacidad + "L");
