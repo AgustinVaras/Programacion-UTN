@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejemplo_de_Herencia
+namespace Ejemplo_Herencia_2
 {
-    class Program
+    class AutoDeportivo : Auto
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }

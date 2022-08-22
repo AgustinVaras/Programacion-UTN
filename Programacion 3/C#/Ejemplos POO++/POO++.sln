@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo de Herencia", "Ejemplo de Herencia\Ejemplo de Herencia.csproj", "{0F7E4500-A675-4FDF-BE07-A3A55753BAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo Herencia 2", "Ejemplo Herencia 2\Ejemplo Herencia 2.csproj", "{8AF17123-0B13-4CE7-AE70-F19DDAE2A44F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F7E4500-A675-4FDF-BE07-A3A55753BAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7E4500-A675-4FDF-BE07-A3A55753BAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7E4500-A675-4FDF-BE07-A3A55753BAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7E4500-A675-4FDF-BE07-A3A55753BAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF17123-0B13-4CE7-AE70-F19DDAE2A44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF17123-0B13-4CE7-AE70-F19DDAE2A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF17123-0B13-4CE7-AE70-F19DDAE2A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF17123-0B13-4CE7-AE70-F19DDAE2A44F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7120FCC6-945F-464F-888F-4031BC29100D}
+	EndGlobalSection
+EndGlobal
