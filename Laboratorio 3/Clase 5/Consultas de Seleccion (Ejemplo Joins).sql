@@ -145,4 +145,16 @@ Inner Join Generos G on G.ID = GxP.IDPelicula
 Order By P.Nombre asc
 --------------------------------------------------------------------------------------------------
 --Listar para cada película, su nombre, el nombre de la categoría, el nombre y tipo de la sala donde se proyecta,
---el horario y costo de cada función.
+--el horario y costo de cada función. 
+Select 
+    P.Nombre,
+    C.Nombre as Categoria,
+    S.Nombre as Sala,
+    TS.Nombre as TipoDeSala,
+    F.Costo
+From Peliculas P 
+Inner Join Categorias C on P.IDCategoria = C.ID
+Inner Join Funciones F on F.IDPelicula = P.ID
+Inner Join Salas S on S.ID = F.IDSala
+Inner join TiposSalas TS on TS.ID = S.IDTipo 
+Order By P.Nombre

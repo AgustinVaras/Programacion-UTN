@@ -1068,8 +1068,8 @@ VALUES
 (15, 'Guarani')
 SET IDENTITY_INSERT dbo.Idiomas OFF
 
-Alter Table Funciones
-Add IDIdiomaSubtitulos SMALLINT NOT NULL
+-- Alter Table Funciones
+-- Add IDIdiomaSubtitulos SMALLINT NOT NULL
 
 set dateformat 'ymd'
 insert into Funciones (IDSala, IDPelicula, Horario, Costo, IDIdioma, IDIdiomaSubtitulos) values (14, 104, '2019/07/23 16:31:12', 1100, 2, 14);
