@@ -38,9 +38,9 @@ namespace Ejemplo1
             this.ckbChocolate = new System.Windows.Forms.CheckBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.gbTipo = new System.Windows.Forms.GroupBox();
-            this.rbtWizard = new System.Windows.Forms.RadioButton();
-            this.rbtMuggle = new System.Windows.Forms.RadioButton();
             this.rbtSquibs = new System.Windows.Forms.RadioButton();
+            this.rbtMuggle = new System.Windows.Forms.RadioButton();
+            this.rbtWizard = new System.Windows.Forms.RadioButton();
             this.cboCasa = new System.Windows.Forms.ComboBox();
             this.lblCasa = new System.Windows.Forms.Label();
             this.numCampeonatos = new System.Windows.Forms.NumericUpDown();
@@ -136,16 +136,16 @@ namespace Ejemplo1
             this.gbTipo.TabStop = false;
             this.gbTipo.Text = "Tipo: ";
             // 
-            // rbtWizard
+            // rbtSquibs
             // 
-            this.rbtWizard.AutoSize = true;
-            this.rbtWizard.Location = new System.Drawing.Point(43, 31);
-            this.rbtWizard.Name = "rbtWizard";
-            this.rbtWizard.Size = new System.Drawing.Size(58, 17);
-            this.rbtWizard.TabIndex = 0;
-            this.rbtWizard.TabStop = true;
-            this.rbtWizard.Text = "Wizard";
-            this.rbtWizard.UseVisualStyleBackColor = true;
+            this.rbtSquibs.AutoSize = true;
+            this.rbtSquibs.Location = new System.Drawing.Point(213, 31);
+            this.rbtSquibs.Name = "rbtSquibs";
+            this.rbtSquibs.Size = new System.Drawing.Size(57, 17);
+            this.rbtSquibs.TabIndex = 2;
+            this.rbtSquibs.TabStop = true;
+            this.rbtSquibs.Text = "Squibs";
+            this.rbtSquibs.UseVisualStyleBackColor = true;
             // 
             // rbtMuggle
             // 
@@ -158,16 +158,16 @@ namespace Ejemplo1
             this.rbtMuggle.Text = "Muggle";
             this.rbtMuggle.UseVisualStyleBackColor = true;
             // 
-            // rbtSquibs
+            // rbtWizard
             // 
-            this.rbtSquibs.AutoSize = true;
-            this.rbtSquibs.Location = new System.Drawing.Point(213, 31);
-            this.rbtSquibs.Name = "rbtSquibs";
-            this.rbtSquibs.Size = new System.Drawing.Size(57, 17);
-            this.rbtSquibs.TabIndex = 2;
-            this.rbtSquibs.TabStop = true;
-            this.rbtSquibs.Text = "Squibs";
-            this.rbtSquibs.UseVisualStyleBackColor = true;
+            this.rbtWizard.AutoSize = true;
+            this.rbtWizard.Location = new System.Drawing.Point(43, 31);
+            this.rbtWizard.Name = "rbtWizard";
+            this.rbtWizard.Size = new System.Drawing.Size(58, 17);
+            this.rbtWizard.TabIndex = 0;
+            this.rbtWizard.TabStop = true;
+            this.rbtWizard.Text = "Wizard";
+            this.rbtWizard.UseVisualStyleBackColor = true;
             // 
             // cboCasa
             // 
@@ -232,6 +232,7 @@ namespace Ejemplo1
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnAgregar);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gbTipo.ResumeLayout(false);

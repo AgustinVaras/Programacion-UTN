@@ -8,3 +8,14 @@ B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Progra
 B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\bin\Debug\Ejemplo1.pdb
 B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.exe
 B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.csproj.AssemblyReference.cache
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.Form1.resources
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.frmPrincipal.resources
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.Properties.Resources.resources
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.csproj.GenerateResource.cache
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Users\avaras.FRGP\Documents\Github\Programacion-UTN\Programacion 3\C#\WinForms\PracticaWinForms2\Ejemplo1\obj\Debug\Ejemplo1.pdb
