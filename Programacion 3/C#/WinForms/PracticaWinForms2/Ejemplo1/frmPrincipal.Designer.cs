@@ -32,11 +32,11 @@ namespace Ejemplo1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.msOpcionesPrincipales = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.perfilPersonaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tlstbPerfilPersona = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -44,7 +44,7 @@ namespace Ejemplo1
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TlstrLblFecha = new System.Windows.Forms.ToolStripStatusLabel();
             this.msOpcionesPrincipales.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -71,6 +71,18 @@ namespace Ejemplo1
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.abrirToolStripMenuItem.Text = "Abrir";
+            // 
+            // guardarToolStripMenuItem
+            // 
+            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.guardarToolStripMenuItem.Text = "Guardar";
+            // 
             // opcionesToolStripMenuItem
             // 
             this.opcionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -79,30 +91,18 @@ namespace Ejemplo1
             this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.opcionesToolStripMenuItem.Text = "Opciones";
             // 
+            // perfilPersonaToolStripMenuItem
+            // 
+            this.perfilPersonaToolStripMenuItem.Name = "perfilPersonaToolStripMenuItem";
+            this.perfilPersonaToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.perfilPersonaToolStripMenuItem.Text = "Perfil Persona";
+            this.perfilPersonaToolStripMenuItem.Click += new System.EventHandler(this.perfilPersonaToolStripMenuItem_Click);
+            // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // abrirToolStripMenuItem
-            // 
-            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.abrirToolStripMenuItem.Text = "Abrir";
-            // 
-            // guardarToolStripMenuItem
-            // 
-            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.guardarToolStripMenuItem.Text = "Guardar";
-            // 
-            // perfilPersonaToolStripMenuItem
-            // 
-            this.perfilPersonaToolStripMenuItem.Name = "perfilPersonaToolStripMenuItem";
-            this.perfilPersonaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.perfilPersonaToolStripMenuItem.Text = "Perfil Persona";
-            this.perfilPersonaToolStripMenuItem.Click += new System.EventHandler(this.perfilPersonaToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -164,18 +164,18 @@ namespace Ejemplo1
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.TlstrLblFecha});
             this.statusStrip1.Location = new System.Drawing.Point(0, 428);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(800, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel1
+            // TlstrLblFecha
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            this.TlstrLblFecha.Name = "TlstrLblFecha";
+            this.TlstrLblFecha.Size = new System.Drawing.Size(65, 17);
+            this.TlstrLblFecha.Text = "15/09/2022";
             // 
             // frmPrincipal
             // 
@@ -185,6 +185,7 @@ namespace Ejemplo1
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.msOpcionesPrincipales);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.msOpcionesPrincipales;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -216,6 +217,6 @@ namespace Ejemplo1
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel TlstrLblFecha;
     }
 }

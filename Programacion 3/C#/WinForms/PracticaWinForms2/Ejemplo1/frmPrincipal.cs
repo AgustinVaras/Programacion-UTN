@@ -19,8 +19,21 @@ namespace Ejemplo1
 
         private void perfilPersonaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Form1))
+                {
+                    MessageBox.Show("YA EXISTE UNA VENTANA DE ESTE TIPO ABIERTA");
+                    return; 
+                }
+            }
+
+
             Form1 Ventana = new Form1();
-            Ventana.ShowDialog();
+            Ventana.MdiParent = this;
+            Ventana.Show();
+            //Ventana.ShowDialog(); esto no puede usarse con ventanas anidadas en otras
+            //ya que da error
         }
 
         private void tlstbPerfilPersona_Click(object sender, EventArgs e)
