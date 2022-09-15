@@ -24,4 +24,27 @@
 -- |MIN       | Devuelve el valor mínimo de la columna que se recibe como párametro           |
 -- |__________|_______________________________________________________________________________|      
 
---Ejemplos
+-- GROUP BY: Permite que información que SE ENCUENTRA RESUMIDA se agrupe
+-- HAVING: Permiten que información que SE ENCUENTRA RESUMIDA y agrupada se pueda filtar a partir de 
+--una o varias condiciones.
+
+--Ejemplos:
+Select * From Clientes
+
+-- La cantidad de clientes 
+Select count(*) From Clientes
+Having count(*) > 200
+
+--La cantidad de clientes con telefono
+Select Count(*) from Clientes where Celular is not null
+
+Select count(Celular) From Clientes
+
+--La capacidad total (de todas las salas) de todo el complejo de cine
+Select Sum(Capacidad) From Salas
+
+--La capacidad total (de todas las salas de tipo 3D) de todo el complejo de cine
+Select Sum(Capacidad) 
+From Salas S
+Inner JOIN TiposSalas TS on TS.ID = S.IDTipo
+Where TS.Nombre LIKE '%3D%'
