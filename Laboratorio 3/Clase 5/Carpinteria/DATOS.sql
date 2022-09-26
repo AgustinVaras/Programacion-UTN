@@ -1,3 +1,5 @@
+Use Carpinteria
+
 insert into Categorias (Nombre) values ('Baño');
 insert into Categorias (Nombre) values ('Cocina');
 insert into Categorias (Nombre) values ('Comedor');
@@ -119,28 +121,27 @@ insert into Clientes (Nombres, Apellidos, Mail, Telefono, Celular, RegistroWeb ,
 
 
 SET DATEFORMAT ymd;
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (159, 'Rhodia', 'De Filippis', 'F', 54704, '1955-12-02', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (140, 'Ramsay', 'Dallas', 'P', 233521, '1980-04-29', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (124, 'Datha', 'MacGorrie', 'F', 281800, '1997-11-13', 2019);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (181, 'Darda', 'Mumbey', 'P', 87944, '1981-07-17', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (176, 'Webb', 'Cobello', 'F', 144851, '1987-01-12', 2022);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (139, 'Niven', 'Hurrion', 'P', 294564, '1974-03-07', 2019);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (137, 'Kelcey', 'Stutter', 'F', 79106, '1973-10-08', 2015);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (192, 'Deanne', 'Snowball', 'P', 103986, '1952-01-04', 2017);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (132, 'Abram', 'Dominy', 'P', 82350, '1973-04-29', 2018);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (125, 'Dirk', 'Jonah', 'F', 190565, '1988-05-05', 2022);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (158, 'My', 'Aburrow', 'P', 186507, '1962-12-14', 2015);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (196, 'Kristan', 'Stoll', 'P', 118636, '1973-07-14', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (128, 'Jay', 'Pedrollo', 'P', 234967, '1983-03-04', 2016);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (111, 'Dorthea', 'Deackes', 'P', 149934, '1973-10-27', 2017);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (163, 'Tawsha', 'Gianulli', 'F', 242815, '1996-05-01', 2017);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (104, 'Saunder', 'Gigg', 'F', 266930, '1997-11-12', 2021);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (199, 'Barde', 'Imesson', 'P', 152892, '1987-10-15', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (131, 'Adina', 'Oxby', 'F', 142611, '1966-03-15', 2017);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (138, 'Giovanni', 'Hatto', 'F', 242692, '1980-01-19', 2016);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (106, 'Juan', 'Goodworker', 'F', 225319, '1994-03-08', 2020);
-insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (1110, 'John', 'Lazyman', 'P', 225319, '1984-01-08', 2019);
-
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (1, 'Rhodia', 'De Filippis', 'F', 54704, '1955-12-02', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (2, 'Ramsay', 'Dallas', 'P', 233521, '1980-04-29', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (3, 'Datha', 'MacGorrie', 'F', 281800, '1997-11-13', 2019);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (4, 'Darda', 'Mumbey', 'P', 87944, '1981-07-17', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (5, 'Webb', 'Cobello', 'F', 144851, '1987-01-12', 2022);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (6, 'Niven', 'Hurrion', 'P', 294564, '1974-03-07', 2019);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (7, 'Kelcey', 'Stutter', 'F', 79106, '1973-10-08', 2015);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (8, 'Deanne', 'Snowball', 'P', 103986, '1952-01-04', 2017);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (9, 'Abram', 'Dominy', 'P', 82350, '1973-04-29', 2018);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (10, 'Dirk', 'Jonah', 'F', 190565, '1988-05-05', 2022);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (11, 'My', 'Aburrow', 'P', 186507, '1962-12-14', 2015);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (12, 'Kristan', 'Stoll', 'P', 118636, '1973-07-14', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (13, 'Jay', 'Pedrollo', 'P', 234967, '1983-03-04', 2016);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (14, 'Dorthea', 'Deackes', 'P', 149934, '1973-10-27', 2017);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (15, 'Tawsha', 'Gianulli', 'F', 242815, '1996-05-01', 2017);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (16, 'Saunder', 'Gigg', 'F', 266930, '1997-11-12', 2021);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (17, 'Barde', 'Imesson', 'P', 152892, '1987-10-15', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (18, 'Adina', 'Oxby', 'F', 142611, '1966-03-15', 2017);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (19, 'Giovanni', 'Hatto', 'F', 242692, '1980-01-19', 2016);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (20, 'Juan', 'Goodworker', 'F', 225319, '1994-03-08', 2020);
+insert into Colaboradores (Legajo, Nombres, Apellidos, ModalidadTrabajo, Sueldo, FechaNacimiento, AñoIngreso) values (21, 'John', 'Lazyman', 'P', 225319, '1984-01-08', 2019);
 
 insert into Productos (IDCategoria, Descripcion, DiasConstruccion, Costo, Precio, PrecioVentaMayorista, CantidadMayorista, Estado) values (8, 'Silla Paris', 46, 2500, 4200, 3025, 47, 0);
 insert into Productos (IDCategoria, Descripcion, DiasConstruccion, Costo, Precio, PrecioVentaMayorista, CantidadMayorista, Estado) values (9, 'Silla Roma', 51, 5000, 8650, 6050, 31, 0);
@@ -1200,3 +1201,3170 @@ insert into Pedidos (IDCliente, IDProducto, Cantidad, FechaSolicitud, FechaFinal
 insert into Pedidos (IDCliente, IDProducto, Cantidad, FechaSolicitud, FechaFinalizacion, Costo, Pagado, Estado) values (3, 23, 10, '08/06/2022', null, 87327, 0, 1);
 insert into Pedidos (IDCliente, IDProducto, Cantidad, FechaSolicitud, FechaFinalizacion, Costo, Pagado, Estado) values (90, 33, 32, '06/17/2022', '07/24/2022', 706027, 1, 1);
 insert into Pedidos (IDCliente, IDProducto, Cantidad, FechaSolicitud, FechaFinalizacion, Costo, Pagado, Estado) values (59, 6, 50, '11/29/2021', '01/08/2022', 662365, 1, 0);
+
+SET IDENTITY_INSERT dbo.Provincias ON
+
+INSERT INTO Provincias (ID, Nombre) VALUES
+(1, 'Buenos Aires'),
+(2, 'Buenos Aires-GBA'),
+(3, 'Capital Federal'),
+(4, 'Catamarca'),
+(5, 'Chaco'),
+(6, 'Chubut'),
+(7, 'Cordoba'),
+(8, 'Corrientes'),
+(9, 'Entre Rios'),
+(10, 'Formosa'),
+(11, 'Jujuy'),
+(12, 'La Pampa'),
+(13, 'La Rioja'),
+(14, 'Mendoza'),
+(15, 'Misiones'),
+(16, 'Neuquen'),
+(17, 'Rio Negro'),
+(18, 'Salta'),
+(19, 'San Juan'),
+(20, 'San Luis'),
+(21, 'Santa Cruz'),
+(22, 'Santa Fe'),
+(23, 'Santiago del Estero'),
+(24, 'Tierra del Fuego'),
+(25, 'Tucuman')
+
+SET IDENTITY_INSERT dbo.Provincias  OFF
+GO
+SET IDENTITY_INSERT dbo.Localidades  ON
+
+INSERT INTO Localidades (ID, IDProvincia, Nombre) VALUES
+(1, 1, '25 de Mayo'),
+(2, 1, '3 de febrero'),
+(3, 1, 'A. Alsina'),
+(4, 1, 'A. Gonzales Chaves'),
+(5, 1, 'Aguas Verdes'),
+(6, 1, 'Alberti'),
+(7, 1, 'Arrecifes'),
+(8, 1, 'Ayacucho'),
+(9, 1, 'Azul'),
+(10, 1, 'Bahia Blanca'),
+(11, 1, 'Balcarce'),
+(12, 1, 'Baradero'),
+(13, 1, 'Benito Juarez'),
+(14, 1, 'Berisso'),
+(15, 1, 'Bolivar'),
+(16, 1, 'Bragado'),
+(17, 1, 'Brandsen'),
+(18, 1, 'Campana'),
+(19, 1, 'Cañuelas'),
+(20, 1, 'Capilla del Señor'),
+(21, 1, 'Capitan Sarmiento'),
+(22, 1, 'Carapachay'),
+(23, 1, 'Carhue'),
+(24, 1, 'Carilo'),
+(25, 1, 'Carlos Casares'),
+(26, 1, 'Carlos Tejedor'),
+(27, 1, 'Carmen de Areco'),
+(28, 1, 'Carmen de Patagones'),
+(29, 1, 'Castelli'),
+(30, 1, 'Chacabuco'),
+(31, 1, 'Chascomus'),
+(32, 1, 'Chivilcoy'),
+(33, 1, 'Colon'),
+(34, 1, 'Coronel Dorrego'),
+(35, 1, 'Coronel Pringles'),
+(36, 1, 'Coronel Rosales'),
+(37, 1, 'Coronel Suarez'),
+(38, 1, 'Costa Azul'),
+(39, 1, 'Costa Chica'),
+(40, 1, 'Costa del Este'),
+(41, 1, 'Costa Esmeralda'),
+(42, 1, 'Daireaux'),
+(43, 1, 'Darregueira'),
+(44, 1, 'Del Viso'),
+(45, 1, 'Dolores'),
+(46, 1, 'Don Torcuato'),
+(47, 1, 'Ensenada'),
+(48, 1, 'Escobar'),
+(49, 1, 'Exaltacion de la Cruz'),
+(50, 1, 'Florentino Ameghino'),
+(51, 1, 'Garin'),
+(52, 1, 'Gral. Alvarado'),
+(53, 1, 'Gral. Alvear'),
+(54, 1, 'Gral. Arenales'),
+(55, 1, 'Gral. Belgrano'),
+(56, 1, 'Gral. Guido'),
+(57, 1, 'Gral. Lamadrid'),
+(58, 1, 'Gral. Las Heras'),
+(59, 1, 'Gral. Lavalle'),
+(60, 1, 'Gral. Madariaga'),
+(61, 1, 'Gral. Pacheco'),
+(62, 1, 'Gral. Paz'),
+(63, 1, 'Gral. Pinto'),
+(64, 1, 'Gral. Pueyrredon'),
+(65, 1, 'Gral. Rodriguez'),
+(66, 1, 'Gral. Viamonte'),
+(67, 1, 'Gral. Villegas'),
+(68, 1, 'Guamini'),
+(69, 1, 'Guernica'),
+(70, 1, 'Hipolito Yrigoyen'),
+(71, 1, 'Ing. Maschwitz'),
+(72, 1, 'Junin'),
+(73, 1, 'La Plata'),
+(74, 1, 'Laprida'),
+(75, 1, 'Las Flores'),
+(76, 1, 'Las Toninas'),
+(77, 1, 'Leandro N. Alem'),
+(78, 1, 'Lincoln'),
+(79, 1, 'Loberia'),
+(80, 1, 'Lobos'),
+(81, 1, 'Los Cardales'),
+(82, 1, 'Los Toldos'),
+(83, 1, 'Lucila del Mar'),
+(84, 1, 'Lujan'),
+(85, 1, 'Magdalena'),
+(86, 1, 'Maipu'),
+(87, 1, 'Mar Chiquita'),
+(88, 1, 'Mar de Ajo'),
+(89, 1, 'Mar de las Pampas'),
+(90, 1, 'Mar del Plata'),
+(91, 1, 'Mar del Tuyu'),
+(92, 1, 'Marcos Paz'),
+(93, 1, 'Mercedes'),
+(94, 1, 'Miramar'),
+(95, 1, 'Monte'),
+(96, 1, 'Monte Hermoso'),
+(97, 1, 'Munro'),
+(98, 1, 'Navarro'),
+(99, 1, 'Necochea'),
+(100, 1, 'Olavarria')
+
+SET IDENTITY_INSERT dbo.Localidades  OFF
+
+SET IDENTITY_INSERT dbo.Tareas  ON
+Insert Into Tareas (ID, Nombre)
+Values
+(1, 'Trozado'),
+(2, 'Pulido'),
+(3, 'Lizado'),
+(4, 'Encolado'),
+(5, 'Emprolijado'),
+(6, 'Listoneado'),
+(7, 'Cepillado'),
+(8, 'Masillado'),
+(9, 'Colocación de herrajes'),
+(10, 'Ensamblado'),
+(11, 'Terminación final'),
+(12, 'Pintado'),
+(13, 'Armado')
+SET IDENTITY_INSERT dbo.Tareas  OFF
+
+Insert Into Materiales (ID, Nombre)
+Values
+(1, 'Pino'),
+(2, 'Pinotea'),
+(3, 'Guatambú'),
+(4, 'Melamina'),
+(5, 'Roble'),
+(6, 'Cedro'),
+(7, 'Laurel'),
+(8, 'Haya'),
+(9, 'Nogal'),
+(10, 'Fresno'),
+(11, 'Cerezo'),
+(12, 'Olivo'),
+(13, 'Olmo'),
+(14, 'Plástico'),
+(15, 'Vidrio'),
+(16, 'Bronce'),
+(17, 'Plata'),
+(18, 'Cuero')
+
+-- Envios
+Set Dateformat 'YMD'
+INSERT INTO Envios (IDPedido,Direccion,IDLocalidad,FechaEnvio,Bonificado,Entregado) VALUES
+	 (1,N'6097 Artisan Center',60,'2021-09-03',0,0),
+	 (2,N'04 Eastlawn Junction',84,'2021-07-08',0,0),
+	 (4,N'1374 Lakewood Gardens Place',75,'2023-08-07',0,1),
+	 (7,N'97 Eagan Hill',50,'2021-11-04',0,1),
+	 (8,N'7 Butternut Court',90,'2023-07-03',1,0),
+	 (9,N'7739 8th Street',55,'2022-03-01',0,0),
+	 (10,N'05 Montana Alley',42,'2020-12-07',0,1),
+	 (11,N'603 Gulseth Avenue',82,'2021-09-08',0,0),
+	 (12,N'39502 Clyde Gallagher Hill',84,'2020-02-10',1,0),
+	 (14,N'0400 Roxbury Avenue',57,'2022-06-07',0,0),
+	 (15,N'16 Mockingbird Crossing',8,'2022-07-05',1,0),
+	 (16,N'7 Fremont Hill',40,'2022-09-07',0,0),
+	 (17,N'946 Glendale Parkway',88,'2021-09-06',1,1),
+	 (18,N'6459 Maywood Park',60,'2023-04-03',0,0),
+	 (19,N'81 Stang Parkway',66,'2021-09-02',1,0),
+	 (20,N'0658 Lakewood Park',2,'2023-05-01',0,0),
+	 (22,N'559 Forest Dale Plaza',97,'2022-07-11',0,0),
+	 (24,N'89785 Messerschmidt Center',23,'2021-02-11',0,0),
+	 (26,N'457 Eagle Crest Road',48,'2021-02-05',0,0),
+	 (27,N'41 Grasskamp Place',100,'2022-09-03',0,0),
+	 (28,N'27 Holmberg Court',53,'2022-07-03',0,0),
+	 (31,N'9 Meadow Valley Center',60,'2023-07-02',0,1),
+	 (32,N'241 Schlimgen Plaza',56,'2022-10-04',0,0),
+	 (34,N'7 Union Avenue',12,'2023-03-05',1,0),
+	 (35,N'43669 Sundown Alley',42,'2022-10-04',0,0),
+	 (38,N'79 Oak Crossing',93,'2023-04-01',0,0),
+	 (40,N'1 Warrior Way',30,'2022-10-09',0,0),
+	 (43,N'0 Mayfield Avenue',58,'2022-06-12',1,0),
+	 (44,N'1024 Summer Ridge Hill',90,'2021-11-10',0,0),
+	 (45,N'64219 Knutson Drive',53,'2021-12-10',1,0),
+	 (46,N'5424 Pleasure Street',35,'2024-03-07',0,0),
+	 (49,N'150 Pankratz Way',36,'2022-02-01',0,0),
+	 (50,N'1662 Lighthouse Bay Circle',93,'2021-09-06',1,0),
+	 (52,N'807 Gulseth Terrace',99,'2021-11-07',1,0),
+	 (55,N'96 Messerschmidt Terrace',69,'2020-03-08',0,0),
+	 (57,N'4941 Tomscot Park',24,'2021-08-08',0,0),
+	 (59,N'22032 Lighthouse Bay Center',80,'2021-08-01',0,1),
+	 (60,N'00859 Di Loreto Parkway',72,'2021-12-12',0,0),
+	 (62,N'1094 Commercial Way',3,'2021-01-03',0,0),
+	 (63,N'2766 Pine View Trail',61,'2022-07-01',0,0),
+	 (65,N'6 Northland Center',94,'2022-04-08',0,0),
+	 (69,N'6 Bay Drive',48,'2023-05-07',0,0),
+	 (74,N'966 Vidon Street',36,'2022-06-10',0,0),
+	 (77,N'14040 Boyd Trail',19,'2024-01-02',1,0),
+	 (78,N'18 Daystar Point',8,'2023-03-04',0,0),
+	 (80,N'33 Northland Drive',59,'2021-04-01',0,0),
+	 (83,N'922 Dovetail Junction',22,'2023-06-08',0,0),
+	 (84,N'7 Shoshone Way',62,'2023-02-01',0,0),
+	 (86,N'42 Karstens Pass',43,'2023-10-07',0,1),
+	 (89,N'3 7th Plaza',8,'2022-05-12',0,0),
+	 (90,N'512 Swallow Lane',58,'2021-08-12',0,0),
+	 (91,N'5 Meadow Vale Circle',28,'2021-02-05',0,0),
+	 (93,N'9 Cardinal Junction',82,'2022-09-05',0,0),
+	 (94,N'85274 Gale Road',18,'2021-12-12',0,0),
+	 (96,N'9904 Briar Crest Road',59,'2020-02-11',0,0),
+	 (98,N'3 Kensington Junction',46,'2020-08-12',0,0),
+	 (102,N'30 Bunting Crossing',82,'2021-03-08',1,0),
+	 (103,N'71 Maryland Terrace',74,'2023-06-05',0,0),
+	 (105,N'324 Fulton Point',74,'2021-09-09',0,1),
+	 (107,N'258 Meadow Valley Point',5,'2022-09-07',0,0),
+	 (108,N'821 Kensington Junction',43,'2023-02-07',0,1),
+	 (110,N'89 Springview Park',78,'2021-01-06',0,0),
+	 (111,N'7003 Morningstar Point',88,'2023-03-06',0,0),
+	 (112,N'88604 Sunnyside Drive',46,'2021-02-09',0,0),
+	 (114,N'7216 Algoma Street',59,'2022-09-03',0,0),
+	 (115,N'208 Hoepker Street',90,'2022-03-01',1,0),
+	 (117,N'71364 Fuller Road',72,'2021-06-08',0,0),
+	 (118,N'326 Del Sol Plaza',20,'2023-02-04',0,0),
+	 (119,N'4468 Jenifer Crossing',54,'2022-11-02',0,0),
+	 (120,N'2 Mosinee Circle',16,'2022-01-06',0,0),
+	 (121,N'33005 Maywood Crossing',1,'2024-04-01',0,0),
+	 (122,N'96442 Tennyson Trail',61,'2021-07-06',0,0),
+	 (124,N'75042 Sauthoff Place',39,'2022-01-03',0,1),
+	 (126,N'928 Wayridge Hill',44,'2022-06-01',0,0),
+	 (127,N'5 Atwood Park',66,'2023-02-02',0,0),
+	 (128,N'72 Sloan Point',70,'2024-07-01',0,0),
+	 (129,N'744 Oxford Center',19,'2023-12-06',1,1),
+	 (130,N'7 Mariners Cove Place',49,'2022-03-12',0,0),
+	 (131,N'9405 Eastlawn Circle',52,'2020-08-07',0,0),
+	 (132,N'0 Novick Terrace',27,'2020-10-07',0,0),
+	 (133,N'9876 Mayer Point',54,'2023-06-07',0,1),
+	 (135,N'64 Carey Lane',3,'2023-04-06',0,1),
+	 (136,N'99769 Daystar Hill',12,'2021-06-11',0,0),
+	 (140,N'0372 Mitchell Plaza',45,'2021-08-12',1,0),
+	 (142,N'0 Oak Alley',8,'2021-07-08',0,0),
+	 (143,N'2 Fulton Avenue',80,'2020-08-07',1,0),
+	 (146,N'314 Lotheville Junction',52,'2021-02-07',0,0),
+	 (148,N'34626 Mcbride Circle',25,'2022-02-05',0,1),
+	 (149,N'55577 Burrows Street',76,'2020-04-12',0,1),
+	 (150,N'68 American Ash Road',90,'2022-04-06',0,0),
+	 (151,N'4095 Fremont Street',68,'2024-02-06',0,0),
+	 (152,N'43 Fremont Point',77,'2021-09-05',0,1),
+	 (153,N'57921 Oriole Point',30,'2022-09-03',1,0),
+	 (154,N'91352 Aberg Park',14,'2022-11-10',0,1),
+	 (155,N'13 North Lane',12,'2022-01-03',1,0),
+	 (157,N'2 Weeping Birch Terrace',3,'2020-04-07',0,0),
+	 (158,N'2914 Eastwood Court',18,'2021-01-12',0,1),
+	 (159,N'3385 Debra Park',37,'2022-04-10',0,0),
+	 (160,N'37 Rieder Road',55,'2021-03-08',0,0),
+	 (161,N'44178 Elmside Drive',61,'2020-08-08',0,0),
+	 (162,N'77416 Bellgrove Park',10,'2022-01-03',0,0),
+	 (163,N'1496 Valley Edge Plaza',34,'2023-06-10',1,1),
+	 (164,N'28877 Hoffman Parkway',55,'2022-06-03',0,0),
+	 (166,N'766 Beilfuss Terrace',97,'2023-01-06',0,1),
+	 (169,N'22 Pankratz Pass',54,'2022-09-02',0,1),
+	 (170,N'1608 Merchant Park',71,'2022-07-05',0,0),
+	 (171,N'4 Calypso Avenue',7,'2020-06-08',0,0),
+	 (173,N'32979 Pond Way',62,'2021-01-09',0,0),
+	 (175,N'9 Sommers Street',14,'2021-08-05',0,0),
+	 (176,N'77 Darwin Avenue',95,'2020-05-10',0,0),
+	 (177,N'65076 Golf Plaza',90,'2024-03-07',0,0),
+	 (178,N'844 Colorado Trail',35,'2020-08-06',0,0),
+	 (180,N'79964 Summerview Road',77,'2022-10-02',0,1),
+	 (181,N'4036 Birchwood Plaza',17,'2024-02-07',0,0),
+	 (182,N'4 Daystar Junction',71,'2022-03-03',0,0),
+	 (183,N'8 Larry Trail',61,'2022-09-04',0,1),
+	 (186,N'90608 Jana Lane',88,'2023-10-04',0,0),
+	 (187,N'564 Judy Terrace',52,'2020-03-11',0,0),
+	 (190,N'10483 Anthes Place',19,'2020-07-06',0,0),
+	 (191,N'100 Prentice Center',1,'2022-12-09',0,0),
+	 (192,N'6573 Dryden Alley',29,'2023-05-10',0,0),
+	 (194,N'44959 Melrose Park',73,'2023-05-03',0,0),
+	 (195,N'0 Valley Edge Road',71,'2022-03-05',0,1),
+	 (196,N'763 Nancy Road',41,'2021-01-08',0,0),
+	 (200,N'7049 Buell Street',94,'2022-02-02',0,0),
+	 (201,N'66 Armistice Circle',40,'2022-05-05',0,0),
+	 (202,N'65798 Sheridan Circle',62,'2020-12-11',0,0),
+	 (203,N'7143 Sutherland Junction',79,'2022-02-02',1,0),
+	 (205,N'2 Blue Bill Park Circle',27,'2021-10-11',0,0),
+	 (206,N'6 Meadow Vale Trail',64,'2021-03-08',1,0),
+	 (207,N'46 Ilene Street',17,'2021-07-07',0,0),
+	 (209,N'46557 Larry Center',27,'2022-12-02',0,0),
+	 (210,N'2745 Schlimgen Avenue',66,'2023-02-05',0,0),
+	 (211,N'8 Corry Road',48,'2024-06-04',0,0),
+	 (213,N'6 Crownhardt Place',30,'2022-11-01',0,0),
+	 (216,N'488 Commercial Court',59,'2020-07-08',0,1),
+	 (219,N'2671 Buhler Alley',72,'2022-04-01',0,0),
+	 (220,N'0 Fordem Junction',1,'2022-03-08',0,0);
+
+-- Pagos
+Set dateformat 'MDY'
+insert into Pagos (IDPedido, Fecha, Importe) values (24, '3/25/2022', 242);
+insert into Pagos (IDPedido, Fecha, Importe) values (2, '6/8/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (66, '6/29/2022', 181);
+insert into Pagos (IDPedido, Fecha, Importe) values (594, '1/23/2022', 182);
+insert into Pagos (IDPedido, Fecha, Importe) values (580, '3/19/2022', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (782, '10/15/2021', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (779, '7/15/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (804, '6/9/2022', 228);
+insert into Pagos (IDPedido, Fecha, Importe) values (164, '12/18/2021', 339);
+insert into Pagos (IDPedido, Fecha, Importe) values (645, '5/26/2022', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (143, '8/22/2022', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (895, '6/19/2022', 491);
+insert into Pagos (IDPedido, Fecha, Importe) values (265, '2/6/2022', 135);
+insert into Pagos (IDPedido, Fecha, Importe) values (494, '4/10/2022', 234);
+insert into Pagos (IDPedido, Fecha, Importe) values (259, '11/12/2021', 363);
+insert into Pagos (IDPedido, Fecha, Importe) values (580, '7/1/2022', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (171, '8/3/2022', 467);
+insert into Pagos (IDPedido, Fecha, Importe) values (750, '11/12/2021', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (650, '12/24/2021', 213);
+insert into Pagos (IDPedido, Fecha, Importe) values (98, '7/14/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (117, '4/24/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (889, '1/27/2022', 309);
+insert into Pagos (IDPedido, Fecha, Importe) values (22, '2/14/2022', 477);
+insert into Pagos (IDPedido, Fecha, Importe) values (319, '12/14/2021', 125);
+insert into Pagos (IDPedido, Fecha, Importe) values (713, '8/14/2022', 233);
+insert into Pagos (IDPedido, Fecha, Importe) values (528, '4/29/2022', 480);
+insert into Pagos (IDPedido, Fecha, Importe) values (900, '6/4/2022', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (187, '12/4/2021', 160);
+insert into Pagos (IDPedido, Fecha, Importe) values (27, '11/2/2021', 318);
+insert into Pagos (IDPedido, Fecha, Importe) values (266, '11/6/2021', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (812, '11/30/2021', 452);
+insert into Pagos (IDPedido, Fecha, Importe) values (51, '10/20/2021', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (7, '5/11/2022', 107);
+insert into Pagos (IDPedido, Fecha, Importe) values (985, '8/11/2022', 124);
+insert into Pagos (IDPedido, Fecha, Importe) values (360, '7/6/2022', 113);
+insert into Pagos (IDPedido, Fecha, Importe) values (538, '6/28/2022', 402);
+insert into Pagos (IDPedido, Fecha, Importe) values (879, '2/2/2022', 202);
+insert into Pagos (IDPedido, Fecha, Importe) values (417, '10/11/2021', 473);
+insert into Pagos (IDPedido, Fecha, Importe) values (333, '9/26/2021', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (582, '1/7/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (331, '3/15/2022', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (390, '3/2/2022', 210);
+insert into Pagos (IDPedido, Fecha, Importe) values (568, '10/21/2021', 193);
+insert into Pagos (IDPedido, Fecha, Importe) values (180, '1/15/2022', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (338, '4/26/2022', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (306, '10/20/2021', 456);
+insert into Pagos (IDPedido, Fecha, Importe) values (348, '3/16/2022', 465);
+insert into Pagos (IDPedido, Fecha, Importe) values (277, '3/23/2022', 117);
+insert into Pagos (IDPedido, Fecha, Importe) values (46, '10/20/2021', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (379, '2/15/2022', 433);
+insert into Pagos (IDPedido, Fecha, Importe) values (771, '4/26/2022', 321);
+insert into Pagos (IDPedido, Fecha, Importe) values (885, '8/9/2022', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (499, '6/13/2022', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (522, '7/13/2022', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (361, '12/17/2021', 455);
+insert into Pagos (IDPedido, Fecha, Importe) values (650, '2/1/2022', 441);
+insert into Pagos (IDPedido, Fecha, Importe) values (739, '6/3/2022', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (206, '5/2/2022', 316);
+insert into Pagos (IDPedido, Fecha, Importe) values (917, '5/6/2022', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (650, '4/27/2022', 455);
+insert into Pagos (IDPedido, Fecha, Importe) values (875, '1/18/2022', 255);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '1/9/2022', 450);
+insert into Pagos (IDPedido, Fecha, Importe) values (612, '12/19/2021', 290);
+insert into Pagos (IDPedido, Fecha, Importe) values (50, '8/19/2022', 115);
+insert into Pagos (IDPedido, Fecha, Importe) values (285, '5/2/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (664, '11/25/2021', 280);
+insert into Pagos (IDPedido, Fecha, Importe) values (808, '2/22/2022', 310);
+insert into Pagos (IDPedido, Fecha, Importe) values (982, '10/8/2021', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (896, '10/19/2021', 370);
+insert into Pagos (IDPedido, Fecha, Importe) values (767, '4/23/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (365, '10/11/2021', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (55, '1/19/2022', 261);
+insert into Pagos (IDPedido, Fecha, Importe) values (436, '5/8/2022', 453);
+insert into Pagos (IDPedido, Fecha, Importe) values (820, '3/14/2022', 341);
+insert into Pagos (IDPedido, Fecha, Importe) values (165, '2/18/2022', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (356, '8/21/2022', 427);
+insert into Pagos (IDPedido, Fecha, Importe) values (697, '3/10/2022', 240);
+insert into Pagos (IDPedido, Fecha, Importe) values (306, '3/27/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (614, '11/19/2021', 256);
+insert into Pagos (IDPedido, Fecha, Importe) values (546, '4/17/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (853, '11/30/2021', 288);
+insert into Pagos (IDPedido, Fecha, Importe) values (4, '10/27/2021', 199);
+insert into Pagos (IDPedido, Fecha, Importe) values (95, '4/10/2022', 127);
+insert into Pagos (IDPedido, Fecha, Importe) values (644, '10/20/2021', 293);
+insert into Pagos (IDPedido, Fecha, Importe) values (168, '6/28/2022', 153);
+insert into Pagos (IDPedido, Fecha, Importe) values (988, '3/21/2022', 476);
+insert into Pagos (IDPedido, Fecha, Importe) values (923, '9/5/2021', 472);
+insert into Pagos (IDPedido, Fecha, Importe) values (1000, '3/24/2022', 111);
+insert into Pagos (IDPedido, Fecha, Importe) values (962, '8/11/2022', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (554, '1/26/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (825, '9/28/2021', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (884, '2/3/2022', 281);
+insert into Pagos (IDPedido, Fecha, Importe) values (289, '2/21/2022', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (146, '10/11/2021', 355);
+insert into Pagos (IDPedido, Fecha, Importe) values (531, '11/14/2021', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (915, '10/12/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (798, '10/8/2021', 317);
+insert into Pagos (IDPedido, Fecha, Importe) values (241, '11/11/2021', 355);
+insert into Pagos (IDPedido, Fecha, Importe) values (538, '8/22/2022', 384);
+insert into Pagos (IDPedido, Fecha, Importe) values (981, '6/25/2022', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (760, '1/21/2022', 390);
+insert into Pagos (IDPedido, Fecha, Importe) values (198, '5/1/2022', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (599, '8/31/2022', 100);
+insert into Pagos (IDPedido, Fecha, Importe) values (880, '4/5/2022', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (987, '1/13/2022', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (930, '12/26/2021', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (23, '11/21/2021', 199);
+insert into Pagos (IDPedido, Fecha, Importe) values (397, '5/12/2022', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (243, '9/15/2021', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (851, '2/5/2022', 183);
+insert into Pagos (IDPedido, Fecha, Importe) values (206, '7/16/2022', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (588, '9/25/2021', 365);
+insert into Pagos (IDPedido, Fecha, Importe) values (497, '4/27/2022', 367);
+insert into Pagos (IDPedido, Fecha, Importe) values (78, '7/25/2022', 391);
+insert into Pagos (IDPedido, Fecha, Importe) values (559, '6/9/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (170, '12/19/2021', 340);
+insert into Pagos (IDPedido, Fecha, Importe) values (416, '5/13/2022', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (715, '10/2/2021', 370);
+insert into Pagos (IDPedido, Fecha, Importe) values (743, '5/18/2022', 314);
+insert into Pagos (IDPedido, Fecha, Importe) values (453, '5/29/2022', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (957, '5/13/2022', 221);
+insert into Pagos (IDPedido, Fecha, Importe) values (608, '11/20/2021', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (778, '5/9/2022', 290);
+insert into Pagos (IDPedido, Fecha, Importe) values (906, '3/14/2022', 447);
+insert into Pagos (IDPedido, Fecha, Importe) values (408, '9/12/2021', 131);
+insert into Pagos (IDPedido, Fecha, Importe) values (751, '1/4/2022', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (265, '6/27/2022', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (374, '6/12/2022', 449);
+insert into Pagos (IDPedido, Fecha, Importe) values (141, '4/10/2022', 245);
+insert into Pagos (IDPedido, Fecha, Importe) values (889, '11/14/2021', 202);
+insert into Pagos (IDPedido, Fecha, Importe) values (184, '9/29/2021', 372);
+insert into Pagos (IDPedido, Fecha, Importe) values (622, '9/28/2021', 171);
+insert into Pagos (IDPedido, Fecha, Importe) values (342, '7/7/2022', 133);
+insert into Pagos (IDPedido, Fecha, Importe) values (65, '8/25/2022', 439);
+insert into Pagos (IDPedido, Fecha, Importe) values (630, '1/25/2022', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (261, '5/5/2022', 142);
+insert into Pagos (IDPedido, Fecha, Importe) values (120, '5/23/2022', 350);
+insert into Pagos (IDPedido, Fecha, Importe) values (42, '12/7/2021', 478);
+insert into Pagos (IDPedido, Fecha, Importe) values (13, '1/29/2022', 146);
+insert into Pagos (IDPedido, Fecha, Importe) values (566, '1/27/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (831, '5/26/2022', 390);
+insert into Pagos (IDPedido, Fecha, Importe) values (444, '11/30/2021', 468);
+insert into Pagos (IDPedido, Fecha, Importe) values (498, '3/6/2022', 332);
+insert into Pagos (IDPedido, Fecha, Importe) values (235, '1/3/2022', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (592, '9/7/2021', 331);
+insert into Pagos (IDPedido, Fecha, Importe) values (591, '12/25/2021', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (939, '6/5/2022', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (370, '6/12/2022', 277);
+insert into Pagos (IDPedido, Fecha, Importe) values (10, '10/24/2021', 275);
+insert into Pagos (IDPedido, Fecha, Importe) values (531, '3/14/2022', 177);
+insert into Pagos (IDPedido, Fecha, Importe) values (651, '5/14/2022', 242);
+insert into Pagos (IDPedido, Fecha, Importe) values (366, '7/5/2022', 145);
+insert into Pagos (IDPedido, Fecha, Importe) values (522, '9/5/2021', 119);
+insert into Pagos (IDPedido, Fecha, Importe) values (784, '3/4/2022', 467);
+insert into Pagos (IDPedido, Fecha, Importe) values (822, '5/7/2022', 217);
+insert into Pagos (IDPedido, Fecha, Importe) values (519, '3/26/2022', 395);
+insert into Pagos (IDPedido, Fecha, Importe) values (543, '12/4/2021', 129);
+insert into Pagos (IDPedido, Fecha, Importe) values (988, '1/18/2022', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (538, '10/17/2021', 126);
+insert into Pagos (IDPedido, Fecha, Importe) values (266, '7/22/2022', 425);
+insert into Pagos (IDPedido, Fecha, Importe) values (522, '5/6/2022', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (707, '2/23/2022', 182);
+insert into Pagos (IDPedido, Fecha, Importe) values (528, '11/25/2021', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (521, '2/23/2022', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (777, '9/11/2021', 257);
+insert into Pagos (IDPedido, Fecha, Importe) values (787, '6/22/2022', 207);
+insert into Pagos (IDPedido, Fecha, Importe) values (464, '1/4/2022', 103);
+insert into Pagos (IDPedido, Fecha, Importe) values (368, '2/22/2022', 258);
+insert into Pagos (IDPedido, Fecha, Importe) values (244, '1/21/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (947, '5/14/2022', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (520, '6/23/2022', 271);
+insert into Pagos (IDPedido, Fecha, Importe) values (283, '8/3/2022', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (589, '1/19/2022', 395);
+insert into Pagos (IDPedido, Fecha, Importe) values (871, '5/13/2022', 273);
+insert into Pagos (IDPedido, Fecha, Importe) values (455, '3/5/2022', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (832, '3/31/2022', 438);
+insert into Pagos (IDPedido, Fecha, Importe) values (145, '6/15/2022', 461);
+insert into Pagos (IDPedido, Fecha, Importe) values (756, '1/29/2022', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (505, '4/28/2022', 466);
+insert into Pagos (IDPedido, Fecha, Importe) values (916, '7/22/2022', 386);
+insert into Pagos (IDPedido, Fecha, Importe) values (393, '10/13/2021', 182);
+insert into Pagos (IDPedido, Fecha, Importe) values (363, '1/11/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (995, '11/27/2021', 442);
+insert into Pagos (IDPedido, Fecha, Importe) values (821, '6/4/2022', 284);
+insert into Pagos (IDPedido, Fecha, Importe) values (762, '8/13/2022', 399);
+insert into Pagos (IDPedido, Fecha, Importe) values (178, '9/26/2021', 248);
+insert into Pagos (IDPedido, Fecha, Importe) values (621, '8/11/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (572, '12/12/2021', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (307, '7/1/2022', 441);
+insert into Pagos (IDPedido, Fecha, Importe) values (192, '7/3/2022', 442);
+insert into Pagos (IDPedido, Fecha, Importe) values (374, '5/13/2022', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (753, '6/4/2022', 470);
+insert into Pagos (IDPedido, Fecha, Importe) values (311, '6/11/2022', 157);
+insert into Pagos (IDPedido, Fecha, Importe) values (805, '11/1/2021', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (114, '6/15/2022', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (432, '8/22/2022', 204);
+insert into Pagos (IDPedido, Fecha, Importe) values (337, '1/3/2022', 485);
+insert into Pagos (IDPedido, Fecha, Importe) values (957, '10/11/2021', 472);
+insert into Pagos (IDPedido, Fecha, Importe) values (425, '1/10/2022', 377);
+insert into Pagos (IDPedido, Fecha, Importe) values (278, '11/16/2021', 347);
+insert into Pagos (IDPedido, Fecha, Importe) values (311, '8/7/2022', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (155, '8/19/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (602, '1/22/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (334, '10/20/2021', 113);
+insert into Pagos (IDPedido, Fecha, Importe) values (431, '6/5/2022', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (805, '12/23/2021', 323);
+insert into Pagos (IDPedido, Fecha, Importe) values (967, '1/3/2022', 456);
+insert into Pagos (IDPedido, Fecha, Importe) values (587, '12/8/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (419, '10/11/2021', 481);
+insert into Pagos (IDPedido, Fecha, Importe) values (150, '2/28/2022', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (458, '10/12/2021', 231);
+insert into Pagos (IDPedido, Fecha, Importe) values (855, '5/17/2022', 109);
+insert into Pagos (IDPedido, Fecha, Importe) values (207, '12/18/2021', 471);
+insert into Pagos (IDPedido, Fecha, Importe) values (714, '12/26/2021', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (130, '10/9/2021', 107);
+insert into Pagos (IDPedido, Fecha, Importe) values (867, '7/14/2022', 354);
+insert into Pagos (IDPedido, Fecha, Importe) values (506, '2/22/2022', 162);
+insert into Pagos (IDPedido, Fecha, Importe) values (961, '7/16/2022', 121);
+insert into Pagos (IDPedido, Fecha, Importe) values (102, '3/31/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (205, '3/17/2022', 405);
+insert into Pagos (IDPedido, Fecha, Importe) values (213, '4/4/2022', 294);
+insert into Pagos (IDPedido, Fecha, Importe) values (264, '1/22/2022', 361);
+insert into Pagos (IDPedido, Fecha, Importe) values (323, '11/10/2021', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (212, '1/1/2022', 305);
+insert into Pagos (IDPedido, Fecha, Importe) values (761, '9/14/2021', 255);
+insert into Pagos (IDPedido, Fecha, Importe) values (6, '11/4/2021', 406);
+insert into Pagos (IDPedido, Fecha, Importe) values (529, '6/23/2022', 174);
+insert into Pagos (IDPedido, Fecha, Importe) values (589, '2/3/2022', 168);
+insert into Pagos (IDPedido, Fecha, Importe) values (549, '12/26/2021', 144);
+insert into Pagos (IDPedido, Fecha, Importe) values (405, '4/28/2022', 105);
+insert into Pagos (IDPedido, Fecha, Importe) values (946, '2/9/2022', 202);
+insert into Pagos (IDPedido, Fecha, Importe) values (766, '12/3/2021', 280);
+insert into Pagos (IDPedido, Fecha, Importe) values (463, '8/18/2022', 147);
+insert into Pagos (IDPedido, Fecha, Importe) values (192, '9/23/2021', 417);
+insert into Pagos (IDPedido, Fecha, Importe) values (43, '1/25/2022', 430);
+insert into Pagos (IDPedido, Fecha, Importe) values (483, '8/30/2022', 271);
+insert into Pagos (IDPedido, Fecha, Importe) values (88, '1/7/2022', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (781, '3/14/2022', 195);
+insert into Pagos (IDPedido, Fecha, Importe) values (438, '2/27/2022', 131);
+insert into Pagos (IDPedido, Fecha, Importe) values (831, '4/23/2022', 203);
+insert into Pagos (IDPedido, Fecha, Importe) values (694, '11/15/2021', 302);
+insert into Pagos (IDPedido, Fecha, Importe) values (657, '3/9/2022', 132);
+insert into Pagos (IDPedido, Fecha, Importe) values (453, '1/23/2022', 440);
+insert into Pagos (IDPedido, Fecha, Importe) values (256, '2/19/2022', 209);
+insert into Pagos (IDPedido, Fecha, Importe) values (952, '5/10/2022', 343);
+insert into Pagos (IDPedido, Fecha, Importe) values (787, '3/4/2022', 304);
+insert into Pagos (IDPedido, Fecha, Importe) values (160, '8/5/2022', 235);
+insert into Pagos (IDPedido, Fecha, Importe) values (687, '11/8/2021', 259);
+insert into Pagos (IDPedido, Fecha, Importe) values (256, '11/8/2021', 370);
+insert into Pagos (IDPedido, Fecha, Importe) values (893, '11/6/2021', 373);
+insert into Pagos (IDPedido, Fecha, Importe) values (128, '2/18/2022', 334);
+insert into Pagos (IDPedido, Fecha, Importe) values (296, '2/21/2022', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (850, '9/28/2021', 147);
+insert into Pagos (IDPedido, Fecha, Importe) values (729, '5/26/2022', 136);
+insert into Pagos (IDPedido, Fecha, Importe) values (296, '8/23/2022', 257);
+insert into Pagos (IDPedido, Fecha, Importe) values (300, '8/7/2022', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (673, '8/28/2022', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (557, '10/23/2021', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (726, '12/6/2021', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (506, '3/2/2022', 342);
+insert into Pagos (IDPedido, Fecha, Importe) values (947, '6/7/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (487, '6/11/2022', 361);
+insert into Pagos (IDPedido, Fecha, Importe) values (690, '12/22/2021', 256);
+insert into Pagos (IDPedido, Fecha, Importe) values (294, '4/7/2022', 142);
+insert into Pagos (IDPedido, Fecha, Importe) values (304, '2/16/2022', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (455, '9/27/2021', 140);
+insert into Pagos (IDPedido, Fecha, Importe) values (922, '2/13/2022', 425);
+insert into Pagos (IDPedido, Fecha, Importe) values (914, '11/19/2021', 296);
+insert into Pagos (IDPedido, Fecha, Importe) values (333, '8/4/2022', 331);
+insert into Pagos (IDPedido, Fecha, Importe) values (241, '9/26/2021', 340);
+insert into Pagos (IDPedido, Fecha, Importe) values (928, '9/24/2021', 315);
+insert into Pagos (IDPedido, Fecha, Importe) values (234, '10/20/2021', 432);
+insert into Pagos (IDPedido, Fecha, Importe) values (912, '9/7/2021', 419);
+insert into Pagos (IDPedido, Fecha, Importe) values (967, '10/19/2021', 314);
+insert into Pagos (IDPedido, Fecha, Importe) values (273, '4/3/2022', 323);
+insert into Pagos (IDPedido, Fecha, Importe) values (736, '12/21/2021', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (16, '9/5/2021', 231);
+insert into Pagos (IDPedido, Fecha, Importe) values (31, '7/23/2022', 354);
+insert into Pagos (IDPedido, Fecha, Importe) values (928, '4/22/2022', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (491, '8/29/2022', 201);
+insert into Pagos (IDPedido, Fecha, Importe) values (843, '4/20/2022', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (636, '11/1/2021', 258);
+insert into Pagos (IDPedido, Fecha, Importe) values (982, '6/19/2022', 441);
+insert into Pagos (IDPedido, Fecha, Importe) values (10, '1/26/2022', 268);
+insert into Pagos (IDPedido, Fecha, Importe) values (249, '1/25/2022', 118);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '10/28/2021', 430);
+insert into Pagos (IDPedido, Fecha, Importe) values (718, '10/30/2021', 339);
+insert into Pagos (IDPedido, Fecha, Importe) values (957, '12/15/2021', 181);
+insert into Pagos (IDPedido, Fecha, Importe) values (317, '3/27/2022', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (281, '7/23/2022', 431);
+insert into Pagos (IDPedido, Fecha, Importe) values (846, '1/22/2022', 204);
+insert into Pagos (IDPedido, Fecha, Importe) values (479, '4/12/2022', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (164, '8/28/2022', 402);
+insert into Pagos (IDPedido, Fecha, Importe) values (816, '7/31/2022', 254);
+insert into Pagos (IDPedido, Fecha, Importe) values (492, '11/16/2021', 153);
+insert into Pagos (IDPedido, Fecha, Importe) values (642, '9/25/2021', 203);
+insert into Pagos (IDPedido, Fecha, Importe) values (398, '7/10/2022', 201);
+insert into Pagos (IDPedido, Fecha, Importe) values (19, '2/23/2022', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (672, '11/2/2021', 210);
+insert into Pagos (IDPedido, Fecha, Importe) values (994, '5/6/2022', 255);
+insert into Pagos (IDPedido, Fecha, Importe) values (5, '6/17/2022', 115);
+insert into Pagos (IDPedido, Fecha, Importe) values (991, '3/31/2022', 483);
+insert into Pagos (IDPedido, Fecha, Importe) values (912, '1/22/2022', 226);
+insert into Pagos (IDPedido, Fecha, Importe) values (883, '4/26/2022', 388);
+insert into Pagos (IDPedido, Fecha, Importe) values (740, '3/10/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (585, '9/9/2021', 232);
+insert into Pagos (IDPedido, Fecha, Importe) values (91, '2/1/2022', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (398, '11/8/2021', 427);
+insert into Pagos (IDPedido, Fecha, Importe) values (693, '10/16/2021', 446);
+insert into Pagos (IDPedido, Fecha, Importe) values (692, '7/4/2022', 327);
+insert into Pagos (IDPedido, Fecha, Importe) values (897, '7/19/2022', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (987, '2/5/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (95, '6/24/2022', 464);
+insert into Pagos (IDPedido, Fecha, Importe) values (400, '1/26/2022', 124);
+insert into Pagos (IDPedido, Fecha, Importe) values (813, '11/5/2021', 375);
+insert into Pagos (IDPedido, Fecha, Importe) values (200, '12/27/2021', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (310, '7/18/2022', 308);
+insert into Pagos (IDPedido, Fecha, Importe) values (105, '9/15/2021', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (124, '5/27/2022', 180);
+insert into Pagos (IDPedido, Fecha, Importe) values (971, '10/3/2021', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (31, '5/7/2022', 444);
+insert into Pagos (IDPedido, Fecha, Importe) values (484, '11/12/2021', 177);
+insert into Pagos (IDPedido, Fecha, Importe) values (410, '4/17/2022', 308);
+insert into Pagos (IDPedido, Fecha, Importe) values (144, '1/9/2022', 333);
+insert into Pagos (IDPedido, Fecha, Importe) values (107, '2/14/2022', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (592, '5/9/2022', 230);
+insert into Pagos (IDPedido, Fecha, Importe) values (1000, '8/29/2022', 371);
+insert into Pagos (IDPedido, Fecha, Importe) values (482, '5/1/2022', 447);
+insert into Pagos (IDPedido, Fecha, Importe) values (490, '3/27/2022', 436);
+insert into Pagos (IDPedido, Fecha, Importe) values (672, '10/10/2021', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (538, '8/31/2022', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (233, '2/15/2022', 227);
+insert into Pagos (IDPedido, Fecha, Importe) values (869, '8/22/2022', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (890, '11/17/2021', 175);
+insert into Pagos (IDPedido, Fecha, Importe) values (66, '9/24/2021', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (255, '6/30/2022', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (583, '12/21/2021', 447);
+insert into Pagos (IDPedido, Fecha, Importe) values (575, '8/15/2022', 145);
+insert into Pagos (IDPedido, Fecha, Importe) values (929, '12/5/2021', 398);
+insert into Pagos (IDPedido, Fecha, Importe) values (527, '3/1/2022', 303);
+insert into Pagos (IDPedido, Fecha, Importe) values (139, '7/6/2022', 380);
+insert into Pagos (IDPedido, Fecha, Importe) values (93, '5/8/2022', 352);
+insert into Pagos (IDPedido, Fecha, Importe) values (478, '11/13/2021', 134);
+insert into Pagos (IDPedido, Fecha, Importe) values (798, '3/19/2022', 301);
+insert into Pagos (IDPedido, Fecha, Importe) values (241, '4/23/2022', 305);
+insert into Pagos (IDPedido, Fecha, Importe) values (617, '2/8/2022', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (356, '10/7/2021', 465);
+insert into Pagos (IDPedido, Fecha, Importe) values (805, '7/6/2022', 194);
+insert into Pagos (IDPedido, Fecha, Importe) values (719, '2/13/2022', 491);
+insert into Pagos (IDPedido, Fecha, Importe) values (857, '6/27/2022', 135);
+insert into Pagos (IDPedido, Fecha, Importe) values (934, '8/22/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (912, '12/1/2021', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (148, '11/18/2021', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (210, '1/21/2022', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (537, '2/9/2022', 423);
+insert into Pagos (IDPedido, Fecha, Importe) values (235, '4/3/2022', 140);
+insert into Pagos (IDPedido, Fecha, Importe) values (327, '4/26/2022', 210);
+insert into Pagos (IDPedido, Fecha, Importe) values (765, '11/9/2021', 366);
+insert into Pagos (IDPedido, Fecha, Importe) values (784, '2/28/2022', 129);
+insert into Pagos (IDPedido, Fecha, Importe) values (404, '12/21/2021', 464);
+insert into Pagos (IDPedido, Fecha, Importe) values (734, '8/27/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (986, '12/21/2021', 241);
+insert into Pagos (IDPedido, Fecha, Importe) values (781, '8/17/2022', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (378, '12/7/2021', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (719, '3/31/2022', 112);
+insert into Pagos (IDPedido, Fecha, Importe) values (128, '12/6/2021', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (618, '3/13/2022', 262);
+insert into Pagos (IDPedido, Fecha, Importe) values (16, '2/19/2022', 360);
+insert into Pagos (IDPedido, Fecha, Importe) values (491, '11/12/2021', 105);
+insert into Pagos (IDPedido, Fecha, Importe) values (563, '6/9/2022', 277);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '9/21/2021', 152);
+insert into Pagos (IDPedido, Fecha, Importe) values (620, '5/5/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (109, '2/22/2022', 122);
+insert into Pagos (IDPedido, Fecha, Importe) values (272, '8/15/2022', 109);
+insert into Pagos (IDPedido, Fecha, Importe) values (784, '12/30/2021', 344);
+insert into Pagos (IDPedido, Fecha, Importe) values (493, '9/21/2021', 210);
+insert into Pagos (IDPedido, Fecha, Importe) values (194, '5/4/2022', 320);
+insert into Pagos (IDPedido, Fecha, Importe) values (643, '3/23/2022', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (293, '4/14/2022', 394);
+insert into Pagos (IDPedido, Fecha, Importe) values (318, '8/27/2022', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (113, '1/18/2022', 222);
+insert into Pagos (IDPedido, Fecha, Importe) values (50, '6/20/2022', 311);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '10/20/2021', 232);
+insert into Pagos (IDPedido, Fecha, Importe) values (471, '3/24/2022', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (770, '1/12/2022', 335);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '4/2/2022', 338);
+insert into Pagos (IDPedido, Fecha, Importe) values (56, '9/27/2021', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (523, '2/13/2022', 180);
+insert into Pagos (IDPedido, Fecha, Importe) values (897, '11/30/2021', 276);
+insert into Pagos (IDPedido, Fecha, Importe) values (374, '2/18/2022', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (441, '11/26/2021', 416);
+insert into Pagos (IDPedido, Fecha, Importe) values (217, '5/9/2022', 333);
+insert into Pagos (IDPedido, Fecha, Importe) values (292, '1/12/2022', 362);
+insert into Pagos (IDPedido, Fecha, Importe) values (340, '6/18/2022', 137);
+insert into Pagos (IDPedido, Fecha, Importe) values (155, '3/2/2022', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (974, '3/19/2022', 189);
+insert into Pagos (IDPedido, Fecha, Importe) values (683, '4/28/2022', 430);
+insert into Pagos (IDPedido, Fecha, Importe) values (996, '1/6/2022', 199);
+insert into Pagos (IDPedido, Fecha, Importe) values (366, '6/25/2022', 125);
+insert into Pagos (IDPedido, Fecha, Importe) values (573, '3/7/2022', 294);
+insert into Pagos (IDPedido, Fecha, Importe) values (435, '2/2/2022', 235);
+insert into Pagos (IDPedido, Fecha, Importe) values (286, '6/16/2022', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (494, '3/2/2022', 188);
+insert into Pagos (IDPedido, Fecha, Importe) values (792, '3/17/2022', 436);
+insert into Pagos (IDPedido, Fecha, Importe) values (843, '2/16/2022', 136);
+insert into Pagos (IDPedido, Fecha, Importe) values (159, '8/20/2022', 450);
+insert into Pagos (IDPedido, Fecha, Importe) values (122, '12/2/2021', 280);
+insert into Pagos (IDPedido, Fecha, Importe) values (524, '3/29/2022', 184);
+insert into Pagos (IDPedido, Fecha, Importe) values (120, '6/26/2022', 284);
+insert into Pagos (IDPedido, Fecha, Importe) values (832, '3/6/2022', 370);
+insert into Pagos (IDPedido, Fecha, Importe) values (77, '8/18/2022', 459);
+insert into Pagos (IDPedido, Fecha, Importe) values (45, '7/14/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (471, '2/2/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (654, '9/22/2021', 218);
+insert into Pagos (IDPedido, Fecha, Importe) values (39, '8/24/2022', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (650, '4/5/2022', 203);
+insert into Pagos (IDPedido, Fecha, Importe) values (580, '1/9/2022', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (143, '2/4/2022', 327);
+insert into Pagos (IDPedido, Fecha, Importe) values (739, '8/12/2022', 425);
+insert into Pagos (IDPedido, Fecha, Importe) values (799, '3/12/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (833, '1/9/2022', 316);
+insert into Pagos (IDPedido, Fecha, Importe) values (45, '7/10/2022', 155);
+insert into Pagos (IDPedido, Fecha, Importe) values (76, '5/18/2022', 184);
+insert into Pagos (IDPedido, Fecha, Importe) values (402, '3/13/2022', 229);
+insert into Pagos (IDPedido, Fecha, Importe) values (596, '6/26/2022', 341);
+insert into Pagos (IDPedido, Fecha, Importe) values (525, '3/8/2022', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (407, '3/25/2022', 308);
+insert into Pagos (IDPedido, Fecha, Importe) values (25, '12/4/2021', 205);
+insert into Pagos (IDPedido, Fecha, Importe) values (458, '12/5/2021', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (239, '10/8/2021', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (101, '9/29/2021', 482);
+insert into Pagos (IDPedido, Fecha, Importe) values (557, '5/12/2022', 368);
+insert into Pagos (IDPedido, Fecha, Importe) values (848, '1/29/2022', 342);
+insert into Pagos (IDPedido, Fecha, Importe) values (994, '11/20/2021', 399);
+insert into Pagos (IDPedido, Fecha, Importe) values (842, '5/10/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (158, '9/29/2021', 429);
+insert into Pagos (IDPedido, Fecha, Importe) values (692, '5/30/2022', 125);
+insert into Pagos (IDPedido, Fecha, Importe) values (358, '6/25/2022', 184);
+insert into Pagos (IDPedido, Fecha, Importe) values (204, '9/10/2021', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (278, '1/4/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (451, '12/12/2021', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (519, '8/26/2022', 248);
+insert into Pagos (IDPedido, Fecha, Importe) values (626, '5/13/2022', 194);
+insert into Pagos (IDPedido, Fecha, Importe) values (400, '3/4/2022', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (239, '11/5/2021', 168);
+insert into Pagos (IDPedido, Fecha, Importe) values (272, '6/26/2022', 468);
+insert into Pagos (IDPedido, Fecha, Importe) values (144, '6/7/2022', 266);
+insert into Pagos (IDPedido, Fecha, Importe) values (60, '10/28/2021', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (647, '4/30/2022', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '4/23/2022', 183);
+insert into Pagos (IDPedido, Fecha, Importe) values (36, '12/31/2021', 203);
+insert into Pagos (IDPedido, Fecha, Importe) values (432, '11/16/2021', 287);
+insert into Pagos (IDPedido, Fecha, Importe) values (534, '8/29/2022', 373);
+insert into Pagos (IDPedido, Fecha, Importe) values (852, '9/27/2021', 427);
+insert into Pagos (IDPedido, Fecha, Importe) values (138, '5/11/2022', 456);
+insert into Pagos (IDPedido, Fecha, Importe) values (989, '2/21/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (692, '4/15/2022', 121);
+insert into Pagos (IDPedido, Fecha, Importe) values (625, '3/6/2022', 323);
+insert into Pagos (IDPedido, Fecha, Importe) values (426, '1/8/2022', 201);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '10/9/2021', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (631, '10/14/2021', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (358, '1/3/2022', 307);
+insert into Pagos (IDPedido, Fecha, Importe) values (537, '8/5/2022', 139);
+insert into Pagos (IDPedido, Fecha, Importe) values (51, '9/27/2021', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (584, '6/30/2022', 299);
+insert into Pagos (IDPedido, Fecha, Importe) values (49, '10/21/2021', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (627, '1/26/2022', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (40, '9/1/2022', 210);
+insert into Pagos (IDPedido, Fecha, Importe) values (774, '7/31/2022', 157);
+insert into Pagos (IDPedido, Fecha, Importe) values (115, '1/2/2022', 219);
+insert into Pagos (IDPedido, Fecha, Importe) values (337, '6/11/2022', 235);
+insert into Pagos (IDPedido, Fecha, Importe) values (67, '6/21/2022', 308);
+insert into Pagos (IDPedido, Fecha, Importe) values (27, '8/12/2022', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (808, '1/4/2022', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (425, '11/14/2021', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (171, '1/26/2022', 268);
+insert into Pagos (IDPedido, Fecha, Importe) values (274, '10/25/2021', 173);
+insert into Pagos (IDPedido, Fecha, Importe) values (633, '6/21/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (341, '12/18/2021', 346);
+insert into Pagos (IDPedido, Fecha, Importe) values (707, '3/10/2022', 300);
+insert into Pagos (IDPedido, Fecha, Importe) values (493, '12/27/2021', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (258, '9/18/2021', 363);
+insert into Pagos (IDPedido, Fecha, Importe) values (843, '5/23/2022', 214);
+insert into Pagos (IDPedido, Fecha, Importe) values (291, '2/19/2022', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (58, '2/4/2022', 481);
+insert into Pagos (IDPedido, Fecha, Importe) values (501, '11/18/2021', 497);
+insert into Pagos (IDPedido, Fecha, Importe) values (907, '8/17/2022', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (744, '7/26/2022', 135);
+insert into Pagos (IDPedido, Fecha, Importe) values (495, '9/24/2021', 463);
+insert into Pagos (IDPedido, Fecha, Importe) values (116, '1/21/2022', 310);
+insert into Pagos (IDPedido, Fecha, Importe) values (881, '2/24/2022', 387);
+insert into Pagos (IDPedido, Fecha, Importe) values (934, '6/14/2022', 392);
+insert into Pagos (IDPedido, Fecha, Importe) values (648, '4/29/2022', 436);
+insert into Pagos (IDPedido, Fecha, Importe) values (258, '5/9/2022', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (29, '4/22/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (935, '2/7/2022', 410);
+insert into Pagos (IDPedido, Fecha, Importe) values (197, '8/21/2022', 467);
+insert into Pagos (IDPedido, Fecha, Importe) values (562, '10/9/2021', 205);
+insert into Pagos (IDPedido, Fecha, Importe) values (827, '12/16/2021', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (558, '12/29/2021', 261);
+insert into Pagos (IDPedido, Fecha, Importe) values (773, '3/30/2022', 474);
+insert into Pagos (IDPedido, Fecha, Importe) values (679, '7/21/2022', 452);
+insert into Pagos (IDPedido, Fecha, Importe) values (496, '10/2/2021', 175);
+insert into Pagos (IDPedido, Fecha, Importe) values (646, '1/1/2022', 423);
+insert into Pagos (IDPedido, Fecha, Importe) values (23, '3/8/2022', 306);
+insert into Pagos (IDPedido, Fecha, Importe) values (1000, '5/2/2022', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (921, '9/7/2021', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (483, '12/10/2021', 335);
+insert into Pagos (IDPedido, Fecha, Importe) values (743, '10/26/2021', 387);
+insert into Pagos (IDPedido, Fecha, Importe) values (134, '8/10/2022', 287);
+insert into Pagos (IDPedido, Fecha, Importe) values (713, '8/4/2022', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (661, '1/26/2022', 419);
+insert into Pagos (IDPedido, Fecha, Importe) values (620, '5/2/2022', 138);
+insert into Pagos (IDPedido, Fecha, Importe) values (443, '5/22/2022', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (293, '8/12/2022', 289);
+insert into Pagos (IDPedido, Fecha, Importe) values (945, '8/26/2022', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (116, '9/6/2021', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (38, '11/6/2021', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (129, '6/21/2022', 500);
+insert into Pagos (IDPedido, Fecha, Importe) values (212, '5/17/2022', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (696, '4/23/2022', 152);
+insert into Pagos (IDPedido, Fecha, Importe) values (640, '8/22/2022', 321);
+insert into Pagos (IDPedido, Fecha, Importe) values (333, '11/28/2021', 302);
+insert into Pagos (IDPedido, Fecha, Importe) values (404, '2/23/2022', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (907, '1/6/2022', 171);
+insert into Pagos (IDPedido, Fecha, Importe) values (263, '1/15/2022', 117);
+insert into Pagos (IDPedido, Fecha, Importe) values (734, '1/7/2022', 179);
+insert into Pagos (IDPedido, Fecha, Importe) values (464, '12/16/2021', 461);
+insert into Pagos (IDPedido, Fecha, Importe) values (187, '9/26/2021', 285);
+insert into Pagos (IDPedido, Fecha, Importe) values (879, '5/8/2022', 236);
+insert into Pagos (IDPedido, Fecha, Importe) values (191, '8/13/2022', 417);
+insert into Pagos (IDPedido, Fecha, Importe) values (219, '3/25/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (887, '11/4/2021', 496);
+insert into Pagos (IDPedido, Fecha, Importe) values (178, '1/17/2022', 156);
+insert into Pagos (IDPedido, Fecha, Importe) values (414, '11/4/2021', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (312, '8/7/2022', 221);
+insert into Pagos (IDPedido, Fecha, Importe) values (551, '9/27/2021', 232);
+insert into Pagos (IDPedido, Fecha, Importe) values (608, '2/2/2022', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (807, '6/5/2022', 132);
+insert into Pagos (IDPedido, Fecha, Importe) values (882, '9/15/2021', 335);
+insert into Pagos (IDPedido, Fecha, Importe) values (762, '6/12/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '8/6/2022', 292);
+insert into Pagos (IDPedido, Fecha, Importe) values (772, '2/1/2022', 282);
+insert into Pagos (IDPedido, Fecha, Importe) values (236, '1/25/2022', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (578, '3/14/2022', 368);
+insert into Pagos (IDPedido, Fecha, Importe) values (484, '11/6/2021', 301);
+insert into Pagos (IDPedido, Fecha, Importe) values (311, '12/8/2021', 117);
+insert into Pagos (IDPedido, Fecha, Importe) values (777, '4/2/2022', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (505, '9/23/2021', 338);
+insert into Pagos (IDPedido, Fecha, Importe) values (415, '1/28/2022', 116);
+insert into Pagos (IDPedido, Fecha, Importe) values (735, '3/12/2022', 156);
+insert into Pagos (IDPedido, Fecha, Importe) values (83, '12/9/2021', 157);
+insert into Pagos (IDPedido, Fecha, Importe) values (192, '8/24/2022', 477);
+insert into Pagos (IDPedido, Fecha, Importe) values (486, '10/5/2021', 352);
+insert into Pagos (IDPedido, Fecha, Importe) values (188, '12/9/2021', 226);
+insert into Pagos (IDPedido, Fecha, Importe) values (920, '12/7/2021', 353);
+insert into Pagos (IDPedido, Fecha, Importe) values (643, '2/8/2022', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (366, '5/6/2022', 190);
+insert into Pagos (IDPedido, Fecha, Importe) values (942, '10/28/2021', 138);
+insert into Pagos (IDPedido, Fecha, Importe) values (712, '3/13/2022', 124);
+insert into Pagos (IDPedido, Fecha, Importe) values (70, '12/16/2021', 185);
+insert into Pagos (IDPedido, Fecha, Importe) values (303, '6/13/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (628, '5/15/2022', 138);
+insert into Pagos (IDPedido, Fecha, Importe) values (565, '8/23/2022', 278);
+insert into Pagos (IDPedido, Fecha, Importe) values (510, '10/26/2021', 208);
+insert into Pagos (IDPedido, Fecha, Importe) values (467, '7/22/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (785, '12/8/2021', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (390, '12/7/2021', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (299, '2/10/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (2, '11/15/2021', 106);
+insert into Pagos (IDPedido, Fecha, Importe) values (250, '7/21/2022', 340);
+insert into Pagos (IDPedido, Fecha, Importe) values (842, '5/7/2022', 376);
+insert into Pagos (IDPedido, Fecha, Importe) values (161, '7/1/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (765, '1/13/2022', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (978, '8/14/2022', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (304, '2/21/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (562, '5/14/2022', 276);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '9/15/2021', 431);
+insert into Pagos (IDPedido, Fecha, Importe) values (851, '6/21/2022', 374);
+insert into Pagos (IDPedido, Fecha, Importe) values (19, '6/8/2022', 195);
+insert into Pagos (IDPedido, Fecha, Importe) values (359, '7/29/2022', 466);
+insert into Pagos (IDPedido, Fecha, Importe) values (644, '3/22/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (488, '1/5/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (150, '11/2/2021', 398);
+insert into Pagos (IDPedido, Fecha, Importe) values (405, '5/31/2022', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (830, '1/31/2022', 326);
+insert into Pagos (IDPedido, Fecha, Importe) values (493, '4/24/2022', 394);
+insert into Pagos (IDPedido, Fecha, Importe) values (645, '10/28/2021', 288);
+insert into Pagos (IDPedido, Fecha, Importe) values (735, '1/6/2022', 267);
+insert into Pagos (IDPedido, Fecha, Importe) values (965, '5/21/2022', 429);
+insert into Pagos (IDPedido, Fecha, Importe) values (172, '5/26/2022', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (947, '3/2/2022', 161);
+insert into Pagos (IDPedido, Fecha, Importe) values (22, '10/29/2021', 338);
+insert into Pagos (IDPedido, Fecha, Importe) values (529, '6/19/2022', 132);
+insert into Pagos (IDPedido, Fecha, Importe) values (372, '10/20/2021', 217);
+insert into Pagos (IDPedido, Fecha, Importe) values (210, '11/13/2021', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (329, '11/24/2021', 367);
+insert into Pagos (IDPedido, Fecha, Importe) values (850, '4/29/2022', 414);
+insert into Pagos (IDPedido, Fecha, Importe) values (647, '2/5/2022', 380);
+insert into Pagos (IDPedido, Fecha, Importe) values (210, '3/13/2022', 414);
+insert into Pagos (IDPedido, Fecha, Importe) values (769, '11/4/2021', 326);
+insert into Pagos (IDPedido, Fecha, Importe) values (957, '2/4/2022', 314);
+insert into Pagos (IDPedido, Fecha, Importe) values (409, '2/16/2022', 414);
+insert into Pagos (IDPedido, Fecha, Importe) values (320, '2/7/2022', 162);
+insert into Pagos (IDPedido, Fecha, Importe) values (507, '1/20/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (224, '6/17/2022', 438);
+insert into Pagos (IDPedido, Fecha, Importe) values (769, '12/8/2021', 498);
+insert into Pagos (IDPedido, Fecha, Importe) values (8, '11/6/2021', 422);
+insert into Pagos (IDPedido, Fecha, Importe) values (531, '7/2/2022', 254);
+insert into Pagos (IDPedido, Fecha, Importe) values (126, '1/23/2022', 186);
+insert into Pagos (IDPedido, Fecha, Importe) values (707, '3/24/2022', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (679, '12/17/2021', 424);
+insert into Pagos (IDPedido, Fecha, Importe) values (508, '3/6/2022', 468);
+insert into Pagos (IDPedido, Fecha, Importe) values (270, '5/14/2022', 171);
+insert into Pagos (IDPedido, Fecha, Importe) values (694, '10/11/2021', 159);
+insert into Pagos (IDPedido, Fecha, Importe) values (114, '3/1/2022', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (438, '7/16/2022', 165);
+insert into Pagos (IDPedido, Fecha, Importe) values (843, '4/16/2022', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (235, '3/7/2022', 483);
+insert into Pagos (IDPedido, Fecha, Importe) values (993, '6/18/2022', 401);
+insert into Pagos (IDPedido, Fecha, Importe) values (601, '11/14/2021', 332);
+insert into Pagos (IDPedido, Fecha, Importe) values (669, '6/22/2022', 394);
+insert into Pagos (IDPedido, Fecha, Importe) values (498, '5/31/2022', 433);
+insert into Pagos (IDPedido, Fecha, Importe) values (668, '10/14/2021', 188);
+insert into Pagos (IDPedido, Fecha, Importe) values (987, '6/10/2022', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (198, '12/6/2021', 132);
+insert into Pagos (IDPedido, Fecha, Importe) values (306, '8/30/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (365, '5/11/2022', 136);
+insert into Pagos (IDPedido, Fecha, Importe) values (156, '7/22/2022', 224);
+insert into Pagos (IDPedido, Fecha, Importe) values (333, '12/1/2021', 318);
+insert into Pagos (IDPedido, Fecha, Importe) values (852, '10/15/2021', 467);
+insert into Pagos (IDPedido, Fecha, Importe) values (418, '3/16/2022', 381);
+insert into Pagos (IDPedido, Fecha, Importe) values (332, '1/8/2022', 361);
+insert into Pagos (IDPedido, Fecha, Importe) values (49, '10/9/2021', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '11/8/2021', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (422, '1/1/2022', 307);
+insert into Pagos (IDPedido, Fecha, Importe) values (454, '1/17/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (499, '11/18/2021', 438);
+insert into Pagos (IDPedido, Fecha, Importe) values (825, '12/15/2021', 186);
+insert into Pagos (IDPedido, Fecha, Importe) values (36, '2/21/2022', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (361, '10/25/2021', 240);
+insert into Pagos (IDPedido, Fecha, Importe) values (446, '1/2/2022', 160);
+insert into Pagos (IDPedido, Fecha, Importe) values (681, '11/17/2021', 318);
+insert into Pagos (IDPedido, Fecha, Importe) values (613, '7/8/2022', 374);
+insert into Pagos (IDPedido, Fecha, Importe) values (407, '12/12/2021', 138);
+insert into Pagos (IDPedido, Fecha, Importe) values (397, '5/26/2022', 113);
+insert into Pagos (IDPedido, Fecha, Importe) values (882, '11/14/2021', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (700, '3/17/2022', 417);
+insert into Pagos (IDPedido, Fecha, Importe) values (701, '4/1/2022', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (220, '11/28/2021', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (191, '1/2/2022', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (991, '10/9/2021', 128);
+insert into Pagos (IDPedido, Fecha, Importe) values (815, '9/16/2021', 121);
+insert into Pagos (IDPedido, Fecha, Importe) values (822, '3/29/2022', 195);
+insert into Pagos (IDPedido, Fecha, Importe) values (395, '10/1/2021', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (692, '4/7/2022', 439);
+insert into Pagos (IDPedido, Fecha, Importe) values (845, '4/6/2022', 296);
+insert into Pagos (IDPedido, Fecha, Importe) values (207, '9/11/2021', 305);
+insert into Pagos (IDPedido, Fecha, Importe) values (308, '5/6/2022', 272);
+insert into Pagos (IDPedido, Fecha, Importe) values (295, '12/11/2021', 494);
+insert into Pagos (IDPedido, Fecha, Importe) values (599, '8/5/2022', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (554, '9/18/2021', 127);
+insert into Pagos (IDPedido, Fecha, Importe) values (102, '8/3/2022', 393);
+insert into Pagos (IDPedido, Fecha, Importe) values (409, '1/11/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (848, '3/30/2022', 139);
+insert into Pagos (IDPedido, Fecha, Importe) values (123, '12/18/2021', 229);
+insert into Pagos (IDPedido, Fecha, Importe) values (738, '8/14/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (923, '7/30/2022', 486);
+insert into Pagos (IDPedido, Fecha, Importe) values (568, '6/16/2022', 230);
+insert into Pagos (IDPedido, Fecha, Importe) values (711, '10/2/2021', 481);
+insert into Pagos (IDPedido, Fecha, Importe) values (629, '12/3/2021', 190);
+insert into Pagos (IDPedido, Fecha, Importe) values (568, '5/6/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (621, '10/31/2021', 315);
+insert into Pagos (IDPedido, Fecha, Importe) values (648, '11/24/2021', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (174, '3/18/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (822, '9/20/2021', 406);
+insert into Pagos (IDPedido, Fecha, Importe) values (27, '5/21/2022', 494);
+insert into Pagos (IDPedido, Fecha, Importe) values (880, '6/9/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (899, '9/17/2021', 292);
+insert into Pagos (IDPedido, Fecha, Importe) values (19, '10/21/2021', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (223, '5/29/2022', 371);
+insert into Pagos (IDPedido, Fecha, Importe) values (422, '2/6/2022', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (399, '4/26/2022', 140);
+insert into Pagos (IDPedido, Fecha, Importe) values (541, '8/11/2022', 338);
+insert into Pagos (IDPedido, Fecha, Importe) values (708, '1/27/2022', 444);
+insert into Pagos (IDPedido, Fecha, Importe) values (711, '5/24/2022', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (100, '2/10/2022', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (462, '12/4/2021', 153);
+insert into Pagos (IDPedido, Fecha, Importe) values (799, '3/23/2022', 100);
+insert into Pagos (IDPedido, Fecha, Importe) values (418, '8/13/2022', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (752, '4/12/2022', 480);
+insert into Pagos (IDPedido, Fecha, Importe) values (474, '6/21/2022', 192);
+insert into Pagos (IDPedido, Fecha, Importe) values (225, '2/13/2022', 190);
+insert into Pagos (IDPedido, Fecha, Importe) values (374, '11/6/2021', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (928, '3/30/2022', 441);
+insert into Pagos (IDPedido, Fecha, Importe) values (223, '11/4/2021', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (967, '5/8/2022', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (408, '11/6/2021', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (266, '6/1/2022', 104);
+insert into Pagos (IDPedido, Fecha, Importe) values (355, '2/5/2022', 233);
+insert into Pagos (IDPedido, Fecha, Importe) values (998, '6/11/2022', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (512, '12/10/2021', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (366, '5/29/2022', 213);
+insert into Pagos (IDPedido, Fecha, Importe) values (848, '7/26/2022', 161);
+insert into Pagos (IDPedido, Fecha, Importe) values (784, '10/22/2021', 109);
+insert into Pagos (IDPedido, Fecha, Importe) values (840, '4/11/2022', 401);
+insert into Pagos (IDPedido, Fecha, Importe) values (146, '1/26/2022', 419);
+insert into Pagos (IDPedido, Fecha, Importe) values (205, '10/29/2021', 331);
+insert into Pagos (IDPedido, Fecha, Importe) values (122, '6/27/2022', 277);
+insert into Pagos (IDPedido, Fecha, Importe) values (49, '2/3/2022', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (188, '1/1/2022', 177);
+insert into Pagos (IDPedido, Fecha, Importe) values (401, '12/16/2021', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (995, '12/22/2021', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (438, '12/1/2021', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (581, '7/8/2022', 112);
+insert into Pagos (IDPedido, Fecha, Importe) values (393, '8/1/2022', 248);
+insert into Pagos (IDPedido, Fecha, Importe) values (116, '1/26/2022', 226);
+insert into Pagos (IDPedido, Fecha, Importe) values (434, '12/10/2021', 478);
+insert into Pagos (IDPedido, Fecha, Importe) values (150, '1/5/2022', 143);
+insert into Pagos (IDPedido, Fecha, Importe) values (316, '5/16/2022', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (140, '5/23/2022', 122);
+insert into Pagos (IDPedido, Fecha, Importe) values (639, '6/19/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (585, '7/15/2022', 187);
+insert into Pagos (IDPedido, Fecha, Importe) values (734, '7/18/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (455, '12/3/2021', 423);
+insert into Pagos (IDPedido, Fecha, Importe) values (822, '4/15/2022', 145);
+insert into Pagos (IDPedido, Fecha, Importe) values (698, '3/2/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (678, '6/2/2022', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (964, '11/3/2021', 150);
+insert into Pagos (IDPedido, Fecha, Importe) values (377, '6/24/2022', 308);
+insert into Pagos (IDPedido, Fecha, Importe) values (633, '4/28/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (360, '7/18/2022', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (201, '2/6/2022', 197);
+insert into Pagos (IDPedido, Fecha, Importe) values (975, '8/4/2022', 350);
+insert into Pagos (IDPedido, Fecha, Importe) values (606, '6/25/2022', 417);
+insert into Pagos (IDPedido, Fecha, Importe) values (34, '3/20/2022', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (242, '5/2/2022', 102);
+insert into Pagos (IDPedido, Fecha, Importe) values (343, '10/17/2021', 320);
+insert into Pagos (IDPedido, Fecha, Importe) values (669, '7/13/2022', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (905, '2/22/2022', 332);
+insert into Pagos (IDPedido, Fecha, Importe) values (814, '7/17/2022', 407);
+insert into Pagos (IDPedido, Fecha, Importe) values (571, '5/17/2022', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (78, '10/25/2021', 288);
+insert into Pagos (IDPedido, Fecha, Importe) values (497, '10/12/2021', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (800, '3/5/2022', 303);
+insert into Pagos (IDPedido, Fecha, Importe) values (77, '3/24/2022', 451);
+insert into Pagos (IDPedido, Fecha, Importe) values (813, '10/1/2021', 486);
+insert into Pagos (IDPedido, Fecha, Importe) values (713, '5/29/2022', 406);
+insert into Pagos (IDPedido, Fecha, Importe) values (25, '11/19/2021', 366);
+insert into Pagos (IDPedido, Fecha, Importe) values (926, '10/26/2021', 121);
+insert into Pagos (IDPedido, Fecha, Importe) values (294, '10/15/2021', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (765, '5/1/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (313, '11/4/2021', 108);
+insert into Pagos (IDPedido, Fecha, Importe) values (662, '6/6/2022', 379);
+insert into Pagos (IDPedido, Fecha, Importe) values (6, '9/5/2021', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (564, '4/9/2022', 257);
+insert into Pagos (IDPedido, Fecha, Importe) values (72, '12/11/2021', 476);
+insert into Pagos (IDPedido, Fecha, Importe) values (153, '10/20/2021', 208);
+insert into Pagos (IDPedido, Fecha, Importe) values (729, '6/6/2022', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (387, '7/16/2022', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (264, '9/9/2021', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (737, '12/21/2021', 310);
+insert into Pagos (IDPedido, Fecha, Importe) values (637, '11/28/2021', 109);
+insert into Pagos (IDPedido, Fecha, Importe) values (311, '4/19/2022', 323);
+insert into Pagos (IDPedido, Fecha, Importe) values (552, '5/30/2022', 454);
+insert into Pagos (IDPedido, Fecha, Importe) values (904, '5/11/2022', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (265, '3/8/2022', 161);
+insert into Pagos (IDPedido, Fecha, Importe) values (487, '10/16/2021', 255);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '3/23/2022', 384);
+insert into Pagos (IDPedido, Fecha, Importe) values (393, '12/12/2021', 140);
+insert into Pagos (IDPedido, Fecha, Importe) values (709, '4/14/2022', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (768, '10/21/2021', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (336, '1/2/2022', 115);
+insert into Pagos (IDPedido, Fecha, Importe) values (154, '7/11/2022', 341);
+insert into Pagos (IDPedido, Fecha, Importe) values (775, '7/16/2022', 500);
+insert into Pagos (IDPedido, Fecha, Importe) values (410, '10/28/2021', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (87, '6/23/2022', 392);
+insert into Pagos (IDPedido, Fecha, Importe) values (929, '5/1/2022', 261);
+insert into Pagos (IDPedido, Fecha, Importe) values (402, '8/7/2022', 422);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '3/22/2022', 444);
+insert into Pagos (IDPedido, Fecha, Importe) values (861, '1/6/2022', 380);
+insert into Pagos (IDPedido, Fecha, Importe) values (644, '12/28/2021', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (287, '7/14/2022', 297);
+insert into Pagos (IDPedido, Fecha, Importe) values (135, '5/26/2022', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (610, '3/10/2022', 318);
+insert into Pagos (IDPedido, Fecha, Importe) values (795, '8/25/2022', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (993, '4/29/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (714, '10/20/2021', 495);
+insert into Pagos (IDPedido, Fecha, Importe) values (891, '4/19/2022', 378);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '5/24/2022', 391);
+insert into Pagos (IDPedido, Fecha, Importe) values (160, '4/1/2022', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (179, '10/17/2021', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (361, '10/25/2021', 419);
+insert into Pagos (IDPedido, Fecha, Importe) values (797, '6/8/2022', 168);
+insert into Pagos (IDPedido, Fecha, Importe) values (120, '3/3/2022', 438);
+insert into Pagos (IDPedido, Fecha, Importe) values (764, '3/21/2022', 131);
+insert into Pagos (IDPedido, Fecha, Importe) values (509, '1/17/2022', 134);
+insert into Pagos (IDPedido, Fecha, Importe) values (316, '12/5/2021', 498);
+insert into Pagos (IDPedido, Fecha, Importe) values (481, '7/14/2022', 161);
+insert into Pagos (IDPedido, Fecha, Importe) values (324, '8/11/2022', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (115, '2/8/2022', 352);
+insert into Pagos (IDPedido, Fecha, Importe) values (266, '2/11/2022', 500);
+insert into Pagos (IDPedido, Fecha, Importe) values (624, '5/25/2022', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (601, '12/16/2021', 323);
+insert into Pagos (IDPedido, Fecha, Importe) values (863, '1/17/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (66, '5/26/2022', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (513, '6/15/2022', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (443, '8/15/2022', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (712, '5/2/2022', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (862, '12/3/2021', 348);
+insert into Pagos (IDPedido, Fecha, Importe) values (874, '11/30/2021', 117);
+insert into Pagos (IDPedido, Fecha, Importe) values (829, '7/13/2022', 137);
+insert into Pagos (IDPedido, Fecha, Importe) values (23, '10/28/2021', 254);
+insert into Pagos (IDPedido, Fecha, Importe) values (747, '12/18/2021', 278);
+insert into Pagos (IDPedido, Fecha, Importe) values (71, '2/2/2022', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (765, '11/20/2021', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (233, '12/4/2021', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (641, '5/28/2022', 436);
+insert into Pagos (IDPedido, Fecha, Importe) values (101, '5/20/2022', 173);
+insert into Pagos (IDPedido, Fecha, Importe) values (462, '8/20/2022', 155);
+insert into Pagos (IDPedido, Fecha, Importe) values (858, '1/8/2022', 449);
+insert into Pagos (IDPedido, Fecha, Importe) values (140, '5/19/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (309, '6/7/2022', 343);
+insert into Pagos (IDPedido, Fecha, Importe) values (591, '8/24/2022', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (539, '9/9/2021', 150);
+insert into Pagos (IDPedido, Fecha, Importe) values (606, '11/1/2021', 239);
+insert into Pagos (IDPedido, Fecha, Importe) values (964, '1/17/2022', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (148, '3/27/2022', 112);
+insert into Pagos (IDPedido, Fecha, Importe) values (319, '4/27/2022', 144);
+insert into Pagos (IDPedido, Fecha, Importe) values (582, '6/17/2022', 112);
+insert into Pagos (IDPedido, Fecha, Importe) values (337, '7/11/2022', 452);
+insert into Pagos (IDPedido, Fecha, Importe) values (701, '4/19/2022', 442);
+insert into Pagos (IDPedido, Fecha, Importe) values (270, '5/15/2022', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (909, '4/18/2022', 300);
+insert into Pagos (IDPedido, Fecha, Importe) values (287, '11/10/2021', 458);
+insert into Pagos (IDPedido, Fecha, Importe) values (499, '8/19/2022', 239);
+insert into Pagos (IDPedido, Fecha, Importe) values (238, '3/6/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (283, '8/12/2022', 372);
+insert into Pagos (IDPedido, Fecha, Importe) values (436, '2/19/2022', 173);
+insert into Pagos (IDPedido, Fecha, Importe) values (840, '9/13/2021', 382);
+insert into Pagos (IDPedido, Fecha, Importe) values (521, '3/2/2022', 386);
+insert into Pagos (IDPedido, Fecha, Importe) values (154, '7/10/2022', 389);
+insert into Pagos (IDPedido, Fecha, Importe) values (512, '10/14/2021', 463);
+insert into Pagos (IDPedido, Fecha, Importe) values (16, '5/1/2022', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (516, '12/13/2021', 233);
+insert into Pagos (IDPedido, Fecha, Importe) values (193, '12/8/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (999, '1/3/2022', 357);
+insert into Pagos (IDPedido, Fecha, Importe) values (866, '7/26/2022', 200);
+insert into Pagos (IDPedido, Fecha, Importe) values (22, '3/1/2022', 357);
+insert into Pagos (IDPedido, Fecha, Importe) values (943, '2/23/2022', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (734, '4/18/2022', 328);
+insert into Pagos (IDPedido, Fecha, Importe) values (318, '7/25/2022', 214);
+insert into Pagos (IDPedido, Fecha, Importe) values (178, '1/1/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (98, '5/4/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (328, '5/17/2022', 303);
+insert into Pagos (IDPedido, Fecha, Importe) values (300, '6/17/2022', 126);
+insert into Pagos (IDPedido, Fecha, Importe) values (48, '6/20/2022', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (522, '10/29/2021', 321);
+insert into Pagos (IDPedido, Fecha, Importe) values (843, '7/13/2022', 342);
+insert into Pagos (IDPedido, Fecha, Importe) values (301, '4/23/2022', 427);
+insert into Pagos (IDPedido, Fecha, Importe) values (279, '9/28/2021', 408);
+insert into Pagos (IDPedido, Fecha, Importe) values (515, '1/17/2022', 163);
+insert into Pagos (IDPedido, Fecha, Importe) values (892, '9/26/2021', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (798, '3/6/2022', 320);
+insert into Pagos (IDPedido, Fecha, Importe) values (429, '7/11/2022', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (821, '9/3/2022', 165);
+insert into Pagos (IDPedido, Fecha, Importe) values (551, '3/8/2022', 230);
+insert into Pagos (IDPedido, Fecha, Importe) values (862, '10/24/2021', 450);
+insert into Pagos (IDPedido, Fecha, Importe) values (372, '3/28/2022', 108);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '12/18/2021', 309);
+insert into Pagos (IDPedido, Fecha, Importe) values (845, '11/16/2021', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (95, '9/23/2021', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (832, '1/7/2022', 325);
+insert into Pagos (IDPedido, Fecha, Importe) values (342, '1/2/2022', 121);
+insert into Pagos (IDPedido, Fecha, Importe) values (820, '11/3/2021', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (266, '9/21/2021', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (663, '4/28/2022', 398);
+insert into Pagos (IDPedido, Fecha, Importe) values (287, '1/29/2022', 204);
+insert into Pagos (IDPedido, Fecha, Importe) values (368, '3/22/2022', 401);
+insert into Pagos (IDPedido, Fecha, Importe) values (152, '9/4/2021', 185);
+insert into Pagos (IDPedido, Fecha, Importe) values (753, '7/27/2022', 433);
+insert into Pagos (IDPedido, Fecha, Importe) values (494, '12/11/2021', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (292, '7/11/2022', 287);
+insert into Pagos (IDPedido, Fecha, Importe) values (837, '11/21/2021', 119);
+insert into Pagos (IDPedido, Fecha, Importe) values (638, '3/31/2022', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (673, '1/30/2022', 467);
+insert into Pagos (IDPedido, Fecha, Importe) values (379, '3/11/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (706, '6/10/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (170, '8/6/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (622, '5/27/2022', 139);
+insert into Pagos (IDPedido, Fecha, Importe) values (863, '2/26/2022', 370);
+insert into Pagos (IDPedido, Fecha, Importe) values (302, '5/6/2022', 326);
+insert into Pagos (IDPedido, Fecha, Importe) values (130, '1/2/2022', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (495, '2/10/2022', 197);
+insert into Pagos (IDPedido, Fecha, Importe) values (396, '10/15/2021', 401);
+insert into Pagos (IDPedido, Fecha, Importe) values (297, '10/26/2021', 207);
+insert into Pagos (IDPedido, Fecha, Importe) values (892, '10/4/2021', 107);
+insert into Pagos (IDPedido, Fecha, Importe) values (460, '5/13/2022', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (641, '9/3/2022', 391);
+insert into Pagos (IDPedido, Fecha, Importe) values (541, '10/21/2021', 380);
+insert into Pagos (IDPedido, Fecha, Importe) values (76, '10/28/2021', 331);
+insert into Pagos (IDPedido, Fecha, Importe) values (408, '10/14/2021', 196);
+insert into Pagos (IDPedido, Fecha, Importe) values (99, '9/25/2021', 477);
+insert into Pagos (IDPedido, Fecha, Importe) values (585, '11/16/2021', 389);
+insert into Pagos (IDPedido, Fecha, Importe) values (37, '5/21/2022', 240);
+insert into Pagos (IDPedido, Fecha, Importe) values (748, '12/27/2021', 194);
+insert into Pagos (IDPedido, Fecha, Importe) values (177, '10/17/2021', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (776, '3/4/2022', 486);
+insert into Pagos (IDPedido, Fecha, Importe) values (329, '3/26/2022', 420);
+insert into Pagos (IDPedido, Fecha, Importe) values (527, '2/28/2022', 310);
+insert into Pagos (IDPedido, Fecha, Importe) values (974, '3/25/2022', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (338, '4/17/2022', 110);
+insert into Pagos (IDPedido, Fecha, Importe) values (654, '10/18/2021', 178);
+insert into Pagos (IDPedido, Fecha, Importe) values (347, '8/11/2022', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (632, '8/10/2022', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (894, '6/11/2022', 471);
+insert into Pagos (IDPedido, Fecha, Importe) values (107, '7/21/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (372, '10/21/2021', 350);
+insert into Pagos (IDPedido, Fecha, Importe) values (144, '4/30/2022', 208);
+insert into Pagos (IDPedido, Fecha, Importe) values (630, '8/3/2022', 186);
+insert into Pagos (IDPedido, Fecha, Importe) values (774, '11/18/2021', 271);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '2/14/2022', 446);
+insert into Pagos (IDPedido, Fecha, Importe) values (99, '11/14/2021', 353);
+insert into Pagos (IDPedido, Fecha, Importe) values (718, '3/1/2022', 460);
+insert into Pagos (IDPedido, Fecha, Importe) values (189, '6/4/2022', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (932, '8/27/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (876, '1/25/2022', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (847, '6/8/2022', 407);
+insert into Pagos (IDPedido, Fecha, Importe) values (568, '8/5/2022', 328);
+insert into Pagos (IDPedido, Fecha, Importe) values (661, '3/13/2022', 264);
+insert into Pagos (IDPedido, Fecha, Importe) values (531, '8/16/2022', 304);
+insert into Pagos (IDPedido, Fecha, Importe) values (448, '9/25/2021', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (769, '12/19/2021', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (947, '1/17/2022', 471);
+insert into Pagos (IDPedido, Fecha, Importe) values (615, '7/26/2022', 377);
+insert into Pagos (IDPedido, Fecha, Importe) values (773, '4/28/2022', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (601, '12/15/2021', 333);
+insert into Pagos (IDPedido, Fecha, Importe) values (431, '2/13/2022', 382);
+insert into Pagos (IDPedido, Fecha, Importe) values (3, '10/3/2021', 500);
+insert into Pagos (IDPedido, Fecha, Importe) values (746, '4/17/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (511, '7/31/2022', 442);
+insert into Pagos (IDPedido, Fecha, Importe) values (369, '3/2/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (446, '7/30/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (76, '7/10/2022', 441);
+insert into Pagos (IDPedido, Fecha, Importe) values (468, '9/5/2021', 459);
+insert into Pagos (IDPedido, Fecha, Importe) values (14, '10/6/2021', 111);
+insert into Pagos (IDPedido, Fecha, Importe) values (620, '3/10/2022', 299);
+insert into Pagos (IDPedido, Fecha, Importe) values (465, '2/22/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (642, '8/16/2022', 179);
+insert into Pagos (IDPedido, Fecha, Importe) values (731, '9/28/2021', 143);
+insert into Pagos (IDPedido, Fecha, Importe) values (563, '3/11/2022', 227);
+insert into Pagos (IDPedido, Fecha, Importe) values (658, '4/4/2022', 255);
+insert into Pagos (IDPedido, Fecha, Importe) values (760, '10/13/2021', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (14, '8/4/2022', 223);
+insert into Pagos (IDPedido, Fecha, Importe) values (274, '1/2/2022', 388);
+insert into Pagos (IDPedido, Fecha, Importe) values (88, '1/1/2022', 286);
+insert into Pagos (IDPedido, Fecha, Importe) values (220, '3/21/2022', 387);
+insert into Pagos (IDPedido, Fecha, Importe) values (758, '6/21/2022', 192);
+insert into Pagos (IDPedido, Fecha, Importe) values (800, '9/10/2021', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (764, '5/16/2022', 385);
+insert into Pagos (IDPedido, Fecha, Importe) values (530, '10/28/2021', 434);
+insert into Pagos (IDPedido, Fecha, Importe) values (134, '7/6/2022', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (48, '8/30/2022', 465);
+insert into Pagos (IDPedido, Fecha, Importe) values (558, '6/29/2022', 327);
+insert into Pagos (IDPedido, Fecha, Importe) values (541, '9/17/2021', 444);
+insert into Pagos (IDPedido, Fecha, Importe) values (915, '7/16/2022', 346);
+insert into Pagos (IDPedido, Fecha, Importe) values (896, '8/19/2022', 246);
+insert into Pagos (IDPedido, Fecha, Importe) values (169, '3/18/2022', 320);
+insert into Pagos (IDPedido, Fecha, Importe) values (757, '10/13/2021', 134);
+insert into Pagos (IDPedido, Fecha, Importe) values (492, '8/15/2022', 295);
+insert into Pagos (IDPedido, Fecha, Importe) values (91, '6/30/2022', 376);
+insert into Pagos (IDPedido, Fecha, Importe) values (301, '4/30/2022', 463);
+insert into Pagos (IDPedido, Fecha, Importe) values (110, '10/20/2021', 157);
+insert into Pagos (IDPedido, Fecha, Importe) values (809, '6/18/2022', 258);
+insert into Pagos (IDPedido, Fecha, Importe) values (600, '8/1/2022', 431);
+insert into Pagos (IDPedido, Fecha, Importe) values (780, '11/27/2021', 178);
+insert into Pagos (IDPedido, Fecha, Importe) values (107, '9/20/2021', 457);
+insert into Pagos (IDPedido, Fecha, Importe) values (343, '7/10/2022', 393);
+insert into Pagos (IDPedido, Fecha, Importe) values (408, '4/10/2022', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (288, '5/14/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (894, '8/31/2022', 184);
+insert into Pagos (IDPedido, Fecha, Importe) values (591, '6/14/2022', 169);
+insert into Pagos (IDPedido, Fecha, Importe) values (587, '5/31/2022', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (562, '5/16/2022', 157);
+insert into Pagos (IDPedido, Fecha, Importe) values (446, '7/27/2022', 311);
+insert into Pagos (IDPedido, Fecha, Importe) values (398, '7/15/2022', 497);
+insert into Pagos (IDPedido, Fecha, Importe) values (432, '1/31/2022', 259);
+insert into Pagos (IDPedido, Fecha, Importe) values (10, '3/17/2022', 446);
+insert into Pagos (IDPedido, Fecha, Importe) values (949, '6/8/2022', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (582, '10/21/2021', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (480, '12/27/2021', 227);
+insert into Pagos (IDPedido, Fecha, Importe) values (397, '9/1/2022', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (187, '10/25/2021', 357);
+insert into Pagos (IDPedido, Fecha, Importe) values (752, '1/24/2022', 131);
+insert into Pagos (IDPedido, Fecha, Importe) values (426, '3/1/2022', 163);
+insert into Pagos (IDPedido, Fecha, Importe) values (36, '6/4/2022', 453);
+insert into Pagos (IDPedido, Fecha, Importe) values (700, '8/31/2022', 384);
+insert into Pagos (IDPedido, Fecha, Importe) values (527, '1/12/2022', 117);
+insert into Pagos (IDPedido, Fecha, Importe) values (78, '4/28/2022', 221);
+insert into Pagos (IDPedido, Fecha, Importe) values (469, '9/4/2021', 403);
+insert into Pagos (IDPedido, Fecha, Importe) values (784, '5/7/2022', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (74, '1/5/2022', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (318, '12/9/2021', 229);
+insert into Pagos (IDPedido, Fecha, Importe) values (513, '8/14/2022', 122);
+insert into Pagos (IDPedido, Fecha, Importe) values (691, '1/6/2022', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (803, '6/14/2022', 471);
+insert into Pagos (IDPedido, Fecha, Importe) values (364, '7/6/2022', 480);
+insert into Pagos (IDPedido, Fecha, Importe) values (534, '1/12/2022', 156);
+insert into Pagos (IDPedido, Fecha, Importe) values (337, '10/16/2021', 179);
+insert into Pagos (IDPedido, Fecha, Importe) values (35, '7/31/2022', 294);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '2/25/2022', 282);
+insert into Pagos (IDPedido, Fecha, Importe) values (94, '9/20/2021', 315);
+insert into Pagos (IDPedido, Fecha, Importe) values (125, '3/22/2022', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (464, '4/30/2022', 411);
+insert into Pagos (IDPedido, Fecha, Importe) values (747, '3/30/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (881, '2/3/2022', 343);
+insert into Pagos (IDPedido, Fecha, Importe) values (273, '7/17/2022', 108);
+insert into Pagos (IDPedido, Fecha, Importe) values (547, '9/12/2021', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (432, '7/15/2022', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (566, '3/17/2022', 242);
+insert into Pagos (IDPedido, Fecha, Importe) values (366, '11/10/2021', 431);
+insert into Pagos (IDPedido, Fecha, Importe) values (450, '6/20/2022', 442);
+insert into Pagos (IDPedido, Fecha, Importe) values (2, '11/6/2021', 179);
+insert into Pagos (IDPedido, Fecha, Importe) values (557, '10/8/2021', 167);
+insert into Pagos (IDPedido, Fecha, Importe) values (261, '1/13/2022', 482);
+insert into Pagos (IDPedido, Fecha, Importe) values (906, '1/28/2022', 465);
+insert into Pagos (IDPedido, Fecha, Importe) values (597, '5/4/2022', 496);
+insert into Pagos (IDPedido, Fecha, Importe) values (993, '5/7/2022', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (260, '8/1/2022', 217);
+insert into Pagos (IDPedido, Fecha, Importe) values (123, '2/19/2022', 204);
+insert into Pagos (IDPedido, Fecha, Importe) values (219, '7/27/2022', 328);
+insert into Pagos (IDPedido, Fecha, Importe) values (726, '3/4/2022', 217);
+insert into Pagos (IDPedido, Fecha, Importe) values (409, '6/29/2022', 149);
+insert into Pagos (IDPedido, Fecha, Importe) values (123, '3/21/2022', 408);
+insert into Pagos (IDPedido, Fecha, Importe) values (550, '11/18/2021', 292);
+insert into Pagos (IDPedido, Fecha, Importe) values (219, '9/7/2021', 262);
+insert into Pagos (IDPedido, Fecha, Importe) values (976, '6/23/2022', 339);
+insert into Pagos (IDPedido, Fecha, Importe) values (531, '10/19/2021', 382);
+insert into Pagos (IDPedido, Fecha, Importe) values (819, '3/12/2022', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (1000, '2/14/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (614, '10/15/2021', 389);
+insert into Pagos (IDPedido, Fecha, Importe) values (523, '5/25/2022', 349);
+insert into Pagos (IDPedido, Fecha, Importe) values (489, '2/4/2022', 291);
+insert into Pagos (IDPedido, Fecha, Importe) values (486, '7/16/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (396, '12/18/2021', 462);
+insert into Pagos (IDPedido, Fecha, Importe) values (520, '10/25/2021', 104);
+insert into Pagos (IDPedido, Fecha, Importe) values (957, '5/2/2022', 459);
+insert into Pagos (IDPedido, Fecha, Importe) values (26, '4/16/2022', 127);
+insert into Pagos (IDPedido, Fecha, Importe) values (988, '1/29/2022', 290);
+insert into Pagos (IDPedido, Fecha, Importe) values (160, '6/9/2022', 214);
+insert into Pagos (IDPedido, Fecha, Importe) values (288, '3/30/2022', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (507, '1/29/2022', 378);
+insert into Pagos (IDPedido, Fecha, Importe) values (974, '11/3/2021', 302);
+insert into Pagos (IDPedido, Fecha, Importe) values (145, '6/10/2022', 454);
+insert into Pagos (IDPedido, Fecha, Importe) values (882, '7/22/2022', 166);
+insert into Pagos (IDPedido, Fecha, Importe) values (65, '2/16/2022', 180);
+insert into Pagos (IDPedido, Fecha, Importe) values (807, '10/21/2021', 469);
+insert into Pagos (IDPedido, Fecha, Importe) values (823, '11/27/2021', 144);
+insert into Pagos (IDPedido, Fecha, Importe) values (187, '9/24/2021', 409);
+insert into Pagos (IDPedido, Fecha, Importe) values (199, '8/1/2022', 363);
+insert into Pagos (IDPedido, Fecha, Importe) values (629, '8/22/2022', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (865, '7/2/2022', 384);
+insert into Pagos (IDPedido, Fecha, Importe) values (711, '3/28/2022', 342);
+insert into Pagos (IDPedido, Fecha, Importe) values (534, '4/16/2022', 393);
+insert into Pagos (IDPedido, Fecha, Importe) values (268, '3/25/2022', 317);
+insert into Pagos (IDPedido, Fecha, Importe) values (143, '10/10/2021', 223);
+insert into Pagos (IDPedido, Fecha, Importe) values (625, '5/15/2022', 122);
+insert into Pagos (IDPedido, Fecha, Importe) values (789, '3/26/2022', 339);
+insert into Pagos (IDPedido, Fecha, Importe) values (385, '7/23/2022', 260);
+insert into Pagos (IDPedido, Fecha, Importe) values (254, '7/19/2022', 105);
+insert into Pagos (IDPedido, Fecha, Importe) values (896, '4/12/2022', 392);
+insert into Pagos (IDPedido, Fecha, Importe) values (783, '4/6/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (322, '3/24/2022', 135);
+insert into Pagos (IDPedido, Fecha, Importe) values (374, '12/29/2021', 246);
+insert into Pagos (IDPedido, Fecha, Importe) values (834, '9/20/2021', 392);
+insert into Pagos (IDPedido, Fecha, Importe) values (581, '2/21/2022', 409);
+insert into Pagos (IDPedido, Fecha, Importe) values (351, '12/4/2021', 109);
+insert into Pagos (IDPedido, Fecha, Importe) values (785, '11/28/2021', 234);
+insert into Pagos (IDPedido, Fecha, Importe) values (453, '11/5/2021', 357);
+insert into Pagos (IDPedido, Fecha, Importe) values (496, '5/12/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (880, '7/2/2022', 241);
+insert into Pagos (IDPedido, Fecha, Importe) values (808, '5/28/2022', 134);
+insert into Pagos (IDPedido, Fecha, Importe) values (58, '8/18/2022', 451);
+insert into Pagos (IDPedido, Fecha, Importe) values (615, '9/27/2021', 256);
+insert into Pagos (IDPedido, Fecha, Importe) values (743, '1/26/2022', 489);
+insert into Pagos (IDPedido, Fecha, Importe) values (853, '3/19/2022', 245);
+insert into Pagos (IDPedido, Fecha, Importe) values (833, '1/25/2022', 219);
+insert into Pagos (IDPedido, Fecha, Importe) values (589, '8/4/2022', 277);
+insert into Pagos (IDPedido, Fecha, Importe) values (382, '10/24/2021', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (577, '9/9/2021', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (221, '6/25/2022', 468);
+insert into Pagos (IDPedido, Fecha, Importe) values (324, '8/9/2022', 147);
+insert into Pagos (IDPedido, Fecha, Importe) values (796, '5/6/2022', 407);
+insert into Pagos (IDPedido, Fecha, Importe) values (892, '8/16/2022', 422);
+insert into Pagos (IDPedido, Fecha, Importe) values (694, '11/20/2021', 150);
+insert into Pagos (IDPedido, Fecha, Importe) values (953, '8/22/2022', 416);
+insert into Pagos (IDPedido, Fecha, Importe) values (61, '6/21/2022', 414);
+insert into Pagos (IDPedido, Fecha, Importe) values (917, '9/20/2021', 432);
+insert into Pagos (IDPedido, Fecha, Importe) values (147, '3/27/2022', 252);
+insert into Pagos (IDPedido, Fecha, Importe) values (794, '4/21/2022', 346);
+insert into Pagos (IDPedido, Fecha, Importe) values (74, '11/30/2021', 224);
+insert into Pagos (IDPedido, Fecha, Importe) values (667, '12/6/2021', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (222, '3/18/2022', 304);
+insert into Pagos (IDPedido, Fecha, Importe) values (470, '12/15/2021', 493);
+insert into Pagos (IDPedido, Fecha, Importe) values (949, '4/13/2022', 129);
+insert into Pagos (IDPedido, Fecha, Importe) values (178, '12/30/2021', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (57, '4/23/2022', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (816, '11/20/2021', 287);
+insert into Pagos (IDPedido, Fecha, Importe) values (72, '5/24/2022', 127);
+insert into Pagos (IDPedido, Fecha, Importe) values (125, '8/25/2022', 373);
+insert into Pagos (IDPedido, Fecha, Importe) values (20, '1/19/2022', 395);
+insert into Pagos (IDPedido, Fecha, Importe) values (142, '2/11/2022', 410);
+insert into Pagos (IDPedido, Fecha, Importe) values (148, '10/15/2021', 230);
+insert into Pagos (IDPedido, Fecha, Importe) values (983, '5/25/2022', 381);
+insert into Pagos (IDPedido, Fecha, Importe) values (463, '7/31/2022', 451);
+insert into Pagos (IDPedido, Fecha, Importe) values (10, '6/11/2022', 130);
+insert into Pagos (IDPedido, Fecha, Importe) values (880, '7/16/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (17, '1/25/2022', 119);
+insert into Pagos (IDPedido, Fecha, Importe) values (877, '5/8/2022', 169);
+insert into Pagos (IDPedido, Fecha, Importe) values (290, '5/14/2022', 102);
+insert into Pagos (IDPedido, Fecha, Importe) values (825, '1/13/2022', 393);
+insert into Pagos (IDPedido, Fecha, Importe) values (194, '9/21/2021', 449);
+insert into Pagos (IDPedido, Fecha, Importe) values (951, '7/3/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (572, '2/3/2022', 481);
+insert into Pagos (IDPedido, Fecha, Importe) values (645, '7/6/2022', 164);
+insert into Pagos (IDPedido, Fecha, Importe) values (245, '8/4/2022', 298);
+insert into Pagos (IDPedido, Fecha, Importe) values (876, '10/31/2021', 223);
+insert into Pagos (IDPedido, Fecha, Importe) values (434, '9/9/2021', 440);
+insert into Pagos (IDPedido, Fecha, Importe) values (103, '11/8/2021', 287);
+insert into Pagos (IDPedido, Fecha, Importe) values (490, '11/11/2021', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (863, '5/1/2022', 405);
+insert into Pagos (IDPedido, Fecha, Importe) values (66, '1/24/2022', 488);
+insert into Pagos (IDPedido, Fecha, Importe) values (92, '12/29/2021', 300);
+insert into Pagos (IDPedido, Fecha, Importe) values (635, '9/18/2021', 324);
+insert into Pagos (IDPedido, Fecha, Importe) values (14, '11/28/2021', 175);
+insert into Pagos (IDPedido, Fecha, Importe) values (623, '12/27/2021', 256);
+insert into Pagos (IDPedido, Fecha, Importe) values (176, '8/12/2022', 164);
+insert into Pagos (IDPedido, Fecha, Importe) values (138, '5/27/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (619, '2/21/2022', 162);
+insert into Pagos (IDPedido, Fecha, Importe) values (278, '4/27/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (172, '10/6/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (866, '7/19/2022', 326);
+insert into Pagos (IDPedido, Fecha, Importe) values (948, '6/7/2022', 128);
+insert into Pagos (IDPedido, Fecha, Importe) values (526, '11/1/2021', 487);
+insert into Pagos (IDPedido, Fecha, Importe) values (775, '2/11/2022', 497);
+insert into Pagos (IDPedido, Fecha, Importe) values (579, '5/31/2022', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (587, '8/29/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (285, '6/20/2022', 167);
+insert into Pagos (IDPedido, Fecha, Importe) values (311, '11/21/2021', 266);
+insert into Pagos (IDPedido, Fecha, Importe) values (123, '6/27/2022', 296);
+insert into Pagos (IDPedido, Fecha, Importe) values (149, '11/23/2021', 427);
+insert into Pagos (IDPedido, Fecha, Importe) values (906, '1/25/2022', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (902, '2/13/2022', 168);
+insert into Pagos (IDPedido, Fecha, Importe) values (52, '1/24/2022', 280);
+insert into Pagos (IDPedido, Fecha, Importe) values (649, '11/7/2021', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (562, '12/28/2021', 233);
+insert into Pagos (IDPedido, Fecha, Importe) values (860, '12/8/2021', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (575, '3/18/2022', 358);
+insert into Pagos (IDPedido, Fecha, Importe) values (637, '3/17/2022', 375);
+insert into Pagos (IDPedido, Fecha, Importe) values (993, '6/1/2022', 263);
+insert into Pagos (IDPedido, Fecha, Importe) values (977, '4/29/2022', 242);
+insert into Pagos (IDPedido, Fecha, Importe) values (702, '4/15/2022', 307);
+insert into Pagos (IDPedido, Fecha, Importe) values (856, '4/27/2022', 387);
+insert into Pagos (IDPedido, Fecha, Importe) values (285, '9/28/2021', 281);
+insert into Pagos (IDPedido, Fecha, Importe) values (825, '3/11/2022', 347);
+insert into Pagos (IDPedido, Fecha, Importe) values (229, '6/2/2022', 424);
+insert into Pagos (IDPedido, Fecha, Importe) values (164, '3/11/2022', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (361, '1/5/2022', 162);
+insert into Pagos (IDPedido, Fecha, Importe) values (413, '12/21/2021', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (643, '6/8/2022', 378);
+insert into Pagos (IDPedido, Fecha, Importe) values (490, '8/22/2022', 226);
+insert into Pagos (IDPedido, Fecha, Importe) values (570, '11/8/2021', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (192, '12/8/2021', 185);
+insert into Pagos (IDPedido, Fecha, Importe) values (488, '3/29/2022', 214);
+insert into Pagos (IDPedido, Fecha, Importe) values (924, '5/16/2022', 357);
+insert into Pagos (IDPedido, Fecha, Importe) values (408, '5/16/2022', 146);
+insert into Pagos (IDPedido, Fecha, Importe) values (431, '9/25/2021', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (578, '1/28/2022', 233);
+insert into Pagos (IDPedido, Fecha, Importe) values (429, '10/11/2021', 295);
+insert into Pagos (IDPedido, Fecha, Importe) values (468, '1/28/2022', 347);
+insert into Pagos (IDPedido, Fecha, Importe) values (988, '7/7/2022', 206);
+insert into Pagos (IDPedido, Fecha, Importe) values (492, '3/8/2022', 387);
+insert into Pagos (IDPedido, Fecha, Importe) values (429, '2/17/2022', 333);
+insert into Pagos (IDPedido, Fecha, Importe) values (714, '8/27/2022', 209);
+insert into Pagos (IDPedido, Fecha, Importe) values (93, '3/31/2022', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '4/30/2022', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (179, '8/16/2022', 490);
+insert into Pagos (IDPedido, Fecha, Importe) values (447, '3/14/2022', 386);
+insert into Pagos (IDPedido, Fecha, Importe) values (546, '3/30/2022', 177);
+insert into Pagos (IDPedido, Fecha, Importe) values (949, '1/8/2022', 292);
+insert into Pagos (IDPedido, Fecha, Importe) values (127, '12/7/2021', 174);
+insert into Pagos (IDPedido, Fecha, Importe) values (524, '7/9/2022', 238);
+insert into Pagos (IDPedido, Fecha, Importe) values (522, '11/27/2021', 313);
+insert into Pagos (IDPedido, Fecha, Importe) values (592, '8/25/2022', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (565, '12/14/2021', 381);
+insert into Pagos (IDPedido, Fecha, Importe) values (319, '5/26/2022', 309);
+insert into Pagos (IDPedido, Fecha, Importe) values (68, '6/27/2022', 434);
+insert into Pagos (IDPedido, Fecha, Importe) values (375, '4/27/2022', 235);
+insert into Pagos (IDPedido, Fecha, Importe) values (562, '11/22/2021', 489);
+insert into Pagos (IDPedido, Fecha, Importe) values (987, '7/27/2022', 409);
+insert into Pagos (IDPedido, Fecha, Importe) values (386, '9/3/2022', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (64, '6/17/2022', 412);
+insert into Pagos (IDPedido, Fecha, Importe) values (227, '9/25/2021', 416);
+insert into Pagos (IDPedido, Fecha, Importe) values (73, '2/24/2022', 277);
+insert into Pagos (IDPedido, Fecha, Importe) values (514, '8/18/2022', 310);
+insert into Pagos (IDPedido, Fecha, Importe) values (930, '10/23/2021', 407);
+insert into Pagos (IDPedido, Fecha, Importe) values (330, '8/23/2022', 358);
+insert into Pagos (IDPedido, Fecha, Importe) values (307, '11/17/2021', 335);
+insert into Pagos (IDPedido, Fecha, Importe) values (746, '12/26/2021', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (819, '1/21/2022', 372);
+insert into Pagos (IDPedido, Fecha, Importe) values (835, '2/25/2022', 189);
+insert into Pagos (IDPedido, Fecha, Importe) values (50, '8/18/2022', 199);
+insert into Pagos (IDPedido, Fecha, Importe) values (286, '2/27/2022', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (486, '4/10/2022', 483);
+insert into Pagos (IDPedido, Fecha, Importe) values (684, '9/25/2021', 172);
+insert into Pagos (IDPedido, Fecha, Importe) values (412, '11/18/2021', 335);
+insert into Pagos (IDPedido, Fecha, Importe) values (991, '7/7/2022', 471);
+insert into Pagos (IDPedido, Fecha, Importe) values (554, '4/5/2022', 289);
+insert into Pagos (IDPedido, Fecha, Importe) values (92, '9/17/2021', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (777, '10/27/2021', 437);
+insert into Pagos (IDPedido, Fecha, Importe) values (851, '1/20/2022', 424);
+insert into Pagos (IDPedido, Fecha, Importe) values (444, '10/16/2021', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (977, '4/13/2022', 450);
+insert into Pagos (IDPedido, Fecha, Importe) values (780, '7/16/2022', 107);
+insert into Pagos (IDPedido, Fecha, Importe) values (856, '11/20/2021', 125);
+insert into Pagos (IDPedido, Fecha, Importe) values (229, '10/31/2021', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (657, '8/2/2022', 147);
+insert into Pagos (IDPedido, Fecha, Importe) values (237, '4/11/2022', 395);
+insert into Pagos (IDPedido, Fecha, Importe) values (914, '7/20/2022', 278);
+insert into Pagos (IDPedido, Fecha, Importe) values (307, '6/8/2022', 282);
+insert into Pagos (IDPedido, Fecha, Importe) values (733, '5/10/2022', 223);
+insert into Pagos (IDPedido, Fecha, Importe) values (767, '3/5/2022', 225);
+insert into Pagos (IDPedido, Fecha, Importe) values (119, '4/2/2022', 348);
+insert into Pagos (IDPedido, Fecha, Importe) values (539, '10/8/2021', 379);
+insert into Pagos (IDPedido, Fecha, Importe) values (69, '1/28/2022', 264);
+insert into Pagos (IDPedido, Fecha, Importe) values (112, '10/28/2021', 459);
+insert into Pagos (IDPedido, Fecha, Importe) values (850, '12/16/2021', 194);
+insert into Pagos (IDPedido, Fecha, Importe) values (232, '4/9/2022', 252);
+insert into Pagos (IDPedido, Fecha, Importe) values (864, '6/8/2022', 187);
+insert into Pagos (IDPedido, Fecha, Importe) values (279, '3/21/2022', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (998, '8/5/2022', 455);
+insert into Pagos (IDPedido, Fecha, Importe) values (260, '11/28/2021', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (673, '7/21/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (497, '1/15/2022', 177);
+insert into Pagos (IDPedido, Fecha, Importe) values (153, '3/17/2022', 478);
+insert into Pagos (IDPedido, Fecha, Importe) values (932, '8/26/2022', 393);
+insert into Pagos (IDPedido, Fecha, Importe) values (947, '9/14/2021', 329);
+insert into Pagos (IDPedido, Fecha, Importe) values (3, '6/15/2022', 339);
+insert into Pagos (IDPedido, Fecha, Importe) values (725, '4/28/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (872, '11/21/2021', 410);
+insert into Pagos (IDPedido, Fecha, Importe) values (346, '10/13/2021', 303);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '11/22/2021', 114);
+insert into Pagos (IDPedido, Fecha, Importe) values (635, '3/19/2022', 432);
+insert into Pagos (IDPedido, Fecha, Importe) values (370, '8/5/2022', 118);
+insert into Pagos (IDPedido, Fecha, Importe) values (749, '12/2/2021', 292);
+insert into Pagos (IDPedido, Fecha, Importe) values (572, '10/20/2021', 207);
+insert into Pagos (IDPedido, Fecha, Importe) values (378, '11/22/2021', 499);
+insert into Pagos (IDPedido, Fecha, Importe) values (623, '12/3/2021', 293);
+insert into Pagos (IDPedido, Fecha, Importe) values (899, '10/25/2021', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (259, '3/24/2022', 468);
+insert into Pagos (IDPedido, Fecha, Importe) values (23, '9/8/2021', 407);
+insert into Pagos (IDPedido, Fecha, Importe) values (987, '9/8/2021', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (545, '11/20/2021', 202);
+insert into Pagos (IDPedido, Fecha, Importe) values (213, '6/29/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '12/31/2021', 488);
+insert into Pagos (IDPedido, Fecha, Importe) values (152, '11/5/2021', 260);
+insert into Pagos (IDPedido, Fecha, Importe) values (123, '12/15/2021', 142);
+insert into Pagos (IDPedido, Fecha, Importe) values (378, '1/22/2022', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (495, '4/20/2022', 395);
+insert into Pagos (IDPedido, Fecha, Importe) values (862, '12/1/2021', 340);
+insert into Pagos (IDPedido, Fecha, Importe) values (799, '11/30/2021', 360);
+insert into Pagos (IDPedido, Fecha, Importe) values (895, '8/26/2022', 364);
+insert into Pagos (IDPedido, Fecha, Importe) values (33, '9/12/2021', 301);
+insert into Pagos (IDPedido, Fecha, Importe) values (713, '11/9/2021', 279);
+insert into Pagos (IDPedido, Fecha, Importe) values (982, '12/27/2021', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (771, '4/1/2022', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (253, '4/6/2022', 325);
+insert into Pagos (IDPedido, Fecha, Importe) values (635, '5/8/2022', 196);
+insert into Pagos (IDPedido, Fecha, Importe) values (100, '7/10/2022', 342);
+insert into Pagos (IDPedido, Fecha, Importe) values (995, '2/4/2022', 111);
+insert into Pagos (IDPedido, Fecha, Importe) values (710, '4/10/2022', 478);
+insert into Pagos (IDPedido, Fecha, Importe) values (499, '10/22/2021', 266);
+insert into Pagos (IDPedido, Fecha, Importe) values (715, '12/11/2021', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (267, '8/27/2022', 148);
+insert into Pagos (IDPedido, Fecha, Importe) values (491, '6/21/2022', 184);
+insert into Pagos (IDPedido, Fecha, Importe) values (722, '5/11/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (749, '6/29/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (805, '3/7/2022', 159);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '2/14/2022', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (493, '10/20/2021', 453);
+insert into Pagos (IDPedido, Fecha, Importe) values (814, '11/27/2021', 163);
+insert into Pagos (IDPedido, Fecha, Importe) values (530, '6/20/2022', 415);
+insert into Pagos (IDPedido, Fecha, Importe) values (187, '3/5/2022', 167);
+insert into Pagos (IDPedido, Fecha, Importe) values (216, '12/8/2021', 155);
+insert into Pagos (IDPedido, Fecha, Importe) values (551, '11/20/2021', 340);
+insert into Pagos (IDPedido, Fecha, Importe) values (992, '12/10/2021', 111);
+insert into Pagos (IDPedido, Fecha, Importe) values (738, '5/1/2022', 253);
+insert into Pagos (IDPedido, Fecha, Importe) values (93, '5/5/2022', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (518, '9/26/2021', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (356, '8/14/2022', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (432, '7/4/2022', 346);
+insert into Pagos (IDPedido, Fecha, Importe) values (616, '11/17/2021', 198);
+insert into Pagos (IDPedido, Fecha, Importe) values (892, '8/26/2022', 252);
+insert into Pagos (IDPedido, Fecha, Importe) values (462, '2/10/2022', 185);
+insert into Pagos (IDPedido, Fecha, Importe) values (186, '10/1/2021', 100);
+insert into Pagos (IDPedido, Fecha, Importe) values (511, '9/13/2021', 389);
+insert into Pagos (IDPedido, Fecha, Importe) values (896, '6/9/2022', 219);
+insert into Pagos (IDPedido, Fecha, Importe) values (455, '12/13/2021', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (147, '5/28/2022', 454);
+insert into Pagos (IDPedido, Fecha, Importe) values (411, '3/24/2022', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (663, '7/1/2022', 274);
+insert into Pagos (IDPedido, Fecha, Importe) values (735, '8/19/2022', 366);
+insert into Pagos (IDPedido, Fecha, Importe) values (644, '10/25/2021', 239);
+insert into Pagos (IDPedido, Fecha, Importe) values (344, '11/14/2021', 220);
+insert into Pagos (IDPedido, Fecha, Importe) values (628, '11/26/2021', 440);
+insert into Pagos (IDPedido, Fecha, Importe) values (594, '5/9/2022', 155);
+insert into Pagos (IDPedido, Fecha, Importe) values (833, '5/18/2022', 187);
+insert into Pagos (IDPedido, Fecha, Importe) values (131, '5/25/2022', 464);
+insert into Pagos (IDPedido, Fecha, Importe) values (79, '3/29/2022', 151);
+insert into Pagos (IDPedido, Fecha, Importe) values (168, '12/2/2021', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (292, '3/7/2022', 119);
+insert into Pagos (IDPedido, Fecha, Importe) values (936, '9/13/2021', 100);
+insert into Pagos (IDPedido, Fecha, Importe) values (136, '7/17/2022', 212);
+insert into Pagos (IDPedido, Fecha, Importe) values (607, '8/5/2022', 435);
+insert into Pagos (IDPedido, Fecha, Importe) values (680, '2/3/2022', 170);
+insert into Pagos (IDPedido, Fecha, Importe) values (772, '2/21/2022', 358);
+insert into Pagos (IDPedido, Fecha, Importe) values (38, '2/28/2022', 245);
+insert into Pagos (IDPedido, Fecha, Importe) values (875, '1/15/2022', 301);
+insert into Pagos (IDPedido, Fecha, Importe) values (372, '7/21/2022', 189);
+insert into Pagos (IDPedido, Fecha, Importe) values (643, '9/15/2021', 404);
+insert into Pagos (IDPedido, Fecha, Importe) values (88, '9/18/2021', 346);
+insert into Pagos (IDPedido, Fecha, Importe) values (871, '6/13/2022', 190);
+insert into Pagos (IDPedido, Fecha, Importe) values (954, '2/4/2022', 414);
+insert into Pagos (IDPedido, Fecha, Importe) values (202, '1/6/2022', 326);
+insert into Pagos (IDPedido, Fecha, Importe) values (739, '10/17/2021', 311);
+insert into Pagos (IDPedido, Fecha, Importe) values (901, '4/27/2022', 168);
+insert into Pagos (IDPedido, Fecha, Importe) values (537, '1/24/2022', 497);
+insert into Pagos (IDPedido, Fecha, Importe) values (1, '2/9/2022', 294);
+insert into Pagos (IDPedido, Fecha, Importe) values (588, '4/18/2022', 424);
+insert into Pagos (IDPedido, Fecha, Importe) values (529, '8/4/2022', 353);
+insert into Pagos (IDPedido, Fecha, Importe) values (335, '12/29/2021', 472);
+insert into Pagos (IDPedido, Fecha, Importe) values (304, '4/11/2022', 443);
+insert into Pagos (IDPedido, Fecha, Importe) values (244, '10/26/2021', 379);
+insert into Pagos (IDPedido, Fecha, Importe) values (193, '11/2/2021', 355);
+insert into Pagos (IDPedido, Fecha, Importe) values (687, '7/3/2022', 162);
+insert into Pagos (IDPedido, Fecha, Importe) values (712, '9/8/2021', 358);
+insert into Pagos (IDPedido, Fecha, Importe) values (460, '7/30/2022', 327);
+insert into Pagos (IDPedido, Fecha, Importe) values (377, '8/28/2022', 243);
+insert into Pagos (IDPedido, Fecha, Importe) values (412, '6/12/2022', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (105, '7/28/2022', 152);
+insert into Pagos (IDPedido, Fecha, Importe) values (238, '4/26/2022', 488);
+insert into Pagos (IDPedido, Fecha, Importe) values (937, '11/16/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (800, '1/16/2022', 485);
+insert into Pagos (IDPedido, Fecha, Importe) values (118, '11/24/2021', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (107, '9/16/2021', 283);
+insert into Pagos (IDPedido, Fecha, Importe) values (961, '10/12/2021', 378);
+insert into Pagos (IDPedido, Fecha, Importe) values (119, '2/23/2022', 286);
+insert into Pagos (IDPedido, Fecha, Importe) values (463, '7/28/2022', 126);
+insert into Pagos (IDPedido, Fecha, Importe) values (116, '10/7/2021', 382);
+insert into Pagos (IDPedido, Fecha, Importe) values (560, '12/11/2021', 204);
+insert into Pagos (IDPedido, Fecha, Importe) values (656, '12/11/2021', 500);
+insert into Pagos (IDPedido, Fecha, Importe) values (617, '4/12/2022', 368);
+insert into Pagos (IDPedido, Fecha, Importe) values (49, '9/27/2021', 345);
+insert into Pagos (IDPedido, Fecha, Importe) values (65, '4/17/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (121, '2/25/2022', 397);
+insert into Pagos (IDPedido, Fecha, Importe) values (501, '11/18/2021', 356);
+insert into Pagos (IDPedido, Fecha, Importe) values (708, '1/12/2022', 271);
+insert into Pagos (IDPedido, Fecha, Importe) values (510, '1/2/2022', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (372, '7/21/2022', 100);
+insert into Pagos (IDPedido, Fecha, Importe) values (265, '3/16/2022', 215);
+insert into Pagos (IDPedido, Fecha, Importe) values (588, '12/20/2021', 316);
+insert into Pagos (IDPedido, Fecha, Importe) values (966, '9/9/2021', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (225, '12/21/2021', 473);
+insert into Pagos (IDPedido, Fecha, Importe) values (495, '1/10/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (208, '5/22/2022', 328);
+insert into Pagos (IDPedido, Fecha, Importe) values (40, '2/16/2022', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (278, '8/23/2022', 343);
+insert into Pagos (IDPedido, Fecha, Importe) values (328, '12/13/2021', 209);
+insert into Pagos (IDPedido, Fecha, Importe) values (959, '5/5/2022', 267);
+insert into Pagos (IDPedido, Fecha, Importe) values (949, '6/5/2022', 101);
+insert into Pagos (IDPedido, Fecha, Importe) values (52, '3/8/2022', 110);
+insert into Pagos (IDPedido, Fecha, Importe) values (807, '6/7/2022', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (791, '2/21/2022', 458);
+insert into Pagos (IDPedido, Fecha, Importe) values (607, '11/7/2021', 378);
+insert into Pagos (IDPedido, Fecha, Importe) values (444, '6/29/2022', 388);
+insert into Pagos (IDPedido, Fecha, Importe) values (478, '11/8/2021', 278);
+insert into Pagos (IDPedido, Fecha, Importe) values (194, '10/4/2021', 257);
+insert into Pagos (IDPedido, Fecha, Importe) values (742, '8/24/2022', 191);
+insert into Pagos (IDPedido, Fecha, Importe) values (378, '8/28/2022', 141);
+insert into Pagos (IDPedido, Fecha, Importe) values (302, '5/8/2022', 350);
+insert into Pagos (IDPedido, Fecha, Importe) values (397, '1/13/2022', 394);
+insert into Pagos (IDPedido, Fecha, Importe) values (778, '3/26/2022', 301);
+insert into Pagos (IDPedido, Fecha, Importe) values (402, '7/8/2022', 294);
+insert into Pagos (IDPedido, Fecha, Importe) values (737, '5/28/2022', 382);
+insert into Pagos (IDPedido, Fecha, Importe) values (912, '12/20/2021', 383);
+insert into Pagos (IDPedido, Fecha, Importe) values (472, '4/27/2022', 139);
+insert into Pagos (IDPedido, Fecha, Importe) values (971, '4/24/2022', 485);
+insert into Pagos (IDPedido, Fecha, Importe) values (685, '6/10/2022', 213);
+insert into Pagos (IDPedido, Fecha, Importe) values (723, '8/24/2022', 477);
+insert into Pagos (IDPedido, Fecha, Importe) values (423, '10/27/2021', 154);
+insert into Pagos (IDPedido, Fecha, Importe) values (698, '1/5/2022', 108);
+insert into Pagos (IDPedido, Fecha, Importe) values (541, '2/12/2022', 322);
+insert into Pagos (IDPedido, Fecha, Importe) values (113, '4/23/2022', 484);
+insert into Pagos (IDPedido, Fecha, Importe) values (151, '10/30/2021', 209);
+insert into Pagos (IDPedido, Fecha, Importe) values (453, '10/31/2021', 136);
+insert into Pagos (IDPedido, Fecha, Importe) values (700, '7/18/2022', 264);
+insert into Pagos (IDPedido, Fecha, Importe) values (178, '11/9/2021', 129);
+insert into Pagos (IDPedido, Fecha, Importe) values (201, '8/10/2022', 196);
+insert into Pagos (IDPedido, Fecha, Importe) values (405, '2/15/2022', 449);
+insert into Pagos (IDPedido, Fecha, Importe) values (99, '7/6/2022', 475);
+insert into Pagos (IDPedido, Fecha, Importe) values (248, '3/24/2022', 211);
+insert into Pagos (IDPedido, Fecha, Importe) values (534, '12/25/2021', 448);
+insert into Pagos (IDPedido, Fecha, Importe) values (63, '7/4/2022', 426);
+insert into Pagos (IDPedido, Fecha, Importe) values (833, '7/27/2022', 293);
+insert into Pagos (IDPedido, Fecha, Importe) values (467, '8/16/2022', 281);
+insert into Pagos (IDPedido, Fecha, Importe) values (155, '10/27/2021', 315);
+insert into Pagos (IDPedido, Fecha, Importe) values (333, '8/4/2022', 234);
+insert into Pagos (IDPedido, Fecha, Importe) values (224, '6/14/2022', 333);
+insert into Pagos (IDPedido, Fecha, Importe) values (286, '2/23/2022', 115);
+insert into Pagos (IDPedido, Fecha, Importe) values (479, '8/15/2022', 241);
+insert into Pagos (IDPedido, Fecha, Importe) values (272, '10/4/2021', 225);
+insert into Pagos (IDPedido, Fecha, Importe) values (297, '11/4/2021', 336);
+insert into Pagos (IDPedido, Fecha, Importe) values (451, '1/9/2022', 390);
+insert into Pagos (IDPedido, Fecha, Importe) values (3, '8/31/2022', 486);
+insert into Pagos (IDPedido, Fecha, Importe) values (915, '1/15/2022', 492);
+insert into Pagos (IDPedido, Fecha, Importe) values (999, '8/4/2022', 140);
+insert into Pagos (IDPedido, Fecha, Importe) values (150, '2/13/2022', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (731, '2/15/2022', 115);
+insert into Pagos (IDPedido, Fecha, Importe) values (962, '5/13/2022', 374);
+insert into Pagos (IDPedido, Fecha, Importe) values (929, '12/11/2021', 106);
+insert into Pagos (IDPedido, Fecha, Importe) values (297, '8/3/2022', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (833, '11/2/2021', 319);
+insert into Pagos (IDPedido, Fecha, Importe) values (697, '11/17/2021', 343);
+insert into Pagos (IDPedido, Fecha, Importe) values (704, '7/30/2022', 373);
+insert into Pagos (IDPedido, Fecha, Importe) values (739, '4/28/2022', 456);
+insert into Pagos (IDPedido, Fecha, Importe) values (936, '10/29/2021', 337);
+insert into Pagos (IDPedido, Fecha, Importe) values (445, '10/11/2021', 173);
+insert into Pagos (IDPedido, Fecha, Importe) values (896, '1/6/2022', 113);
+insert into Pagos (IDPedido, Fecha, Importe) values (996, '5/10/2022', 423);
+insert into Pagos (IDPedido, Fecha, Importe) values (96, '8/12/2022', 369);
+insert into Pagos (IDPedido, Fecha, Importe) values (696, '5/24/2022', 436);
+insert into Pagos (IDPedido, Fecha, Importe) values (268, '5/19/2022', 145);
+insert into Pagos (IDPedido, Fecha, Importe) values (478, '5/14/2022', 190);
+insert into Pagos (IDPedido, Fecha, Importe) values (512, '3/26/2022', 316);
+insert into Pagos (IDPedido, Fecha, Importe) values (755, '1/23/2022', 241);
+insert into Pagos (IDPedido, Fecha, Importe) values (495, '4/28/2022', 182);
+insert into Pagos (IDPedido, Fecha, Importe) values (173, '6/8/2022', 213);
+insert into Pagos (IDPedido, Fecha, Importe) values (387, '2/28/2022', 447);
+insert into Pagos (IDPedido, Fecha, Importe) values (766, '10/9/2021', 459);
+insert into Pagos (IDPedido, Fecha, Importe) values (331, '7/29/2022', 247);
+insert into Pagos (IDPedido, Fecha, Importe) values (227, '9/7/2021', 242);
+insert into Pagos (IDPedido, Fecha, Importe) values (112, '3/21/2022', 185);
+insert into Pagos (IDPedido, Fecha, Importe) values (485, '12/23/2021', 180);
+insert into Pagos (IDPedido, Fecha, Importe) values (814, '5/27/2022', 270);
+insert into Pagos (IDPedido, Fecha, Importe) values (988, '6/27/2022', 251);
+insert into Pagos (IDPedido, Fecha, Importe) values (381, '3/18/2022', 421);
+insert into Pagos (IDPedido, Fecha, Importe) values (759, '9/18/2021', 180);
+insert into Pagos (IDPedido, Fecha, Importe) values (261, '11/7/2021', 143);
+insert into Pagos (IDPedido, Fecha, Importe) values (906, '1/13/2022', 307);
+insert into Pagos (IDPedido, Fecha, Importe) values (965, '11/4/2021', 169);
+insert into Pagos (IDPedido, Fecha, Importe) values (845, '12/22/2021', 413);
+insert into Pagos (IDPedido, Fecha, Importe) values (235, '7/29/2022', 245);
+insert into Pagos (IDPedido, Fecha, Importe) values (573, '5/15/2022', 331);
+insert into Pagos (IDPedido, Fecha, Importe) values (977, '5/13/2022', 351);
+insert into Pagos (IDPedido, Fecha, Importe) values (452, '1/7/2022', 450);
+insert into Pagos (IDPedido, Fecha, Importe) values (871, '11/27/2021', 275);
+insert into Pagos (IDPedido, Fecha, Importe) values (895, '10/1/2021', 195);
+insert into Pagos (IDPedido, Fecha, Importe) values (367, '7/13/2022', 334);
+insert into Pagos (IDPedido, Fecha, Importe) values (937, '2/22/2022', 479);
+insert into Pagos (IDPedido, Fecha, Importe) values (142, '1/12/2022', 288);
+insert into Pagos (IDPedido, Fecha, Importe) values (138, '10/29/2021', 457);
+insert into Pagos (IDPedido, Fecha, Importe) values (612, '9/30/2021', 244);
+insert into Pagos (IDPedido, Fecha, Importe) values (758, '5/14/2022', 229);
+insert into Pagos (IDPedido, Fecha, Importe) values (217, '2/10/2022', 153);
+insert into Pagos (IDPedido, Fecha, Importe) values (459, '11/26/2021', 418);
+insert into Pagos (IDPedido, Fecha, Importe) values (386, '8/12/2022', 174);
+insert into Pagos (IDPedido, Fecha, Importe) values (112, '9/28/2021', 410);
+insert into Pagos (IDPedido, Fecha, Importe) values (355, '7/4/2022', 365);
+insert into Pagos (IDPedido, Fecha, Importe) values (710, '11/4/2021', 249);
+insert into Pagos (IDPedido, Fecha, Importe) values (603, '4/16/2022', 230);
+insert into Pagos (IDPedido, Fecha, Importe) values (663, '1/3/2022', 299);
+insert into Pagos (IDPedido, Fecha, Importe) values (235, '7/12/2022', 254);
+insert into Pagos (IDPedido, Fecha, Importe) values (855, '4/25/2022', 325);
+insert into Pagos (IDPedido, Fecha, Importe) values (920, '12/4/2021', 262);
+insert into Pagos (IDPedido, Fecha, Importe) values (418, '3/31/2022', 355);
+insert into Pagos (IDPedido, Fecha, Importe) values (406, '11/1/2021', 240);
+insert into Pagos (IDPedido, Fecha, Importe) values (714, '7/21/2022', 173);
+insert into Pagos (IDPedido, Fecha, Importe) values (111, '9/6/2021', 432);
+insert into Pagos (IDPedido, Fecha, Importe) values (557, '5/18/2022', 252);
+insert into Pagos (IDPedido, Fecha, Importe) values (587, '9/9/2021', 348);
+insert into Pagos (IDPedido, Fecha, Importe) values (168, '7/22/2022', 455);
+insert into Pagos (IDPedido, Fecha, Importe) values (148, '4/25/2022', 250);
+insert into Pagos (IDPedido, Fecha, Importe) values (981, '3/25/2022', 158);
+insert into Pagos (IDPedido, Fecha, Importe) values (142, '7/7/2022', 396);
+insert into Pagos (IDPedido, Fecha, Importe) values (302, '5/9/2022', 269);
+insert into Pagos (IDPedido, Fecha, Importe) values (293, '4/27/2022', 361);
+insert into Pagos (IDPedido, Fecha, Importe) values (138, '2/27/2022', 428);
+insert into Pagos (IDPedido, Fecha, Importe) values (282, '10/12/2021', 359);
+insert into Pagos (IDPedido, Fecha, Importe) values (254, '8/24/2022', 284);
+insert into Pagos (IDPedido, Fecha, Importe) values (649, '3/10/2022', 109);
+
+-- Tareas x pedido
+
+-- Materiales_x_Producto
+INSERT INTO Materiales_x_Producto (IDMaterial,IDProducto) VALUES
+	 (1,1),
+	 (1,3),
+	 (1,8),
+	 (1,10),
+	 (1,11),
+	 (1,14),
+	 (1,15),
+	 (1,16),
+	 (1,20),
+	 (1,23),
+	 (1,26),
+	 (1,27),
+	 (1,28),
+	 (1,31),
+	 (1,33),
+	 (1,37),
+	 (1,38),
+	 (1,44),
+	 (1,49),
+	 (1,52),
+	 (1,54),
+	 (2,2),
+	 (2,11),
+	 (2,13),
+	 (2,16),
+	 (2,20),
+	 (2,33),
+	 (2,36),
+	 (2,37),
+	 (2,40),
+	 (2,43),
+	 (2,44),
+	 (2,46),
+	 (2,49),
+	 (2,53),
+	 (2,54),
+	 (3,3),
+	 (3,5),
+	 (3,8),
+	 (3,10),
+	 (3,15),
+	 (3,18),
+	 (3,19),
+	 (3,20),
+	 (3,22),
+	 (3,27),
+	 (3,28),
+	 (3,30),
+	 (3,31),
+	 (3,32),
+	 (3,35),
+	 (3,39),
+	 (3,41),
+	 (3,43),
+	 (3,46),
+	 (3,47),
+	 (3,50),
+	 (3,51),
+	 (4,5),
+	 (4,8),
+	 (4,10),
+	 (4,22),
+	 (4,23),
+	 (4,28),
+	 (4,31),
+	 (4,33),
+	 (4,39),
+	 (4,43),
+	 (4,45),
+	 (4,46),
+	 (4,51),
+	 (4,52),
+	 (4,54),
+	 (5,5),
+	 (5,9),
+	 (5,12),
+	 (5,20),
+	 (5,21),
+	 (5,32),
+	 (5,33),
+	 (5,36),
+	 (5,37),
+	 (5,40),
+	 (5,41),
+	 (5,44),
+	 (5,49),
+	 (6,3),
+	 (6,4),
+	 (6,7),
+	 (6,9),
+	 (6,18),
+	 (6,19),
+	 (6,22),
+	 (6,25),
+	 (6,26),
+	 (6,27),
+	 (6,29),
+	 (6,32),
+	 (6,34),
+	 (6,35),
+	 (6,36),
+	 (6,42),
+	 (6,46),
+	 (6,48),
+	 (6,50),
+	 (6,51),
+	 (7,1),
+	 (7,3),
+	 (7,5),
+	 (7,9),
+	 (7,10),
+	 (7,11),
+	 (7,15),
+	 (7,17),
+	 (7,20),
+	 (7,22),
+	 (7,24),
+	 (7,31),
+	 (7,33),
+	 (7,39),
+	 (7,46),
+	 (7,50),
+	 (7,52),
+	 (8,4),
+	 (8,5),
+	 (8,6),
+	 (8,8),
+	 (8,10),
+	 (8,13),
+	 (8,14),
+	 (8,17),
+	 (8,18),
+	 (8,19),
+	 (8,21),
+	 (8,24),
+	 (8,25),
+	 (8,26),
+	 (8,30),
+	 (8,31),
+	 (8,33),
+	 (8,36),
+	 (8,37),
+	 (8,39),
+	 (8,40),
+	 (8,41),
+	 (8,43),
+	 (8,44),
+	 (8,51),
+	 (9,3),
+	 (9,6),
+	 (9,8),
+	 (9,13),
+	 (9,24),
+	 (9,25),
+	 (9,28),
+	 (9,30),
+	 (9,37),
+	 (9,40),
+	 (9,43),
+	 (9,46),
+	 (9,49),
+	 (9,53),
+	 (10,1),
+	 (10,10),
+	 (10,11),
+	 (10,13),
+	 (10,15),
+	 (10,21),
+	 (10,27),
+	 (10,28),
+	 (10,36),
+	 (10,39),
+	 (10,40),
+	 (10,46),
+	 (10,47),
+	 (10,48),
+	 (11,2),
+	 (11,3),
+	 (11,4),
+	 (11,6),
+	 (11,15),
+	 (11,16),
+	 (11,17),
+	 (11,21),
+	 (11,25),
+	 (11,26),
+	 (11,29),
+	 (11,30),
+	 (11,31),
+	 (11,34),
+	 (11,36),
+	 (11,37),
+	 (11,47),
+	 (11,50),
+	 (11,53),
+	 (11,54),
+	 (12,1),
+	 (12,3),
+	 (12,6),
+	 (12,9),
+	 (12,11),
+	 (12,17),
+	 (12,19),
+	 (12,21),
+	 (12,22),
+	 (12,28),
+	 (12,34),
+	 (12,35),
+	 (12,39),
+	 (12,40),
+	 (12,43),
+	 (12,44),
+	 (12,45),
+	 (12,50),
+	 (12,51),
+	 (12,53),
+	 (13,2),
+	 (13,4),
+	 (13,7),
+	 (13,10),
+	 (13,14),
+	 (13,19),
+	 (13,20),
+	 (13,23),
+	 (13,25),
+	 (13,26),
+	 (13,27),
+	 (13,30),
+	 (13,32),
+	 (13,33),
+	 (13,39),
+	 (13,40),
+	 (13,42),
+	 (13,47),
+	 (13,49),
+	 (13,50),
+	 (13,52),
+	 (13,53),
+	 (14,1),
+	 (14,2),
+	 (14,4),
+	 (14,7),
+	 (14,8),
+	 (14,10),
+	 (14,11),
+	 (14,15),
+	 (14,16),
+	 (14,19),
+	 (14,20),
+	 (14,28),
+	 (14,29),
+	 (14,30),
+	 (14,32),
+	 (14,34),
+	 (14,39),
+	 (14,41),
+	 (14,43),
+	 (14,44),
+	 (14,45),
+	 (14,46),
+	 (14,48),
+	 (14,50),
+	 (14,52),
+	 (15,2),
+	 (15,5),
+	 (15,6),
+	 (15,7),
+	 (15,8),
+	 (15,10),
+	 (15,12),
+	 (15,15),
+	 (15,16),
+	 (15,19),
+	 (15,22),
+	 (15,23),
+	 (15,30),
+	 (15,32),
+	 (15,35),
+	 (15,36),
+	 (15,37),
+	 (15,38),
+	 (15,39),
+	 (15,40),
+	 (15,42),
+	 (15,43),
+	 (15,44),
+	 (15,46),
+	 (15,51),
+	 (15,53),
+	 (15,54),
+	 (16,3),
+	 (16,5),
+	 (16,14),
+	 (16,17),
+	 (16,19),
+	 (16,21),
+	 (16,31),
+	 (16,35),
+	 (16,44),
+	 (16,50),
+	 (17,2),
+	 (17,5),
+	 (17,6),
+	 (17,10),
+	 (17,11),
+	 (17,15),
+	 (17,20),
+	 (17,21),
+	 (17,25),
+	 (17,28),
+	 (17,33),
+	 (17,36),
+	 (17,46),
+	 (17,47),
+	 (17,48),
+	 (17,51),
+	 (17,52),
+	 (17,53),
+	 (18,1),
+	 (18,3),
+	 (18,7),
+	 (18,10),
+	 (18,13),
+	 (18,14),
+	 (18,15),
+	 (18,30),
+	 (18,32),
+	 (18,33),
+	 (18,37),
+	 (18,41),
+	 (18,42),
+	 (18,45),
+	 (18,46),
+	 (18,47),
+	 (18,48),
+	 (18,52),
+	 (18,53),
+	 (18,54);
+
+
+-- Tareas x pedido
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 930, 6, 236);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 452, 13, 432);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 713, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 894, 12, 587);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 33, 7, 572);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 17, 1, 104);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 494, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 733, 6, 262);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 829, 6, 172);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 206, 10, 348);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 460, 7, 445);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 756, 3, 269);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 451, 2, 301);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 449, 9, 358);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 921, 5, 280);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 341, 11, 335);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 315, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 102, 10, 124);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 95, 6, 368);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 989, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 966, 5, 573);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 445, 12, 592);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 499, 9, 511);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 723, 6, 388);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 824, 5, 224);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 222, 10, 173);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 854, 8, 232);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 266, 1, 441);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 479, 12, 210);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 918, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 277, 9, 516);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 194, 3, 398);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 94, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 404, 6, 267);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 395, 9, 443);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 301, 7, 221);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 379, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 83, 11, 462);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 688, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 615, 8, 234);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 309, 9, 286);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 480, 13, 364);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 552, 1, 193);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 863, 9, 459);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 854, 12, 282);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 597, 1, 393);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 3, 5, 439);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 675, 12, 500);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 427, 8, 386);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 919, 6, 191);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 503, 4, 284);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 435, 6, 344);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 607, 9, 204);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 90, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 509, 2, 530);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 512, 12, 240);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 707, 2, 472);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 283, 3, 73);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 455, 3, 539);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 54, 7, 465);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 404, 5, 571);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 138, 10, 474);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 534, 1, 182);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 513, 2, 155);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 610, 4, 130);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 107, 8, 461);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 879, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 689, 10, 580);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 213, 9, 226);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 206, 4, 565);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 388, 13, 281);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 809, 11, 335);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 708, 2, 118);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 769, 6, 517);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 348, 8, 205);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 845, 7, 445);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 726, 7, 126);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 745, 12, 239);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 673, 12, 174);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 856, 7, 227);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 726, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 567, 3, 572);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 267, 1, 120);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 423, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 861, 7, 487);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 457, 5, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 603, 11, 44);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 797, 8, 189);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 460, 13, 345);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 356, 13, 375);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 753, 4, 308);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 377, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 576, 10, 126);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 684, 12, 159);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 501, 11, 236);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 560, 12, 572);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 722, 8, 166);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 359, 7, 145);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 3, 7, 305);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 821, 10, 340);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 350, 9, 103);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 274, 3, 95);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 615, 12, 313);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 852, 11, 286);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 717, 8, 339);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 599, 12, 226);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 625, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 816, 12, 182);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 40, 6, 169);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 41, 5, 226);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 265, 8, 432);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 355, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 83, 3, 276);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 130, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 780, 7, 36);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 756, 9, 392);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 551, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 11, 4, 388);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 171, 4, 222);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 225, 12, 267);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 150, 8, 401);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 599, 10, 505);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 696, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 551, 12, 492);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 402, 10, 448);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 65, 1, 436);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 978, 9, 221);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 800, 12, 404);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 916, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 968, 5, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 686, 13, 550);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 863, 12, 577);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 343, 10, 155);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 582, 9, 238);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 169, 6, 514);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 148, 2, 570);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 163, 3, 431);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 886, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 807, 9, 320);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 282, 11, 582);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 374, 6, 284);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 179, 6, 449);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 678, 7, 357);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 907, 13, 148);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 603, 9, 466);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 969, 11, 330);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 102, 8, 297);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 832, 10, 259);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 215, 3, 271);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 159, 6, 186);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 907, 6, 553);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 914, 6, 188);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 939, 4, 94);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 559, 5, 199);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 268, 11, 278);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 309, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 91, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 496, 13, 153);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 786, 10, 472);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 888, 9, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 409, 2, 155);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 618, 11, 345);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 593, 6, 469);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 319, 7, 396);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 746, 9, 92);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 934, 4, 469);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 903, 10, 580);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 129, 10, 366);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 173, 10, 133);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 713, 4, 267);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 394, 13, 436);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 581, 1, 154);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 417, 2, 433);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 497, 6, 163);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 637, 3, 166);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 630, 11, 110);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 555, 1, 125);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 956, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 823, 2, 92);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 893, 8, 394);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 31, 6, 115);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 663, 7, 595);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 546, 11, 425);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 415, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 820, 11, 523);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 662, 13, 541);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 433, 3, 267);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 725, 8, 34);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 861, 9, 52);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 294, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 830, 13, 573);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 135, 10, 557);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 479, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 977, 7, 194);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 242, 3, 316);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 952, 3, 584);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 581, 8, 498);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 420, 4, 101);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 169, 3, 488);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 479, 3, 391);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 433, 4, 105);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 181, 8, 337);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 460, 9, 487);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 187, 6, 476);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 615, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 353, 8, 359);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 638, 2, 271);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 707, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 65, 5, 266);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 540, 1, 585);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 532, 5, 76);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 823, 3, 245);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 838, 6, 547);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 136, 9, 328);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 796, 8, 120);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 166, 12, 299);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 738, 5, 362);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 25, 6, 452);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 441, 1, 421);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 660, 13, 133);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 477, 8, 146);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 916, 6, 479);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 32, 12, 291);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 181, 6, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 547, 13, 323);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 447, 1, 233);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 468, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 968, 5, 135);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 426, 7, 528);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 540, 10, 557);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 375, 9, 85);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 338, 4, 319);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 498, 5, 239);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 453, 6, 554);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 779, 1, 416);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 399, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 626, 6, 46);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 246, 3, 71);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 340, 10, 370);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 283, 5, 527);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 323, 7, 388);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 72, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 718, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 301, 6, 170);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 142, 9, 571);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 788, 2, 250);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 851, 8, 47);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 530, 5, 95);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 394, 13, 344);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 752, 2, 125);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 501, 4, 106);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 408, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 153, 1, 496);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 571, 3, 318);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 109, 5, 419);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 296, 4, 540);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 973, 11, 372);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 406, 2, 148);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 106, 6, 135);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 625, 3, 126);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 124, 8, 228);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 117, 7, 46);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 22, 6, 455);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 653, 12, 210);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 303, 2, 501);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 805, 7, 40);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 816, 9, 32);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 411, 5, 123);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 153, 5, 369);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 102, 2, 395);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 776, 4, 262);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 896, 9, 440);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 768, 6, 241);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 631, 6, 89);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 673, 6, 129);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 499, 6, 119);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 165, 11, 315);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 468, 11, 195);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 528, 8, 165);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 446, 7, 317);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 937, 2, 470);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 703, 10, 181);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 26, 3, 65);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 484, 8, 101);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 417, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 722, 8, 565);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 560, 3, 297);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 899, 11, 277);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 742, 4, 500);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 286, 1, 234);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 290, 8, 200);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 897, 1, 324);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 890, 2, 525);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 899, 4, 349);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 289, 11, 593);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 352, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 939, 12, 168);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 32, 8, 311);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 336, 10, 401);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 174, 13, 500);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 629, 8, 326);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 971, 8, 294);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 404, 7, 132);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 125, 5, 457);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 124, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 704, 6, 303);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 201, 10, 381);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 555, 2, 128);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 891, 12, 443);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 265, 10, 41);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 307, 10, 419);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 121, 11, 155);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 354, 6, 114);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 759, 10, 302);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 722, 11, 71);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 39, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 824, 6, 582);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 674, 1, 380);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 93, 8, 449);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 243, 10, 464);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 392, 8, 283);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 978, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 629, 8, 150);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 76, 4, 565);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 105, 12, 574);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 518, 10, 93);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 819, 10, 502);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 421, 2, 283);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 129, 3, 560);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 206, 13, 177);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 734, 13, 482);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 302, 1, 363);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 197, 8, 273);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 555, 13, 168);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 107, 2, 396);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 86, 1, 170);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 33, 4, 203);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 793, 5, 183);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 62, 10, 250);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 244, 1, 465);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 306, 7, 512);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 719, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 761, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 24, 4, 497);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 294, 3, 596);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 343, 1, 203);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 763, 8, 509);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 437, 11, 439);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 967, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 711, 1, 140);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 804, 6, 30);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 683, 10, 170);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 623, 12, 98);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 125, 13, 507);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 200, 4, 151);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 714, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 804, 5, 467);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 121, 4, 173);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 857, 13, 206);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 937, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 726, 13, 324);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 948, 9, 508);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 12, 5, 134);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 457, 9, 276);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 205, 9, 296);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 444, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 927, 2, 62);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 996, 5, 107);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 364, 4, 406);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 505, 4, 228);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 770, 5, 393);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 938, 13, 464);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 481, 4, 153);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 931, 4, 254);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 280, 3, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 620, 2, 168);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 921, 3, 91);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 529, 10, 265);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 260, 8, 424);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 744, 6, 59);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 791, 10, 397);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 131, 10, 566);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 609, 5, 164);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 440, 6, 286);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 214, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 943, 9, 313);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 258, 8, 459);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 688, 12, 138);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 218, 1, 356);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 40, 6, 311);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 501, 7, 336);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 887, 2, 33);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 779, 4, 185);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 619, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 864, 9, 471);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 81, 4, 201);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 274, 3, 507);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 58, 11, 346);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 447, 9, 375);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 2, 1, 222);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 731, 9, 363);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 981, 4, 140);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 56, 6, 401);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 621, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 320, 8, 547);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 707, 2, 441);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 258, 12, 525);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 362, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 537, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 788, 12, 81);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 958, 2, 205);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 761, 6, 120);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 811, 10, 324);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 197, 13, 462);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 147, 5, 514);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 477, 5, 50);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 738, 11, 411);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 844, 9, 543);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 286, 2, 130);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 160, 6, 583);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 333, 5, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 115, 12, 109);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 667, 7, 571);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 715, 10, 212);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 57, 13, 53);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 466, 5, 46);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 417, 9, 189);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 427, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 121, 11, 165);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 136, 10, 579);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 883, 12, 311);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 210, 3, 231);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 796, 4, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 36, 5, 122);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 185, 13, 230);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 777, 4, 541);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 821, 4, 538);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 143, 1, 590);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 10, 8, 552);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 593, 7, 194);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 582, 1, 310);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 198, 4, 103);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 950, 5, 441);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 646, 12, 373);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 808, 10, 161);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 138, 6, 350);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 655, 11, 287);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 899, 6, 274);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 193, 3, 428);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 774, 6, 145);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 740, 10, 550);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 273, 13, 93);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 506, 11, 135);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 418, 3, 597);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 820, 7, 592);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 633, 3, 179);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 273, 1, 162);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 463, 10, 303);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 957, 4, 410);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 32, 4, 401);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 484, 13, 433);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 919, 6, 561);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 218, 11, 391);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 793, 10, 287);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 624, 7, 462);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 568, 5, 585);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 249, 13, 456);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 552, 13, 518);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 375, 8, 415);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 623, 8, 175);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 8, 5, 460);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 647, 12, 449);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 317, 3, 339);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 409, 1, 214);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 203, 13, 303);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 842, 7, 304);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 855, 5, 511);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 131, 10, 499);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 10, 4, 341);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 87, 10, 432);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 205, 8, 37);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 452, 5, 246);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 840, 13, 470);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 669, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 799, 10, 574);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 190, 4, 328);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 896, 1, 239);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 826, 5, 553);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 197, 5, 61);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 259, 5, 571);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 767, 2, 488);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 904, 8, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 957, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 890, 3, 352);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 556, 2, 252);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 502, 4, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 310, 3, 446);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 438, 9, 380);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 846, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 93, 2, 559);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 210, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 924, 8, 583);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 4, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 305, 4, 394);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 48, 2, 113);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 583, 9, 567);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 945, 4, 294);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 608, 11, 488);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 406, 1, 505);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 483, 12, 312);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 885, 12, 176);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 89, 11, 65);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 322, 1, 575);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 856, 8, 266);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 201, 8, 316);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 483, 8, 302);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 298, 1, 128);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 563, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 531, 1, 185);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 794, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 862, 8, 136);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 175, 4, 470);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 39, 8, 434);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 352, 2, 588);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 889, 13, 306);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 379, 5, 420);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 77, 12, 424);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 751, 8, 102);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 914, 10, 391);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 759, 4, 375);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 10, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 953, 4, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 780, 8, 434);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 420, 12, 423);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 708, 6, 444);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 103, 12, 207);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 834, 4, 222);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 829, 10, 57);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 451, 11, 278);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 809, 10, 259);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 529, 8, 283);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 834, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 756, 12, 260);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 20, 9, 301);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 528, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 536, 5, 153);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 7, 12, 488);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 477, 3, 362);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 503, 10, 49);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 847, 7, 78);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 10, 10, 206);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 265, 3, 250);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 66, 7, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 383, 12, 99);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 461, 2, 52);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 990, 1, 323);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 360, 5, 428);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 495, 7, 73);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 989, 10, 141);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 503, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 432, 13, 598);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 912, 4, 238);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 779, 3, 151);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 756, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 524, 7, 222);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 892, 6, 233);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 678, 11, 390);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 275, 2, 490);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 432, 6, 435);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 208, 4, 442);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 737, 12, 308);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 43, 13, 214);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 151, 12, 463);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 102, 3, 333);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 83, 10, 308);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 267, 5, 478);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 172, 9, 125);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 435, 13, 413);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 966, 2, 61);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 537, 12, 145);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 852, 7, 215);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 578, 3, 99);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 315, 7, 68);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 703, 13, 362);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 220, 13, 72);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 566, 8, 588);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 747, 2, 205);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 677, 3, 279);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 840, 3, 110);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 117, 10, 534);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 998, 6, 297);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 16, 5, 534);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 409, 8, 316);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 385, 1, 435);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 907, 9, 172);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 340, 9, 197);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 270, 10, 218);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 66, 3, 302);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 169, 9, 300);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 380, 8, 280);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 236, 10, 539);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 965, 2, 43);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 507, 7, 374);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 660, 12, 436);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 874, 2, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 635, 1, 499);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 438, 8, 475);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 646, 4, 249);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 706, 9, 438);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 868, 7, 360);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 26, 11, 359);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 680, 2, 126);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 997, 5, 42);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 206, 1, 137);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 546, 6, 85);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 217, 11, 147);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 985, 2, 586);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 603, 8, 579);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 859, 9, 214);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 621, 12, 564);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 34, 4, 470);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 859, 8, 367);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 23, 13, 135);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 39, 4, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 770, 1, 252);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 59, 3, 460);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 722, 3, 190);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 730, 10, 180);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 704, 7, 321);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 429, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 28, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 295, 10, 482);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 221, 1, 307);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 984, 5, 48);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 90, 3, 72);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 249, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 300, 13, 123);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 608, 5, 298);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 283, 11, 204);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 764, 7, 512);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 825, 7, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 159, 5, 178);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 31, 1, 31);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 41, 11, 312);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 80, 9, 85);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 148, 12, 405);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 509, 13, 42);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 155, 11, 313);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 24, 10, 262);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 432, 3, 536);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 139, 11, 219);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 780, 8, 292);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 106, 4, 468);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 25, 1, 364);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 113, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 124, 9, 587);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 164, 4, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 757, 6, 356);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 350, 10, 362);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 727, 1, 350);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 210, 10, 317);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 785, 12, 235);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 442, 6, 546);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 861, 10, 363);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 748, 12, 259);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 982, 4, 333);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 842, 10, 469);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 773, 1, 499);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 629, 8, 188);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 637, 5, 369);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 633, 4, 320);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 669, 13, 445);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 650, 9, 483);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 398, 12, 250);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 550, 4, 448);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 276, 11, 465);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 108, 7, 565);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 79, 3, 461);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 796, 4, 130);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 998, 9, 333);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 471, 5, 414);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 591, 8, 241);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 133, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 10, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 37, 5, 526);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 698, 8, 327);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 846, 13, 228);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 339, 11, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 602, 8, 444);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 936, 4, 257);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 943, 3, 154);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 839, 2, 569);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 141, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 1, 6, 590);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 333, 2, 575);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 150, 8, 304);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 505, 5, 254);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 493, 9, 294);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 567, 9, 251);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 148, 3, 275);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 637, 8, 292);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 172, 10, 134);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 907, 12, 361);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 547, 12, 586);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 327, 12, 268);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 276, 1, 315);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 824, 10, 42);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 715, 4, 538);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 740, 1, 373);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 967, 1, 382);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 518, 7, 131);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 412, 11, 356);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 402, 6, 444);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 439, 1, 304);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 628, 5, 116);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 730, 8, 206);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 38, 4, 274);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 66, 6, 84);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 388, 6, 279);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 747, 9, 247);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 328, 7, 268);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 208, 10, 241);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 372, 13, 191);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 354, 1, 213);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 180, 12, 385);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 115, 8, 141);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 796, 2, 424);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 193, 8, 306);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 516, 11, 254);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 825, 3, 151);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 15, 2, 228);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 819, 11, 537);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 134, 1, 150);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 47, 13, 143);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 144, 4, 169);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 433, 1, 151);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 321, 6, 575);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 410, 10, 596);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 830, 2, 149);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 600, 12, 457);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 899, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 929, 11, 413);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 43, 6, 234);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 893, 5, 252);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 912, 8, 242);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 85, 13, 326);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 397, 5, 543);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 293, 11, 507);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 637, 7, 540);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 360, 6, 105);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 889, 1, 431);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 462, 9, 174);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 515, 5, 99);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 798, 9, 574);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 855, 9, 127);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 473, 10, 376);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 669, 4, 547);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 732, 3, 68);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 671, 11, 99);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 986, 12, 335);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 933, 8, 371);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 472, 10, 125);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 549, 2, 592);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 545, 2, 448);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 74, 5, 517);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 34, 13, 353);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 294, 6, 230);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 988, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 649, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 196, 5, 230);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 45, 13, 366);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 852, 12, 89);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 90, 2, 295);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 626, 2, 136);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 182, 6, 455);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 206, 3, 71);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 4, 9, 35);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 709, 7, 305);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 276, 11, 558);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 769, 9, 36);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 335, 8, 403);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 816, 10, 330);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 508, 1, 346);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 906, 5, 109);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 682, 11, 343);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 464, 10, 403);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 105, 8, 517);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 579, 1, 55);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 963, 1, 289);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 721, 4, 92);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 602, 11, 212);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 424, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 674, 8, 522);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 102, 4, 327);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 795, 3, 455);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 987, 5, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 16, 1, 52);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 221, 1, 460);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 77, 9, 269);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 136, 7, 600);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 556, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 690, 10, 246);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 133, 12, 202);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 414, 13, 571);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 259, 6, 483);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 395, 7, 228);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (19, 893, 4, 340);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 298, 13, 296);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 426, 8, 294);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 82, 13, 589);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 239, 3, 190);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 305, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 83, 2, 398);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 507, 13, 346);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 141, 13, 268);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 575, 5, 530);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 295, 3, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 935, 3, 483);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 447, 6, 179);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 167, 2, 78);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 515, 12, 226);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 568, 9, 496);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 736, 12, 168);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 145, 13, 431);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 1, 9, 191);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 623, 5, 447);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 923, 13, 61);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 752, 8, 295);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 457, 3, 97);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 786, 1, 237);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 159, 10, 33);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 975, 4, 124);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 300, 3, 353);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 937, 12, 398);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 424, 6, 554);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 490, 2, 40);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 232, 10, 555);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 178, 12, 478);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 710, 5, 509);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 533, 5, 498);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 158, 8, 391);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 914, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 385, 5, 293);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 872, 2, 103);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 51, 2, 561);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 960, 3, 311);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 392, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 33, 13, 81);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 129, 11, 44);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 187, 11, 567);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 160, 13, 455);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 888, 12, 443);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 295, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 86, 9, 181);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 690, 1, 235);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 325, 1, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 723, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 68, 6, 531);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 952, 3, 274);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 820, 2, 406);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 499, 4, 251);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 861, 8, 322);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 485, 5, 326);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 408, 9, 76);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 802, 11, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 201, 11, 212);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 898, 13, 354);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 751, 4, 490);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 584, 13, 353);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 108, 6, 197);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 165, 12, 600);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 462, 11, 585);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 327, 5, 111);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 64, 7, 319);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 320, 3, 152);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 461, 5, 449);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 261, 10, 107);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 391, 5, 554);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 217, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 714, 3, 300);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 475, 3, 336);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 661, 12, 238);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 196, 1, 596);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 151, 9, 233);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 360, 10, 347);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 775, 5, 555);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 139, 10, 225);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 981, 13, 312);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 518, 10, 54);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 30, 8, 451);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 292, 10, 461);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 862, 9, 269);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 859, 10, 48);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 38, 7, 118);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 182, 8, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 724, 3, 433);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 746, 7, 386);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 72, 12, 278);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 377, 6, 119);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 4, 9, 121);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 595, 9, 256);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 826, 12, 38);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 931, 12, 480);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 205, 7, 475);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 144, 5, 542);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 725, 12, 108);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 129, 10, 187);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 275, 8, 546);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 780, 13, 362);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 256, 12, 462);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 697, 5, 266);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (7, 725, 10, 126);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 973, 8, 123);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 931, 12, 286);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 660, 3, 145);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 617, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 259, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 974, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 306, 6, 117);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 801, 6, 342);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 473, 12, 392);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 922, 10, 508);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 135, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 33, 7, 184);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 223, 12, 229);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 660, 4, 334);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 19, 5, 369);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 900, 10, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 589, 10, 192);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 390, 10, 135);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 349, 11, 402);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 857, 13, 208);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 346, 6, 502);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 568, 9, 218);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 402, 3, 73);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 95, 7, 564);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 864, 1, 270);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 32, 4, 474);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 78, 4, 255);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 777, 7, 452);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 278, 7, 385);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 100, 8, 82);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 329, 1, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 215, 13, 325);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 236, 11, 127);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 31, 3, 351);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 949, 5, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 423, 13, 216);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 298, 12, 104);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 18, 2, 119);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 773, 10, 531);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 782, 4, 547);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (15, 231, 3, 333);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 593, 12, 179);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 344, 5, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (12, 555, 3, 552);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 649, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (9, 679, 12, 100);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 751, 12, 316);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 257, 3, 342);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 243, 11, 185);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 658, 7, 386);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 175, 11, 451);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 599, 9, 419);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 729, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 552, 7, 382);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 589, 1, 454);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 198, 5, 575);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 385, 7, 556);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 279, 11, 248);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 53, 6, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 991, 5, 397);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 442, 8, 532);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 481, 9, 546);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 345, 8, 368);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (18, 89, 5, 75);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 634, 11, 193);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (20, 373, 2, 277);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (10, 49, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 480, 12, 196);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 407, 4, 491);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 166, 9, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 832, 12, 410);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (4, 97, 11, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 813, 6, 272);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (14, 276, 5, 593);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (8, 190, 12, 385);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 482, 2, 223);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (21, 90, 4, 114);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (13, 940, 2, 60);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (3, 266, 9, 592);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (11, 53, 8, 226);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 959, 2, 315);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (16, 771, 2, 580);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 363, 1, 515);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (5, 988, 2, 64);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (17, 503, 8, 343);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (1, 460, 13, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (6, 506, 12, null);
+insert into Tareas_x_Pedido (Legajo, IDPedido, IDTarea, Tiempo) values (2, 545, 8, 404);
