@@ -1,0 +1,24 @@
+/*El tag Style me permite crear codigo CSS que puedo vincular a los elementos que quiero
+    que afecte. Existen 3 formas de indicarle a que elementos quiero que afecte (3Tipos de selectores):
+        -Selector del Tag(Nombre del tag): Afecta a todos los tags con las caracteristicas que yo le escriba adentro
+        -ID: Le asigno un ID a un tag y defino dentro del Style las características de ese ID
+        -Clase: Defino una clase cuyas características se van a aplicar a los tags en los que yo
+        establezca que forman parte de esta clase.
+*/
+p{
+    color: indianred;
+    font-weight: bold;
+}
+
+#parrafo3
+{
+    color: indigo;
+}
+.colorPrincipal{
+    color: lawngreen;
+}
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
