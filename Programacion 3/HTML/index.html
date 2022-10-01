@@ -9,32 +9,17 @@
     <!--Linkeo el archivo de estilos para que mi archivo principal los conozca-->
     <link rel="stylesheet" href="estilos.css">
 
+    <!--Linkeo el archivo de scripts-->
+    <script src="codigo.js"></script>
     
 
 </head>
+
 <!--Establezco en el body un estilo para todas las propiedades que formen parte del mismo
 (Siempre y cuando no tengan propiedades establecidas ellos mismos). Los elementos del body 
 obtiene las propiedades en cascada-->
 <body style="color: green;">
-    
-    <script>
-        function saludar(){
-            /*Las variables en javascript se declaran como Var y ellas mismas mutan según el
-            tipo de dato que yo le asigne*/
-            var usuario = document.getElementById("txtUsuario").value;
-            var contra = document.getElementById("txtContra").value;
-            alert("Te damos la bienvenida " + usuario);
-            console.log("Tu contraseña no es secreta . . . mirá: " + contra);
-
-            /*Variables de bloque: Solo viven dentro de las llaves donde fueron declaradas
-            Let es una variable común que no necesita asignarle tipo
-            let algo = "";
-            Const es una variable constante (como lo indica su nombre) 
-            const algo2 = 2;*/
-        }
-    </script>
-    
-    
+     
     
     <!--Esto son configuraciones de características In Line-->
     <h1 style="color: red;font-size: 75px;">  Artículos</h1>
@@ -53,7 +38,7 @@ obtiene las propiedades en cascada-->
         en cantidad de pixeles. La propiedad "alt" establece un nombre para la imagen
         en caso de no poder cargarla desde la url.-->
             <td> <img width="300px" src="https://armoto.vtexassets.com/arquivos/ids/162500-800-auto?v=637923012192170000&width=800&height=auto&aspect=true" alt="MotoG52"></td>
-            <td> <img width="300px" src="https://armoto.vtexassets.com/arquivos/ids/162500-800-auto?v=637923012192170000&width=800&height=auto&aspect=true" alt="MotoG52"></td> <!– Establece columnas por fila –>
+            <td> <img width="300px" src="https://armoto.vtexassets.com/arquivos/ids/162500-800-auto?v=637923012192170000&width=800&height=auto&aspect=true" alt="MotoG52"></td> <!--Establece columnas por fila-->
             <td> <img width="300px" src="https://armoto.vtexassets.com/arquivos/ids/162500-800-auto?v=637923012192170000&width=800&height=auto&aspect=true" alt="MotoG52"></td>
         </tr>
         <tr>
@@ -77,7 +62,7 @@ obtiene las propiedades en cascada-->
     </div>
     
     <div>
-        <button onclick="saludar()">Ingresar</button>
+        <button onclick="sumar()">Ingresar</button>
         
     </div>
     
