@@ -11,42 +11,6 @@ header{
     padding-left: 25px;
 }
 
-.Caja{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    color:black;
-    
-    background: bisque;
-    
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    margin: 0 0 25px;
-    overflow: hidden;
-
-    border-style: solid;
-}
-
-
-#h1Titulo{
-    text-align:center;
-    
-    font-style:italic;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
-}
-
-#tdAptitudes{
-    
-    width: 300px;
-    height: 300px;
-}
-
-#tdGit{
-    
-    width:200px;
+#Imagen{
+    width: 200px;
 }
