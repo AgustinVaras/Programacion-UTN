@@ -5,12 +5,52 @@
 
 header{
     height: 40px;
-    background-color: #528dcc;
+    background-color: #00ADB5;
     display: flex;
     align-items: center;
     padding-left: 25px;
 }
 
-#Imagen{
-    width: 200px;
+section.Presentacion{
+    align-items: center;
+    padding: 50px;
+    background-color: #222831;
+}
+
+section.Presentacion div.caja-presentacion{
+    background-color: #EEEEEE;
+    border-radius: 15%;
+    width: 95%;
+}
+
+div.txtPresentacion{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+
+section.Aptitudes{
+    background-color: #EEEEEE;
+}
+
+section.Aptitudes div.caja-aptitudes{
+    background-color: #393E46;
+    margin: 20px;
+    border-radius: 50px;
+    width: 50%;
+}
+
+
+#FotoCara{
+    width: 175px;
+    border-radius: 100px;
+}
+
+.aptitudes-texto{
+    float: left;
+}
+
+footer.contacto{
+    align-items: center;
+    background-color: #00ADB5;
 }
