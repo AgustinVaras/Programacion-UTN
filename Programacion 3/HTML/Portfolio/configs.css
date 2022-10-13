@@ -11,46 +11,108 @@ header{
     padding-left: 25px;
 }
 
-section.Presentacion{
-    align-items: center;
-    padding: 50px;
+.Presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #222831;
+    height: 500px;
 }
 
-section.Presentacion div.caja-presentacion{
+.caja-presentacion{
     background-color: #EEEEEE;
-    border-radius: 15%;
-    width: 95%;
+    margin-top: 10%;
+    width: 50%;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 30%;
+    overflow: hidden;
 }
 
-div.txtPresentacion{
+.txtPresentacion{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     padding: 20px;
 }
 
-section.Aptitudes{
+.Aptitudes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #EEEEEE;
 }
 
-section.Aptitudes div.caja-aptitudes{
+.caja-aptitudes{
+    display: flex;
+    flex-direction: row;
     background-color: #393E46;
-    margin: 20px;
-    border-radius: 50px;
+    border-radius: 20px;
     width: 50%;
+    height:max-content;
 }
+
+.caja-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items:center;
+    width: 30%;
+    padding-right: 10px;
+    padding-top: 20px;
+    border-top-left-radius: 20px;
+    background-color: #222831;
+    height: max-content;
+}
+
+.caja-aptitudes-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 70%;
+    padding: 5px;
+    padding-left: 0%;
+    background-color:#222831;
+    height: max-content;
+    border-top-right-radius: 20px;
+    color: #EEEEEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caja-descripcion{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ADB5;
+    width: 49%;
+    height:max-content;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
 
 
 #FotoCara{
-    width: 175px;
+    width: 80%;
     border-radius: 100px;
+    height: 243px;
 }
 
-.aptitudes-texto{
-    float: left;
+.icons{
+    height: 40px;
 }
 
-footer.contacto{
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     background-color: #00ADB5;
 }

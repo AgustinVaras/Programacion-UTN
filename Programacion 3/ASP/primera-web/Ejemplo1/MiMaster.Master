@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MiMaster.master.cs" Inherits="Ejemplo1.MiMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h1 style="color: white">HEADERRR</h1>
+            </header>
+            <body style="background-color:black">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </body>
+            
+            <footer>
+                <h2 style="color: white">FOOT</h2>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
