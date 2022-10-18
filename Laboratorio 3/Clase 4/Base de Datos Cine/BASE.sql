@@ -1,6 +1,6 @@
 Use master
--- go
--- Drop Database Cine
+--  go
+--  Drop Database Cine
 go
 Create Database Cine
 GO
@@ -80,7 +80,7 @@ Create Table Funciones(
     Horario datetime not null,
     Costo money not null,
     IDIdioma smallint not null foreign key references Idiomas(ID),
-    Subtitulado bit not null default(0)
+    IDIdiomaSubtitulos smallint not null foreign key references Idiomas(ID),
 )
 go
 Create Table Ventas(
