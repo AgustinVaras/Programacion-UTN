@@ -93,3 +93,51 @@ Begin
 End
 
 Exec SP_FuncionesxIDCliente 5
+
+
+-- Hacer un procedimiento almacenado que permita dar de alta un nuevo usuario.
+-- El estado del mismo debe ser siempre activo (1) y no puede ser menor a 18 años.
+GO
+Alter Procedure SP_NuevoCliente(
+    @Apellidos varchar(100),
+    @Nombres varchar(100),
+    @Direccion varchar(100),
+    @IDLocalidad int,
+    @Nacimiento date,
+    @Email varchar(120),
+    @Celular varchar(120)
+)
+as 
+begin
+    Declare @Edad Tinyint 
+    --Calcular la edad
+    SET @Edad = DATEDIFF(Year, @Nacimiento, GETDATE())
+    if MONTH(GETDATE()) < MONTH(@Nacimiento) or (MONTH(GETDATE()) = MONTH(@Nacimiento)
+    And DAY(GETDATE()) < DAY(@Nacimiento) )
+    BEGIN
+        Set @Edad = @Edad - 1
+    END
+
+    If @Edad >= 18 
+        BEGIN
+            Insert Into Clientes(Apellidos, Nombres, Direccion, IDLocalidad, FechaNacimiento, Email, 
+            Celular, Estado)
+            Values(@Apellidos, @Nombres, @Direccion, @IDLocalidad, @Nacimiento, @Email, @Celular, 1)
+        END
+        Else Begin 
+            RAISERROR('Cliente menor de edad', 16, 1)
+        END
+    
+    
+end 
+
+go
+set dateformat 'dmy'
+exec SP_NuevoCliente 'Simon', 'Angel', 'Angel 1234', 1, '02/10/1986', 'asimon@docentes.frgp.utn.edu.ar',
+'01234'
+
+set dateformat 'dmy'
+exec SP_NuevoCliente 'Simunson', 'Angel', 'Angel 1234', 1, '02/10/2016', 'angel@docentes.frgp.utn.edu.ar',
+'01234'
+
+Select top 1 * From Clientes order by 1 desc
