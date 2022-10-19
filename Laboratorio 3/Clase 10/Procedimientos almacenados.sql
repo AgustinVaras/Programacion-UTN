@@ -92,4 +92,4 @@ Begin
 
 End
 
-Exec SP_FuncionesxIDCliente 10
+Exec SP_FuncionesxIDCliente 5
