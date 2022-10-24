@@ -98,7 +98,7 @@ Exec SP_FuncionesxIDCliente 5
 -- Hacer un procedimiento almacenado que permita dar de alta un nuevo usuario.
 -- El estado del mismo debe ser siempre activo (1) y no puede ser menor a 18 años.
 GO
-Alter Procedure SP_NuevoCliente(
+Create Procedure SP_NuevoCliente(
     @Apellidos varchar(100),
     @Nombres varchar(100),
     @Direccion varchar(100),
