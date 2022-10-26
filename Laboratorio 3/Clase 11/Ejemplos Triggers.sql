@@ -120,4 +120,16 @@ as Begin
 
     Select @CantNueva = Cantidad FROM inserted
 
+    select @Costo = Costo From Funciones Where ID = @IDFuncion
+
+    if @CantNueva < @CantOriginal begin 
+       SET @ImporteActualizado = @CantNueva * @Costo
+       Update Ventas SET Importe = @ImporteActualizado, Cantidad = @CantNueva, FechaCompra = GETDATE()
+       Where ID = @IDVenta
+    end
+
 End
+
+Select top 1 * From ventas order by 1 desc
+
+Update Ventas Set Cantidad = 50, IDCliente = 2 Where ID = 1001
