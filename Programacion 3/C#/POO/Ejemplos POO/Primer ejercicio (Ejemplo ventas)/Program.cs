@@ -26,7 +26,7 @@ namespace Primer_ejercicio__Ejemplo_ventas_
             Articulo[] artiuclos = new Articulo[10];
             Console.WriteLine("Ingrese los datos de los articulos: ");
             //Carga los 10 articulos a traves del vector
-            for(int i = 0; i<=10; i++)
+            for(int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Código: ");
                 artiuclos[i].CodArticulo = int.Parse(Console.ReadLine());

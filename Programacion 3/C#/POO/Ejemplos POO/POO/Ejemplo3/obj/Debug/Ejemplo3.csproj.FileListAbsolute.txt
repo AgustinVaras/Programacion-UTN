@@ -1,0 +1,7 @@
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\bin\Debug\Ejemplo3.exe.config
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\bin\Debug\Ejemplo3.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\bin\Debug\Ejemplo3.pdb
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\obj\Debug\Ejemplo3.csproj.AssemblyReference.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\obj\Debug\Ejemplo3.csproj.CoreCompileInputs.cache
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\obj\Debug\Ejemplo3.exe
+B:\Onedrive\OneDrive - frgp.utn.edu.ar\Documentos\Github\Programacion-UTN\Programacion 3\C#\POO\Ejemplos POO\POO\Ejemplo3\obj\Debug\Ejemplo3.pdb
